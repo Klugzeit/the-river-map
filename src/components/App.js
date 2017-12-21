@@ -15,7 +15,8 @@ class App extends Component {
         join: true,
         meet: true,
         work: true
-      }
+      },
+      monthRange: { min: 5, max: 10 }
     };
   }
   handleFilterChange(event, btnId) {
@@ -25,12 +26,18 @@ class App extends Component {
       return { mapFilters: newMapFilters }
     })
   }
+  handleSliderChange(value) {
+    this.setState({monthRange: value});
+  }
   render() {
     return (
       <div className="App">
-        <HeaderPanel onFilterChange={this.handleFilterChange.bind(this)}/>
+        <HeaderPanel
+          onFilterChange={this.handleFilterChange.bind(this)}
+          defaultSliderRange={this.state.monthRange}
+          onSliderChange={this.handleSliderChange.bind(this)}/>
         <MapPanel />
-        <FooterPanel />        
+        <FooterPanel />
       </div>
     );
   }

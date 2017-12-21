@@ -1,4 +1,6 @@
 .headerContainer {
+  display: flex;
+  justify-content: space-between;
   z-index: 1;
   height: 85px;
   position: relative;
@@ -44,4 +46,10 @@
   display: inline-block;
   opacity: 1;
   margin: 10px;
+}
+
+.sliderBox {
+  width: 500px;
+  margin-top: 35px;
+  margin-right: 40px;
 }
