@@ -2,11 +2,13 @@ import React, { Component } from 'react';
 import '../css/App.css';
 import mapStyle from './MapStyle.json'
 import googleMapApiKey from './GoogleApiKey'
+import data from './db-final'
 
 import { compose, withProps } from "recompose"
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps"
 
 class MapPanel extends Component {
+  
   shouldComponentUpdate (nextProps, nextState) {
     // If shouldComponentUpdate returns false, 
     // then render() will be completely skipped until the next state change.
@@ -14,6 +16,15 @@ class MapPanel extends Component {
     return false;
   }
   render() {
+    
+    let markers = [];
+
+    for (let i=0; i < data.features.length; i++) {
+      let geo = data.features[i].geometry
+      //console.log(geo)
+      markers.push(<Marker position={{ lat: geo.coordinates[0], lng: geo.coordinates[1]}} key={i} />);
+    }
+
     const googleMapUrl = "https://maps.googleapis.com/maps/api/js";
     const MyMapComponent = compose(
       withProps({
@@ -32,7 +43,7 @@ class MapPanel extends Component {
           styles: mapStyle,
           streetViewControl: false
         }}>
-        {props.isMarkerShown && <Marker position={{ lat: -34.397, lng: 150.644 }} />}
+        {markers}
       </GoogleMap>
     )
   
