@@ -48,6 +48,10 @@
   margin: 10px;
 }
 
+.filterIcon.disabled {
+  opacity: 0.3;
+}
+
 .sliderBox {
   width: 500px;
   margin-top: 35px;

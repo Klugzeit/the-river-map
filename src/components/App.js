@@ -24,7 +24,7 @@ class App extends Component {
       let newValue = !prevState.mapFilters[btnId];
       let newMapFilters = Object.assign({}, prevState.mapFilters, {[btnId]: newValue});
       return { mapFilters: newMapFilters }
-    })
+    })  
   }
   handleSliderChange(value) {
     this.setState({monthRange: value});
