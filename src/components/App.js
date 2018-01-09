@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../css/App.css';
 
 import HeaderPanel from './HeaderPanel'
+import SidePanel from './SidePanel'
 import FooterPanel from './FooterPanel'
 import MapPanel from './MapPanel'
 
@@ -16,7 +17,8 @@ class App extends Component {
         meet: true,
         work: true
       },
-      monthRange: { min: 5, max: 10 }
+      monthRange: { min: 5, max: 10 },
+      hostelId: 1
     };
   }
   handleFilterChange(event, btnId) {
@@ -24,7 +26,7 @@ class App extends Component {
       let newValue = !prevState.mapFilters[btnId];
       let newMapFilters = Object.assign({}, prevState.mapFilters, {[btnId]: newValue});
       return { mapFilters: newMapFilters }
-    })  
+    })
   }
   handleSliderChange(value) {
     this.setState({monthRange: value});
@@ -37,6 +39,8 @@ class App extends Component {
           defaultSliderRange={this.state.monthRange}
           onSliderChange={this.handleSliderChange.bind(this)}/>
         <MapPanel />
+        <SidePanel
+          hostelId={this.state.hostelId} />
         <FooterPanel />
       </div>
     );
