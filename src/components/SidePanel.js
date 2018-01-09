@@ -5,12 +5,12 @@ class SidePanel extends Component {
   render() {
     return (
       <div className="sidePanelContainer">
-        <header> Warm Heart Guesthouse </header>
+        <h2> {this.props.markerInfo.title} </h2>
         <img src="hostels/qrtest.jpg" alt="img" width="306" height="261"/>
-        <header1> About us </header1>
-        <p> Create React App is divided into two packages, create-react-app is a global command-line utility that you use to create new projects. react-scripts is a development dependency in the generated projects (including this one). </p>
-        <header1> Contact </header1>
-    </div>
+        <h2> About us </h2>
+        <div dangerouslySetInnerHTML={{__html: this.props.markerInfo.info}}></div>
+        <h2> Contact </h2>
+     </div>
     );
   }
 }

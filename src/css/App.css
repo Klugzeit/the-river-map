@@ -1,8 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Amatic+SC);
 
 .mainPanelContainer {
-  display: flex;
-  justify-content: space-between;
   z-index: 1;
   position: absolute;
   top: 30px;
@@ -16,10 +14,10 @@
   margin-top: 15px;
   margin-bottom: 15px;
 }
+
 .sidePanelContainer {
   padding: 20px;
   z-index: 5;
-  height: 500px;
   width: 300px;
   background-color: white;
   position: relative;
