@@ -31,6 +31,10 @@ class App extends Component {
   handleSliderChange(value) {
     this.setState({monthRange: value});
   }
+  handleMarkerClick(markerInfo) {
+    console.log('Marker Info: ', markerInfo);
+    //TODO: Update state here...
+  }
   render() {
     return (
       <div className="App">
@@ -41,6 +45,7 @@ class App extends Component {
         <MapPanel />
         <SidePanel
           hostelId={this.state.hostelId} />
+        <MapPanel onMarkerClick={this.handleMarkerClick.bind(this)} />  
         <FooterPanel />
       </div>
     );

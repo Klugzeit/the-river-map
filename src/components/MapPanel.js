@@ -15,14 +15,36 @@ class MapPanel extends Component {
     // In addition, componentWillUpdate and componentDidUpdate will not be called. 
     return false;
   }
+
+  handleMarkerClick(event, markerInfo) {
+    if (this.props.onMarkerClick) {
+      this.props.onMarkerClick(markerInfo);
+    }
+  }
+
   render() {
     
     let markers = [];
+    let icon = {
+      path: 'M0,50 A50,50,0 1 1 100,50 A50,50,0 1 1 0,50 Z',
+      fillColor: '#ff8a65',
+      fillOpacity: 0.9,
+      scale: 0.18,
+      strokeColor: '#ff8a65'
+    }
 
     for (let i=0; i < data.features.length; i++) {
       let geo = data.features[i].geometry
-      //console.log(geo)
-      markers.push(<Marker position={{ lat: geo.coordinates[0], lng: geo.coordinates[1]}} key={i} />);
+      let markerInfo = {
+        title: data.features[i].properties.title,
+        info: data.features[i].properties.information
+      }
+      markers.push(<Marker 
+        position={ {lat: geo.coordinates[0], lng: geo.coordinates[1]} }
+        onClick={event => this.handleMarkerClick(event, markerInfo)}
+        icon={icon}
+        key={i} />
+      );
     }
 
     const googleMapUrl = "https://maps.googleapis.com/maps/api/js";
