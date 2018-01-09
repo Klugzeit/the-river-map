@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import '../css/App.css';
 
-import HeaderPanel from './HeaderPanel'
-import FooterPanel from './FooterPanel'
+import MainPanel from './MainPanel'
 import MapPanel from './MapPanel'
 
 
@@ -36,12 +35,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <HeaderPanel
+        <MainPanel
           onFilterChange={this.handleFilterChange.bind(this)}
           defaultSliderRange={this.state.monthRange}
           onSliderChange={this.handleSliderChange.bind(this)}/>
         <MapPanel onMarkerClick={this.handleMarkerClick.bind(this)} />
-        <FooterPanel />
       </div>
     );
   }

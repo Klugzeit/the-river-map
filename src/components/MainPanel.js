@@ -4,7 +4,7 @@ import FilterButtons from './FilterButtons'
 import MonthSlider from './MonthSlider'
 
 
-class HeaderPanel extends Component {
+class MainPanel extends Component {
   handleSliderChange(value) {
     if (this.props.onSliderChange) {
       this.props.onSliderChange(value);
@@ -12,14 +12,16 @@ class HeaderPanel extends Component {
   }
   render() {
     return (
-      <header className="headerContainer">
+      <div className="mainPanelContainer">
+        <h1>I want to</h1>
         <FilterButtons onFilterChange={this.props.onFilterChange}/>
+        <h1>From</h1>
         <MonthSlider
           onSliderChange={this.handleSliderChange.bind(this)} 
           defaultSliderRange={this.props.defaultSliderRange} />
-      </header>
+      </div>
     );
   }
 }
 
-export default HeaderPanel;
+export default MainPanel;

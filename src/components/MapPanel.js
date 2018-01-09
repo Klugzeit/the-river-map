@@ -63,7 +63,10 @@ class MapPanel extends Component {
         defaultCenter={{ lat: 20, lng: 0 }}
         defaultOptions={{ 
           styles: mapStyle,
-          streetViewControl: false
+          streetViewControl: false,
+          mapTypeControl: false,
+          zoomControl: false,
+          fullscreenControl: false
         }}>
         {markers}
       </GoogleMap>
