@@ -21,4 +21,3 @@ yarn-debug.log*
 yarn-error.log*
 
 src/components/GoogleApiKey.js
-public/imgs
