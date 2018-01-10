@@ -1,8 +1,8 @@
 {
 	"type": "FeatureCollection",
 	"features": [{
-		"type": "Feature",
 		"id": "1",
+		"type": "Feature",
 		"geometry": {
 			"type": "Point",
 			"coordinates": [55.941837, -3.204503]
@@ -11,15 +11,19 @@
 			"open": 1,
 			"close": 12,
             "categories": ["stay", "create", "join"],
-			"title": "Light House Hostel",
+			"name": "Light House Hostel",
 			"marker-size": "small",
 			"image": "imgs/light-house.png",
-			"information": "<p><strong>Hostel</strong></p><p><strong> Edinburgh, Scotland, United Kingdom </strong></p><p>How to book a night? <strong><a href=https://www.lighthousehostel.co.uk>www.lighthousehostel.co.uk</a></strong></p><p> For volunteer opportunities: <strong>wcwong94@gmail.com</strong> </p><p>Season: <strong>year round</strong></p><p>Address: <strong>20 Gilmore Place, Edinburgh, EH3 9NQ</strong></p><br>",
+			"place": "Edinburgh, Scotland, United Kingdom", 
+			"website": "https://www.lighthousehostel.co.uk",
+			"email": "wcwong94@gmail.com",
+			"season": "Year Round",
+			"address": "20 Gilmore Place, Edinburgh, EH3 9NQ",
 			"icons": "assets/icons/withoutMeet.png"
 		}
 }, {
-		"type": "Feature",
 		"id": "2",
+		"type": "Feature",
 		"geometry": {
 			"type": "Point",
 			"coordinates": [29.100585, -13.623662]
@@ -28,15 +32,19 @@
 			"open": 3,
 			"close": 10,
             "categories": ["stay", "create", "join"],
-			"title": "Oasis Surf House",
+			"name": "Oasis Surf House",
 			"marker-size": "small",
 			"image": "imgs/oasis-surf.png",
-			"information": "<p><strong>Surf Hostel</strong></p><p><strong>Lanzarote, Spain</strong></p><p>How to book it? <strong><a href=http://www.oasissurfhouse.com>www.oasissurfhouse.com</a></strong></p><p>For volunteer opportunities: <strong>oasissurfhouse@gmail.com</strong></p><p> Season: <strong>year round</strong></p><p>Address: <strong>Calle los Parranderos, 3, 35558 Soo, Las Palmas, Spain</strong></p><br>",
+			"place": "Lanzarote, Spain",
+			"website": "http://www.oasissurfhouse.com",
+			"email": "oasissurfhouse@gmail.com",
+			"season": "Year Round",
+			"address": "Calle los Parranderos, 3, 35558 Soo, Las Palmas, Spain",
 			"icons": "assets/icons/withoutMeet.png"
 		}
 }, {
-		"type": "Feature",
 		"id": "3",
+		"type": "Feature",
 		"geometry": {
 			"type": "Point",
 			"coordinates": [42.629566, -2.104052]
@@ -45,15 +53,19 @@
 			"open": 6,
 			"close": 12,
             "categories": ["stay", "join"],
-			"title": "Albergue Hogar Monjardin",
+			"name": "Albergue Hogar Monjardin",
 			"marker-size": "small",
 			"image": "imgs/Albergue-hogar.png",
-			"information": "<p><strong>Hostel</strong></p><p><strong>Villamayor de Monjardin, Spain</strong></p><p>Website: <strong><a href=http://www.oasistrails.org/en>www.oasistrails.org/en</a></strong></p><p>How to book it? <strong>first come first served</strong></p><p>For volunteer opportunities: <strong>info@oasistrails.org</strong></p> <p>Season: <strong>April 1st - Oct 31st</strong></p><p>Address: <strong>Plaza 4 Villamayor de Monjardin (NA) 31242, Spain</strong></p><br>",
+			"place": "Villamayor de Monjardin, Spain",
+			"website": "http://www.oasistrails.org/en",
+			"email": "info@oasistrails.org",
+			"season": "April 1st - Oct 31st",
+			"address": "Plaza 4 Villamayor de Monjardin (NA) 31242, Spain",
 			"icons": "assets/icons/withoutMeet-Work.png"
 		}
 }, {
-		"type": "Feature",
 		"id": "4",
+		"type": "Feature",
 		"geometry": {
 			"type": "Point",
 			"coordinates": [43.439096, -1.587711]
@@ -62,15 +74,20 @@
 			"open": 1,
 			"close": 5,
             "categories": ["stay", "create", "join"],
-			"title": "Surf Hostel Bidart",
+			"name": "Surf Hostel Bidart",
 			"marker-size": "small",
 			"image": "imgs/surf-hostels-france.jpeg",
-			"information": "<p><strong>Surf Hostel</strong></p><p><strong>Bidart, France</strong><p><p>How to book it? <strong><a href=http://www.surfhostelbiarritz.com/surf-hostel-bidart/>www.surfhostelbiarritz.com/surf-hostel-bidart</a></strong> </p><p>For volunteer opportunities: <strong>surfhostelteam@gmail.com</strong><p><p>Season: <strong>April 1st - Sep 30th</strong></p><p>Address: <strong>101 Ave Chabadenia, Bidart 64210</strong><p><br>",
+			"place": "Bidart, France",
+			"website": "http://www.oasistrails.org/en",
+			"email": "info@oasistrails.org",
+			"season": "April 1st - Oct 31st",
+			"address": "Plaza 4 Villamayor de Monjardin (NA) 31242, Spain",
+			"information": "<p><strong>Surf Hostel</strong></p><p><strong></strong><p><p>How to book it? <strong><a href=http://www.surfhostelbiarritz.com/surf-hostel-bidart/>www.surfhostelbiarritz.com/surf-hostel-bidart</a></strong> </p><p>For volunteer opportunities: <strong>surfhostelteam@gmail.com</strong><p><p>Season: <strong>April 1st - Sep 30th</strong></p><p>Address: <strong>101 Ave Chabadenia, Bidart 64210</strong><p><br>",
 			"icons": "assets/icons/withoutMeet.png"
 		}
 }, {
-		"type": "Feature",
 		"id": "5",
+		"type": "Feature",
 		"geometry": {
 			"type": "Point",
 			"coordinates": [35.562153, 24.092863]
@@ -86,8 +103,8 @@
 			"icons": "assets/icons/withoutMeet.png"
 		}
 }, {
-		"type": "Feature",
 		"id": "6",
+		"type": "Feature",
 		"geometry": {
 			"type": "Point",
 			"coordinates": [52.373167, 4.877252]
@@ -103,8 +120,8 @@
 			"icons": "assets/icons/withoutMeet.png"
 		}
 }, {
-		"type": "Feature",
 		"id": "7",
+		"type": "Feature",
 		"geometry": {
 			"type": "Point",
 			"coordinates": [52.372447, 4.899213]
@@ -120,8 +137,8 @@
 			"icons": "assets/icons/withoutMeet.png"
 		}
 }, {
-		"type": "Feature",
 		"id": "8",
+		"type": "Feature",
 		"geometry": {
 			"type": "Point",
 			"coordinates": [29.556362, 34.947243]
@@ -137,8 +154,8 @@
 			"icons": "assets/icons/withoutWork.png"
 		}
 }, {
-		"type": "Feature",
 		"id": "9",
+		"type": "Feature",
 		"geometry": {
 			"type": "Point",
 			"coordinates": [18.781256, 98.998979]
@@ -154,8 +171,8 @@
 			"icons": "assets/icons/withoutWork.png"
 		}
 }, {
-		"type": "Feature",
 		"id": "10",
+		"type": "Feature",
 		"geometry": {
 			"type": "Point",
 			"coordinates": [19.357692, -99.168994]
@@ -171,8 +188,8 @@
 			"icons": "assets/icons/withoutWork.png"
 		}
 }, {
-		"type": "Feature",
 		"id": "11",
+		"type": "Feature",
 		"geometry": {
 			"type": "Point",
 			"coordinates": [-41.131509, -71.271847]
@@ -188,8 +205,8 @@
 			"icons": "assets/icons/withoutMeet-Work.png"
 		}
 }, {
-		"type": "Feature",
 		"id": "12",
+		"type": "Feature",
 		"geometry": {
 			"type": "Point",
 			"coordinates": [-35.314559, 150.469613]
@@ -205,8 +222,8 @@
 			"icons": "assets/icons/withoutMeet-Work-Join.png"
 		}
 }, {
-		"type": "Feature",
 		"id": "13",
+		"type": "Feature",
 		"geometry": {
 			"type": "Point",
 			"coordinates": [-28.561317, 153.482609]
@@ -222,8 +239,8 @@
 			"icons": "assets/icons/full.png"
 		}
 }, {
-		"type": "Feature",
 		"id": "14",
+		"type": "Feature",
 		"geometry": {
 			"type": "Point",
 			"coordinates": [42.878943, -8.543485]
@@ -239,8 +256,8 @@
 			"icons": "assets/icons/withoutStay-Work.png"
 		}
 }, {
-		"type": "Feature",
 		"id": "15",
+		"type": "Feature",
 		"geometry": {
 			"type": "Point",
 			"coordinates": [42.514983, -2.372389]
@@ -256,8 +273,8 @@
 			"icons": "assets/icons/withoutStay-Work.png"
 		}
 }, {
-		"type": "Feature",
 		"id": "16",
+		"type": "Feature",
 		"geometry": {
 			"type": "Point",
 			"coordinates": [32.252793, 77.178370]
@@ -273,8 +290,8 @@
 			"icons": "assets/icons/withoutStay-Work.png"
 		}
 }, {
-		"type": "Feature",
 		"id": "17",
+		"type": "Feature",
 		"geometry": {
 			"type": "Point",
 			"coordinates": [22.882982, 79.658816]
@@ -290,8 +307,8 @@
 			"icons": "assets/icons/withoutStay-Work.png"
 		}
 }, {
+		"id": "17",
 		"type": "Feature",
-		"id": "18",
 		"geometry": {
 			"type": "Point",
 			"coordinates": [28.761603, 83.834422]
@@ -307,8 +324,8 @@
 			"icons": "assets/icons/withoutStay-Work.png"
 		}
 }, {
+		"id": "18",
 		"type": "Feature",
-		"id": "19",
 		"geometry": {
 			"type": "Point",
 			"coordinates": [25.985675, 82.073062]
@@ -324,8 +341,8 @@
 			"icons": "assets/icons/withoutStay-Work.png"
 		}
 }, {
+		"id": "19",
 		"type": "Feature",
-		"id": "20",
 		"geometry": {
 			"type": "Point",
 			"coordinates": [30.121709, 78.328110]
@@ -341,8 +358,8 @@
 			"icons": "assets/icons/withoutStay-Work.png"
 		}
 }, {
+		"id": "20",
 		"type": "Feature",
-		"id": "21",
 		"geometry": {
 			"type": "Point",
 			"coordinates": [19.361460, 98.444767]
@@ -358,8 +375,8 @@
 			"icons": "assets/icons/withoutStay-Work.png"
 		}
 }, {
+		"id": "21",
 		"type": "Feature",
-		"id": "22",
 		"geometry": {
 			"type": "Point",
 			"coordinates": [51.510382, -0.138223]
@@ -375,8 +392,8 @@
 			"icons": "assets/icons/full.png"
 		}
 }, {
+		"id": "22",
 		"type": "Feature",
-		"id": "23",
 		"geometry": {
 			"type": "Point",
 			"coordinates": [-25.214881, 133.747760]
@@ -392,8 +409,8 @@
 			"icons": "assets/icons/full.png"
 		}
 }, {
+		"id": "23",
 		"type": "Feature",
-		"id": "24",
 		"geometry": {
 			"type": "Point",
 			"coordinates": [-26.646072, 153.061670]
@@ -409,8 +426,8 @@
 			"icons": "assets/icons/withoutWork.png"
 		}
 }, {
+		"id": "24",
 		"type": "Feature",
-		"id": "25",
 		"geometry": {
 			"type": "Point",
 			"coordinates": [-31.951148, 115.861414]
