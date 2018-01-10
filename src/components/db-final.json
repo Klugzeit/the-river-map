@@ -12,7 +12,7 @@
             "categories": ["stay", "create", "join"],
 			"title": "Light House Hostel",
 			"marker-size": "small",
-			"image": "assets/images/light-house.png",
+			"image": "imgs/light-house.png",
 			"information": "<p><strong>Hostel</strong></p><p><strong> Edinburgh, Scotland, United Kingdom </strong></p><p>How to book a night? <strong><a href=https://www.lighthousehostel.co.uk>www.lighthousehostel.co.uk</a></strong></p><p> For volunteer opportunities: <strong>wcwong94@gmail.com</strong> </p><p>Season: <strong>year round</strong></p><p>Address: <strong>20 Gilmore Place, Edinburgh, EH3 9NQ</strong></p><br>",
 			"icons": "assets/icons/withoutMeet.png"
 		}
@@ -28,7 +28,7 @@
             "categories": ["stay", "create", "join"],
 			"title": "Oasis Surf House",
 			"marker-size": "small",
-			"image": "assets/images/oasis-surf.png",
+			"image": "imgs/oasis-surf.png",
 			"information": "<p><strong>Surf Hostel</strong></p><p><strong>Lanzarote, Spain</strong></p><p>How to book it? <strong><a href=http://www.oasissurfhouse.com>www.oasissurfhouse.com</a></strong></p><p>For volunteer opportunities: <strong>oasissurfhouse@gmail.com</strong></p><p> Season: <strong>year round</strong></p><p>Address: <strong>Calle los Parranderos, 3, 35558 Soo, Las Palmas, Spain</strong></p><br>",
 			"icons": "assets/icons/withoutMeet.png"
 		}
@@ -44,7 +44,7 @@
             "categories": ["stay", "join"],
 			"title": "Albergue Hogar Monjardin",
 			"marker-size": "small",
-			"image": "assets/images/Albergue-hogar.png",
+			"image": "imgs/Albergue-hogar.png",
 			"information": "<p><strong>Hostel</strong></p><p><strong>Villamayor de Monjardin, Spain</strong></p><p>Website: <strong><a href=http://www.oasistrails.org/en>www.oasistrails.org/en</a></strong></p><p>How to book it? <strong>first come first served</strong></p><p>For volunteer opportunities: <strong>info@oasistrails.org</strong></p> <p>Season: <strong>April 1st - Oct 31st</strong></p><p>Address: <strong>Plaza 4 Villamayor de Monjardin (NA) 31242, Spain</strong></p><br>",
 			"icons": "assets/icons/withoutMeet-Work.png"
 		}
@@ -60,7 +60,7 @@
             "categories": ["stay", "create", "join"],
 			"title": "Surf Hostel Bidart",
 			"marker-size": "small",
-			"image": "assets/images/surf-hostels-france.jpeg",
+			"image": "imgs/surf-hostels-france.jpeg",
 			"information": "<p><strong>Surf Hostel</strong></p><p><strong>Bidart, France</strong><p><p>How to book it? <strong><a href=http://www.surfhostelbiarritz.com/surf-hostel-bidart/>www.surfhostelbiarritz.com/surf-hostel-bidart</a></strong> </p><p>For volunteer opportunities: <strong>surfhostelteam@gmail.com</strong><p><p>Season: <strong>April 1st - Sep 30th</strong></p><p>Address: <strong>101 Ave Chabadenia, Bidart 64210</strong><p><br>",
 			"icons": "assets/icons/withoutMeet.png"
 		}
@@ -76,7 +76,7 @@
             "categories": ["stay", "create", "join"],
 			"title": "The Way Guesthouse",
 			"marker-size": "small",
-			"image": "assets/images/the-way-guesthouse.png",
+			"image": "imgs/the-way-guesthouse.png",
 			"information": "<p><strong>Guesthouse</strong></p><p><strong>Chania - Crete, Greece</strong></p><p>How to book it? <strong><a href=http://www.thewayguesthouse.com/>www.thewayguesthouse.com</a></strong></p> <p>For volunteer opportunities: <strong>bekah.alex@gmail.com</strong></p> <p>Season: <strong>May – Oct</strong><p><p>Address: <strong>Chorafakia, Chania, Crete</strong></p><br>",
 			"icons": "assets/icons/withoutMeet.png"
 		}
@@ -92,7 +92,7 @@
             "categories": ["stay", "create", "join"],
 			"title": "Shelter Jordan",
 			"marker-size": "small",
-			"image": "assets/images/shelter-christian-hostels.png",
+			"image": "imgs/shelter-christian-hostels.png",
 			"information": "<p><strong>Hostel</strong><p><p></strong>Amsterdam, the Netherlands</strong></p><p>How to book a night? <strong><a href=http://www.shelterhostelamsterdam.com>www.shelterhostelamsterdam.com</a></strong></p><p>For volunteer opportunities: <strong>www.youthhostelministry.org</strong></p> <p>Season: <strong>year round</strong></p><p>Address:<strong>Shelter Jordan - Bloemstraat 179, Amsterdam, 1016LA</strong></p><br>",
 			"icons": "assets/icons/withoutMeet.png"
 		}
@@ -108,7 +108,7 @@
             "categories": ["stay", "create", "join"],
 			"title": "Shelter City",
 			"marker-size": "small",
-			"image": "assets/images/shelter-christian-hostels.png",
+			"image": "imgs/shelter-christian-hostels.png",
 			"information": "<strong>Hostel</strong><p><p></strong>Amsterdam, the Netherlands</strong></p><p>How to book a night? <strong><a href=http://www.shelterhostelamsterdam.com>www.shelterhostelamsterdam.com</a></strong></p><p>For volunteer opportunities: <strong>www.youthhostelministry.org</strong></p> <p>Season: <strong>year round</strong></p><p>Address:<strong>Shelter City - Barndesteeg 21, 1012 BV Amsterdam</strong></p><br>",
 			"icons": "assets/icons/withoutMeet.png"
 		}
@@ -124,7 +124,7 @@
             "categories": ["stay", "meet", "join"],
 			"title": "Shelter Eilat",
 			"marker-size": "small",
-			"image": "assets/images/shelter-eliat.png",
+			"image": "imgs/shelter-eliat.png",
 			"information": "<p><strong>Hostel + place to hang out</strong></p><p><strong>Eilat, Israel</strong><p><p>How to book it? <strong><a href=http://www.shelterhostel.com>www.shelterhostel.com</a></strong><p><p>For volunteer opportunities: <strong>info@shelterhostel.com</strong><p> <p>Season: <strong>year round</strong><p><p>Address: <strong>The Eshel Street 149/1. P.O. Box 816 Eilat 88104, Israel</strong><p><br>",
 			"icons": "assets/icons/withoutWork.png"
 		}
@@ -140,7 +140,7 @@
             "categories": ["stay", "meet", "join"],
 			"title": "Zion Hostel & Cafe",
 			"marker-size": "small",
-			"image": "assets/images/zion-cafe-hostel.png",
+			"image": "imgs/zion-cafe-hostel.png",
 			"information": "<p><strong>Hostel + Cafe</strong></p><p><strong>Chiang Mai, Thailand</strong></p><p>How to book it? <strong><a href=http://www.zioncafeandhostel.com/#!about-zion/cu4n>www.zioncafeandhostel.com/#!about-zion/cu4n</a></strong></p><p>For volunteer opportunities: <strong>info@lighthouseinaction.org</strong></p><p>Season: <strong>year round</strong></p><p>Address: <strong>169/4-5 Sridonchai Rd. Changklan, Muang, Chiangmai, Thailand 50100</strong></p><br>",
 			"icons": "assets/icons/withoutWork.png"
 		}
@@ -156,7 +156,7 @@
             "categories": ["stay", "meet", "join"],
 			"title": "Warm Heart Guesthouse",
 			"marker-size": "small",
-			"image": "assets/images/warm-heart.png",
+			"image": "imgs/warm-heart.png",
 			"information": "<p><strong>Guesthouse + Cafe</strong></p><p><strong>Mexico City, Mexico</strong></p><p>How to book it? <strong><a href=http://www.warmheartmexico.com>www.warmheartmexico.com</a></strong></p><p>For volunteer opportunities: <strong>cynthia.ramirezmartinez@gmail.com</strong></p><p>Season: <strong>year round</strong></p><p>Address: <strong>Calz. Mariano Matamoros 29, Del Carmen, 04100 Ciudad de México</strong><p><br>",
 			"icons": "assets/icons/withoutWork.png"
 		}
@@ -172,7 +172,7 @@
             "categories": ["stay", "join"],
 			"title": "Shelter on the Lake",
 			"marker-size": "small",
-			"image": "assets/images/shelter-on-lake.png",
+			"image": "imgs/shelter-on-lake.png",
 			"information": "<p><strong>Guesthouse</strong></p><p></strong>Bariloche, Argentina</strong></p><p>Website: <strong><a href=http://www.shelteronthelake.com>www.shelteronthelake.com</a></strong></p><p>How to book it? <strong>first come first served</strong></p><p>For volunteer opportunities: <strong>shelteronthelake@gmail.com</strong></p> <p>Address: <strong>Alma Fuerte 3012 Bariloche, Argentina</strong></p><br>",
 			"icons": "assets/icons/withoutMeet-Work.png"
 		}
@@ -188,7 +188,7 @@
             "categories": ["stay"],
 			"title": "Surf House Narrawallee",
 			"marker-size": "small",
-			"image": "assets/images/surf-house-narrawallee.png",
+			"image": "imgs/surf-house-narrawallee.png",
 			"information": "<p><strong>Surf Hostel BnB</strong></p><p><strong>Narrawallee, Australia</strong></p><p>How to book it? <strong><a href=http://www.surfhousenarrawallee.com>www.surfhousenarrawallee.com</a></strong></p><p>For volunteer opportunities: <strong>surfhousenarrawallee@gmail.com</strong></p> <p>Season: <strong>year round</strong></p><p>Address: <strong>108 Matron Porter Drive, Narrawallee. NSW. 2539</strong><p><br>",
 			"icons": "assets/icons/withoutMeet-Work-Join.png"
 		}
@@ -204,7 +204,7 @@
             "categories": ["stay", "meet", "join", "create"],
 			"title": "Selah Farm",
 			"marker-size": "small",
-			"image": "assets/images/selah-farm.png",
+			"image": "imgs/selah-farm.png",
 			"information": "<p><strong>Farmstay/ Retreat Centre</strong></p><p><strong>Mullumbimby, Australia</strong></p><p>How to book it? <strong>artymamma@gmail.com</strong></p><p>For volunteer opportunities: <strong>artymamma@gmail.com</strong></p> <p>Season: <strong>year round</strong></p><p>Address: <strong>113 Left Bank Road, Mullumbimby NSW 2482 Australia</strong></p><br>",
 			"icons": "assets/icons/full.png"
 		}
@@ -220,7 +220,7 @@
             "categories": ["meet", "join"],
 			"title": "Pilgrim House",
 			"marker-size": "small",
-			"image": "assets/images/pilgrim-house.png",
+			"image": "imgs/pilgrim-house.png",
 			"information": "<p><strong>Welcoming centre (only for pilgrims)</strong></p><p><strong>Santiago de Compostela, Spain</strong></p><p>Website: <strong><a href=http://www.pilgrimhousesantiago.com>www.pilgrimhousesantiago.com</a></strong></p><p>For volunteer opportunities: <strong>pilgrimhousesantiago@gmail.com</strong></p> <p>Season: <strong>April - October</strong></p><p>Address: <strong>Rua Nova 19 Santiago de Compostela Spain</strong></p><br>",
 			"icons": "assets/icons/withoutStay-Work.png"
 		}
@@ -236,7 +236,7 @@
             "categories": ["meet", "join"],
 			"title": "Pilgrim’s Oasis",
 			"marker-size": "small",
-			"image": "assets/images/pilgrims-oasis.jpeg",
+			"image": "imgs/pilgrims-oasis.jpeg",
 			"information": "<p><strong>Cafe + Meditation Space</strong></p><p><strong>Viana, Spain</strong></p><p>Website: <strong><a href=http://www.oasistrails.org/en>www.oasistrails.org/en</a></strong></p><p>For volunteer opportunities: <strong>info@oasistrails.org</strong</p> <p>Season: <strong>April 1st - Sep 30th</strong></p><p>Address: <strong>Calle Navarro Villoslada 8 Viana (NA) 31230, Spain</strong></p><br>",
 			"icons": "assets/icons/withoutStay-Work.png"
 		}
@@ -252,7 +252,7 @@
             "categories": ["meet", "join"],
 			"title": "Dylan’s Coffeehouse",
 			"marker-size": "small",
-			"image": "assets/images/dylans-coffeehouse.png",
+			"image": "imgs/dylans-coffeehouse.png",
 			"information": "<p><strong>Cafe</strong></p><p><strong>Arambol and Manali, India</strong></p><p>Website: <strong><a href=http://www.dylanscoffee.com>www.dylanscoffee.com</a></strong></p><p>For volunteer opportunities: <strong>dylanscoffee@gmail.com</strong></p><p>Season: <strong>December - March (Arambol) May - October (Manali)</strong></p><p>Address: </strong>Arambol, North Goa, Goa, 403524, India; Distt. Kullu ( Himachal Pradesh ) India (Manali)</strong></p><br>",
 			"icons": "assets/icons/withoutStay-Work.png"
 		}
@@ -268,7 +268,7 @@
             "categories": ["meet", "join"],
 			"title": "Tree Ashram",
 			"marker-size": "small",
-			"image": "assets/images/tree-ashram.png",
+			"image": "imgs/tree-ashram.png",
 			"information": "<p><strong>Ashram</strong></p><p><strong>North India (contact for more details)</strong></p><p>For volunteer opportunities: <strong>ueichholz@hotmail.com Season: September - April</strong></p><p>Address: <strong>(contact for more details)</strong></p><br>",
 			"icons": "assets/icons/withoutStay-Work.png"
 		}
@@ -284,7 +284,7 @@
             "categories": ["meet", "join"],
 			"title": "Mountain Ashram",
 			"marker-size": "small",
-			"image": "assets/images/mountain-ashram.png",
+			"image": "imgs/mountain-ashram.png",
 			"information": "<p><strong>Ashram</strong></p><p><strong>Northern Indian Himalayas (contact for more details)</strong></p><p>For volunteer opportunities: <strong>adamsjodelius@hotmail.com</strong></p> <p><strong>Season: March 1st - June 30th</strong></p><p>Address: <strong>(contact for more details)</strong></p><br>",
 			"icons": "assets/icons/withoutStay-Work.png"
 		}
@@ -300,7 +300,7 @@
             "categories": ["meet", "join"],
 			"title": "Shekina Goa",
 			"marker-size": "small",
-			"image": "assets/images/shekina-garden.png",
+			"image": "imgs/shekina-garden.png",
 			"information": "<p><strong>Ashram</strong></p><p><strong>India (contact for more details)</strong></p><p>Website: <strong><a href=http://shekina-community.squarespace.com/about>shekina-community.squarespace.com/about</a></strong></p> <p>For volunteer opportunities: <strong>shekinacommunity@gmail.com</strong></p> <p>Season: <strong>November - March</strong></p><p>Address: <strong>(contact for more details)</strong></p><br>",
 			"icons": "assets/icons/withoutStay-Work.png"
 		}
@@ -316,7 +316,7 @@
             "categories": ["meet", "join"],
 			"title": "Tent of Grace",
 			"marker-size": "small",
-			"image": "assets/images/tent-of-grace.png",
+			"image": "imgs/tent-of-grace.png",
 			"information": "<p><strong>Meditation Space</strong></p><p><strong>Rishikesh, India</strong></p><p>Website: <strong><a href=http://www.oasistrails.org/en>www.oasistrails.org/en</a></strong></p><p>For volunteer opportunities: <strong>info@oasistrails.org</strong></p><p>Season: <strong>Feb 1st - Apr 15th and Sep 15th - Dec 1st</strong></p><p>Address: <strong>Kirmola, Laxman Jhula, Rishikesh, Uttarakhand 249302, India</strong></p><br>",
 			"icons": "assets/icons/withoutStay-Work.png"
 		}
@@ -332,7 +332,7 @@
             "categories": ["meet", "join"],
 			"title": "Shekina Garden",
 			"marker-size": "small",
-			"image": "assets/images/shekina-garden.png",
+			"image": "imgs/shekina-garden.png",
 			"information": "<p><strong>Ashram</strong><p><strong>Pai, Thailand</strong></p><p>Website: <strong><a href=http://shekina-community.squarespace.com/about>shekina-community.squarespace.com/about</a></strong></p> <p>For volunteer opportunities: <strong>chinua@gmail.com</strong></p><p>Season: <strong>year round</strong></p><p>Address: <strong>Pai, Thailand</strong></p><br>",
 			"icons": "assets/icons/withoutStay-Work.png"
 		}
@@ -348,7 +348,7 @@
             "categories": ["stay", "meet", "join", "create"],
 			"title": "VIVE Hostel & Café",
 			"marker-size": "small",
-			"image": "assets/images/vive-cafe-hostel.jpeg",
+			"image": "imgs/vive-cafe-hostel.jpeg",
 			"information": "<p><strong>Hostel + Cafe</strong></p> <p><strong>London, UK</strong></p><p>For more information: <strong>tim@skyeward.org.uk</strong></p><br>",
 			"icons": "assets/icons/full.png"
 		}
@@ -364,7 +364,7 @@
             "categories": ["stay", "meet", "join", "create"],
 			"title": "Pilgrim Hill",
 			"marker-size": "small",
-			"image": "assets/images/shekina-garden.png",
+			"image": "imgs/shekina-garden.png",
 			"information": "<p><strong>Guesthouse</strong></p><p><strong>Tasmania, Australia</strong></p><p>Website: <strong><a href=www.pilgrimhill.org/about.php>http://www.pilgrimhill.org/about.php</a></strong><p> <p>For more information: <strong>thebaehrs@pilgrimhill.org</strong></p><br>",
 			"icons": "assets/icons/full.png"
 		}
@@ -380,7 +380,7 @@
             "categories": ["stay", "meet", "join"],
 			"title": "Surfhouse Sunshine Coast",
 			"marker-size": "small",
-			"image": "assets/images/surf-house-sunshine-coast.jpeg",
+			"image": "imgs/surf-house-sunshine-coast.jpeg",
 			"information": "<p><strong>Surf Hostel</strong></p><p><strong>Sunshine Coast, Australia</strong></p><p>For more information: <strong>surfbiarritz@gmail.com</strong></p><br>",
 			"icons": "assets/icons/withoutWork.png"
 		}
@@ -396,7 +396,7 @@
             "categories": ["stay", "meet", "join"],
 			"title": "Perth Hostel",
 			"marker-size": "small",
-			"image": "assets/images/shekina-garden.png",
+			"image": "imgs/shekina-garden.png",
 			"information": "<p><strong>Hostel</strong></p><p><strong>Perth, Australia</strong></p><p>For more information: <strong>tiffany.rak@gmail.com</strong></p><br>",
 			"icons": "assets/icons/withoutWork.png"
 		}

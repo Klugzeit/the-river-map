@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../css/App.css';
 import FilterButtons from './FilterButtons'
 import MonthSlider from './MonthSlider'
+import SidePanel from './SidePanel'
 
 
 class MainPanel extends Component {
@@ -19,6 +20,8 @@ class MainPanel extends Component {
         <MonthSlider
           onSliderChange={this.handleSliderChange.bind(this)} 
           defaultSliderRange={this.props.defaultSliderRange} />
+        { this.props.showSidePanel ? <SidePanel
+            markerInfo={this.props.currentMarkerInfo} /> : "" }
       </div>
     );
   }
