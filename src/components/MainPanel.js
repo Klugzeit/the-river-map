@@ -21,7 +21,7 @@ class MainPanel extends Component {
           onSliderChange={this.handleSliderChange.bind(this)} 
           defaultSliderRange={this.props.defaultSliderRange} />
         { this.props.showSidePanel ? <SidePanel
-            markerInfo={this.props.currentMarkerInfo} /> : "" }
+            marker={this.props.marker} /> : "" }
       </div>
     );
   }

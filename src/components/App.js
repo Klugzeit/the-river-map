@@ -10,6 +10,23 @@ class App extends Component {
 
   constructor(props) {
     super(props);
+
+    this.defaultMapIcon = {
+      path: 'M0,50 A50,50,0 1 1 100,50 A50,50,0 1 1 0,50 Z',
+      fillColor: '#ff8a65',
+      fillOpacity: 0.8,
+      scale: 0.18,
+      strokeColor: '#ff8a65'
+    }
+
+    this.selectedMapIcon = {
+      path: 'M0,50 A50,50,0 1 1 100,50 A50,50,0 1 1 0,50 Z',
+      fillColor: '#62d2c3',
+      fillOpacity: 1,
+      scale: 0.18,
+      strokeColor: '#62d2c3'
+    }
+
     this.state = {
       mapFilters: {
         stay: true,
@@ -17,11 +34,36 @@ class App extends Component {
         meet: true,
         work: true
       },
-      mapData: mapData,
       monthRange: { min: 5, max: 10 },
       showSidePanel: false,
-      currentMarkerInfo: {}
+      mapMarkers: this.buildMapMarkers(mapData),
+      selectedMarker: {}
     };
+  }
+
+  buildMapMarkers(mapData) {
+    let features = mapData.features;
+    let markers = {};
+
+    // Populate map markers
+    for (let i=0; i < features.length; i++) {
+      let geo = features[i].geometry
+      let index = i;
+      
+      let marker = {
+        key: index,
+        lat: geo.coordinates[0],
+        lng: geo.coordinates[1],
+        icon: this.defaultMapIcon,
+        title: features[i].properties.title,
+        info: features[i].properties.information,
+        image: features[i].properties.image
+      }
+
+      markers[index] = marker;
+    }
+
+    return markers;
   }
 
   handleFilterChange(event, btnId) {
@@ -37,18 +79,34 @@ class App extends Component {
   }
 
   handleMapClick(event) {
-    this.setState({
-      showSidePanel: false,
-      currentMarkerInfo: {}
+    this.setState((prevState) => {
+      // Set active marker icon back to default
+      if (Object.keys(prevState.selectedMarker).length !== 0) {
+        prevState.mapMarkers[prevState.selectedMarker.key].icon = this.defaultMapIcon;
+      }
+      return { 
+        showSidePanel: false,
+        selectedMarker: {}
+      };
     });
   }
 
-  handleMarkerClick(markerInfo) {
-    // console.log('Marker Info: ', markerInfo);
-    this.setState({
-      showSidePanel: true,
-      currentMarkerInfo: markerInfo
-    });
+  handleMarkerClick(marker, event) {
+    this.setState((prevState) => {
+      // Set active marker icon back to default      
+      if (Object.keys(prevState.selectedMarker).length !== 0) {
+        prevState.mapMarkers[prevState.selectedMarker.key].icon = this.defaultMapIcon;
+      }
+      // Change the icon for the clicked marker
+      let newMarkers = Object.assign({}, prevState.mapMarkers);
+      newMarkers[marker.key].icon = this.selectedMapIcon;
+
+      return { 
+        markers: newMarkers, 
+        selectedMarker: marker,
+        showSidePanel: true 
+      };
+    })
   }
 
   render() {
@@ -57,13 +115,14 @@ class App extends Component {
         <MainPanel
           onFilterChange={this.handleFilterChange.bind(this)}
           defaultSliderRange={this.state.monthRange}
-          onSliderChange={this.handleSliderChange.bind(this)} 
+          onSliderChange={this.handleSliderChange.bind(this)}
           showSidePanel={this.state.showSidePanel} 
-          currentMarkerInfo={this.state.currentMarkerInfo} />
-        <MapPanel 
+          marker={this.state.selectedMarker} />
+        <MapPanel
           mapData={this.state.mapData}
+          mapMarkers={this.state.mapMarkers}
           onMapClick={this.handleMapClick.bind(this)}
-          onMarkerClick={this.handleMarkerClick.bind(this)} />  
+          onMarkerClick={this.handleMarkerClick.bind(this)} />
       </div>
     );
   }

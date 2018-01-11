@@ -28,7 +28,14 @@ const MyMapComponent = compose(
       fullscreenControl: false
     }} 
     onClick={props.onMapClick.bind(this)} >
-    {props.markers}
+    { Object.keys(props.markers).map(key => {
+        let m = props.markers[key];
+        return <Marker 
+          position={ {lat: m.lat, lng: m.lng} }
+          onClick={props.onMarkerClick.bind(this, m)}
+          icon={m.icon}
+          key={m.key} />
+      }) }
   </GoogleMap>
 )
 
@@ -41,36 +48,6 @@ class MapPanel extends Component {
 
   constructor (props) {
     super(props);
-
-    let icon = {
-      path: 'M0,50 A50,50,0 1 1 100,50 A50,50,0 1 1 0,50 Z',
-      fillColor: '#ff8a65',
-      fillOpacity: 0.9,
-      scale: 0.18,
-      strokeColor: '#ff8a65'
-    }
-    
-    this.state = {
-      markers: []
-    }
-
-    let features = this.props.mapData.features;
-
-    for (let i=0; i < features.length; i++) {
-      let geo = features[i].geometry
-      let markerInfo = {
-        index: i,
-        title: features[i].properties.title,
-        info: features[i].properties.information,
-        image: features[i].properties.image
-      }
-      this.state.markers.push(<Marker 
-        position={ {lat: geo.coordinates[0], lng: geo.coordinates[1]} }
-        onClick={event => this.handleMarkerClick(event, markerInfo)}
-        icon={icon}
-        key={i} />
-      );
-    }
   }
 
   handleMapClick(event) {
@@ -79,34 +56,10 @@ class MapPanel extends Component {
     }
   }
 
-  handleMarkerClick(event, markerInfo) {
+  handleMarkerClick(marker, event) {
     if (this.props.onMarkerClick) {
-      this.props.onMarkerClick(markerInfo);
+      this.props.onMarkerClick(marker, event);
     }
-
-    let marker = this.state.markers[markerInfo.index];
-
-    console.log(marker);
-    
-    let icon = {
-      path: 'M0,50 A50,50,0 1 1 100,50 A50,50,0 1 1 0,50 Z',
-      fillColor: '#ff8a65',
-      fillOpacity: 0.2,
-      scale: 0.18,
-      strokeColor: '#ff8a65'
-    }
-
-    let newMarker = <Marker 
-      position={ {lat: marker.props.position.lat, lng: marker.props.position.lng} }
-      onClick={event => this.handleMarkerClick(event, markerInfo)}
-      icon={icon}
-      key={marker.key} />
-
-    this.setState((prevState) => {
-      let newMarkers = Object.assign([], prevState.markers, {[marker.key]: newMarker});
-      return { markers: newMarkers }
-    })
-
   }
 
   render() {
@@ -114,7 +67,8 @@ class MapPanel extends Component {
       <div className="mapContainer">
         <MyMapComponent
           onMapClick={this.handleMapClick.bind(this)}
-          markers={this.state.markers}
+          onMarkerClick={this.handleMarkerClick.bind(this)}
+          markers={this.props.mapMarkers}
           isMarkerShown />
       </div>
     );
