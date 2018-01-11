@@ -20,13 +20,13 @@ const MyMapComponent = compose(
   <GoogleMap
     defaultZoom={2}
     defaultCenter={{ lat: 20, lng: 0 }}
-    defaultOptions={{ 
+    defaultOptions={{
       styles: mapStyle,
       streetViewControl: false,
       mapTypeControl: false,
       zoomControl: false,
       fullscreenControl: false
-    }} 
+    }}
     onClick={props.onMapClick.bind(this)} >
     {props.markers}
   </GoogleMap>
@@ -49,7 +49,7 @@ class MapPanel extends Component {
       scale: 0.18,
       strokeColor: '#ff8a65'
     }
-    
+
     this.state = {
       markers: []
     }
@@ -64,7 +64,7 @@ class MapPanel extends Component {
         info: features[i].properties.information,
         image: features[i].properties.image
       }
-      this.state.markers.push(<Marker 
+      this.state.markers.push(<Marker
         position={ {lat: geo.coordinates[0], lng: geo.coordinates[1]} }
         onClick={event => this.handleMarkerClick(event, markerInfo)}
         icon={icon}
@@ -87,7 +87,7 @@ class MapPanel extends Component {
     let marker = this.state.markers[markerInfo.index];
 
     console.log(marker);
-    
+
     let icon = {
       path: 'M0,50 A50,50,0 1 1 100,50 A50,50,0 1 1 0,50 Z',
       fillColor: '#ff8a65',
@@ -96,7 +96,7 @@ class MapPanel extends Component {
       strokeColor: '#ff8a65'
     }
 
-    let newMarker = <Marker 
+    let newMarker = <Marker
       position={ {lat: marker.props.position.lat, lng: marker.props.position.lng} }
       onClick={event => this.handleMarkerClick(event, markerInfo)}
       icon={icon}
