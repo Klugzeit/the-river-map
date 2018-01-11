@@ -20,13 +20,13 @@ const MyMapComponent = compose(
   <GoogleMap
     defaultZoom={2}
     defaultCenter={{ lat: 20, lng: 0 }}
-    defaultOptions={{ 
+    defaultOptions={{
       styles: mapStyle,
       streetViewControl: false,
       mapTypeControl: false,
       zoomControl: false,
       fullscreenControl: false
-    }} 
+    }}
     onClick={props.onMapClick.bind(this)} >
     { Object.keys(props.markers).map(key => {
         let m = props.markers[key];

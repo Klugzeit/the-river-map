@@ -4,7 +4,8 @@ import '../css/App.css';
 import MainPanel from './MainPanel'
 import MapPanel from './MapPanel'
 import mapData from './db-final'
-
+import BasketPanel from './BasketPanel'
+import BasketButton from './BasketButton'
 
 class App extends Component {
 
@@ -37,7 +38,11 @@ class App extends Component {
       monthRange: { min: 5, max: 10 },
       showSidePanel: false,
       mapMarkers: this.buildMapMarkers(mapData),
-      selectedMarker: {}
+      selectedMarker: {},
+      showBasketPanel: false,
+      currentMarker: {},
+      basketList: {},
+      basketCount: 0
     };
   }
 
@@ -86,6 +91,7 @@ class App extends Component {
       }
       return { 
         showSidePanel: false,
+        showBasketPanel: false,
         selectedMarker: {}
       };
     });
@@ -104,9 +110,43 @@ class App extends Component {
       return { 
         markers: newMarkers, 
         selectedMarker: marker,
-        showSidePanel: true 
+        showSidePanel: true,
+        currentMarker: marker
       };
     })
+  }
+
+  handleAddToBasket() {
+    var newBasket = Object.assign({}, this.state.basketList);
+    newBasket[this.state.currentMarker.key] = this.state.currentMarker;
+    var count = Object.keys(newBasket).length;
+    console.log(count)
+    this.setState({
+      basketList: newBasket,
+      basketCount: count
+    });
+  }
+
+  handleBasketBtnClick() {
+    this.setState({
+      showBasketPanel: true
+    });
+  }
+
+  closeBasketPanel() {
+    this.setState({
+      showBasketPanel: false
+    });
+  }
+
+  handleRemoveBasketElementBtnClick(id) {
+    var newBasket = Object.assign({}, this.state.basketList);
+    delete newBasket[id];
+    var count = Object.keys(newBasket).length;
+    this.setState({
+      basketList: newBasket,
+      basketCount: count
+    });
   }
 
   render() {
@@ -116,13 +156,24 @@ class App extends Component {
           onFilterChange={this.handleFilterChange.bind(this)}
           defaultSliderRange={this.state.monthRange}
           onSliderChange={this.handleSliderChange.bind(this)}
-          showSidePanel={this.state.showSidePanel} 
-          marker={this.state.selectedMarker} />
+          showSidePanel={this.state.showSidePanel}
+          onAddToBasket={this.handleAddToBasket.bind(this)}
+          currentMarker={this.state.currentMarker} />
         <MapPanel
           mapData={this.state.mapData}
           mapMarkers={this.state.mapMarkers}
           onMapClick={this.handleMapClick.bind(this)}
           onMarkerClick={this.handleMarkerClick.bind(this)} />
+
+        { this.state.showBasketPanel ? <BasketPanel
+          basketList={this.state.basketList}
+          onCloseBasketPanel={this.closeBasketPanel.bind(this)}
+          onRemoveBasketElement={this.handleRemoveBasketElementBtnClick.bind(this)}/> : "" }
+
+        <BasketButton
+          onBasketBtnClick={this.handleBasketBtnClick.bind(this)}
+          basketCount={this.state.basketCount}
+        />
       </div>
     );
   }

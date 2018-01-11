@@ -18,10 +18,11 @@ class MainPanel extends Component {
         <FilterButtons onFilterChange={this.props.onFilterChange}/>
         <h1>From</h1>
         <MonthSlider
-          onSliderChange={this.handleSliderChange.bind(this)} 
+          onSliderChange={this.handleSliderChange.bind(this)}
           defaultSliderRange={this.props.defaultSliderRange} />
         { this.props.showSidePanel ? <SidePanel
-            marker={this.props.marker} /> : "" }
+            marker={this.props.currentMarker}
+            onAddToBasket={this.props.onAddToBasket.bind(this)}/> : "" }
       </div>
     );
   }
