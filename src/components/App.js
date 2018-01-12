@@ -91,7 +91,6 @@ class App extends Component {
       }
       return { 
         showSidePanel: false,
-        showBasketPanel: false,
         selectedMarker: {}
       };
     });

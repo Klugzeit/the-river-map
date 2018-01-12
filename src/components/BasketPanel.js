@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
-import '../css/App.css';
+import '../css/App.css'; 
+
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import faTimes from '@fortawesome/fontawesome-free-solid/faTimes'
+import faPhone from '@fortawesome/fontawesome-free-solid/faPhone'
 
 class BasketPanel extends Component {
   handleCloseBasketBtnClick () {
@@ -14,26 +18,45 @@ class BasketPanel extends Component {
   }
 
   render() {
-    let myList = []
-    Object.keys(this.props.basketList).map(mkey => {
+    let basketElements = Object.keys(this.props.basketList).map(mkey => {
       let m = this.props.basketList[mkey];
-      myList.push(
-        <div className="listElement" key={mkey}>
-          <h2> {m.title} </h2>
-          <button className="contactButton" type="button" onClick={this.handleContactBtnClick.bind(this)}>
-            contact
-          </button>
-          <button className="removeListElementButton" type="button" onClick={this.handleRemoveBtnClick.bind(this, m.key)}>
-            x
-          </button>
-        </div>  )
+      return (
+        <li className="basketListElement" key={mkey}>
+          <div id='basketItemImg'>
+            <img  src={m.image} alt={m.title} />
+          </div>
+          <div id='basketInfoBox'>
+            <div id='basketElementTitle'>
+              <h2> {m.title} </h2>
+            </div>
+            <div className='basketElementButtons'>
+              <div className='basketBtn'>
+                <FontAwesomeIcon 
+                  className='basketBtn'
+                  id="contactBasketElementButton"
+                  onClick={this.handleContactBtnClick.bind(this)}
+                  icon={faPhone} />
+              </div>
+              <div className='basketBtn'>
+                <FontAwesomeIcon
+                  onClick={this.handleRemoveBtnClick.bind(this, m.key)}
+                  icon={faTimes} />
+              </div>
+            </div>
+          </div>
+        </li>  )
     })
     return (
         <div className="basketPanelContainer">
           <h1> Basket </h1>
-          {myList}
-          <button className="closeBasketButton" type="button" onClick={this.handleCloseBasketBtnClick.bind(this)}>
-             x</button>
+          <FontAwesomeIcon
+            className='basketBtn'
+            id="closeBasketButton"
+            onClick={this.handleCloseBasketBtnClick.bind(this)}
+            icon={faTimes} />
+          <ul className='basketListContainer'>
+            {basketElements}
+          </ul>
        </div>
     );
   }

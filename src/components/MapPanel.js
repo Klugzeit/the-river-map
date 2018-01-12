@@ -46,10 +46,6 @@ const MyMapComponent = compose(
  */
 class MapPanel extends Component {
 
-  constructor (props) {
-    super(props);
-  }
-
   handleMapClick(event) {
     if (this.props.onMapClick) {
       this.props.onMapClick(event);

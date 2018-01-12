@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import '../css/App.css';
 
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import faPlus from '@fortawesome/fontawesome-free-solid/faPlus'
+
 class SidePanel extends Component {
   handleBtnClick(event) {
     this.props.onAddToBasket();
@@ -8,14 +11,16 @@ class SidePanel extends Component {
   render() {
     return (
       <div className="sidePanelContainer">
-        <h1> {this.props.marker.title} </h1>
-        <img src={this.props.marker.image} alt="img" />
-        <h2> About us </h2>
-        <div dangerouslySetInnerHTML={{__html: this.props.marker.info}}></div>
-        <h2> Contact </h2>
-        <button className="addButton" type="button" onClick={this.handleBtnClick.bind(this)}>
-          Add to basket
-        </button>
+        <div id='sidePanelInfoContainer'>
+          <h1> {this.props.marker.title} </h1>
+          <img src={this.props.marker.image} alt="img" />
+          <h2> About us </h2>
+          <div dangerouslySetInnerHTML={{__html: this.props.marker.info}}></div>
+          <h2> Contact </h2>
+        </div>
+        <div className="addToBasketButton" onClick={this.handleBtnClick.bind(this)}>
+          <FontAwesomeIcon icon={faPlus} />
+        </div>
       </div>
     );
   }
