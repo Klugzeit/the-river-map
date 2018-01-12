@@ -12,35 +12,18 @@ class App extends Component {
   constructor(props) {
     super(props);
 
-    this.defaultMapIcon = {
-      path: 'M0,50 A50,50,0 1 1 100,50 A50,50,0 1 1 0,50 Z',
-      fillColor: '#ff8a65',
-      fillOpacity: 0.8,
-      scale: 0.18,
-      strokeColor: '#ff8a65'
-    }
-
-    this.selectedMapIcon = {
-      path: 'M0,50 A50,50,0 1 1 100,50 A50,50,0 1 1 0,50 Z',
-      fillColor: '#62d2c3',
-      fillOpacity: 1,
-      scale: 0.18,
-      strokeColor: '#62d2c3'
-    }
-
     this.state = {
       mapFilters: {
         stay: true,
         join: true,
         meet: true,
-        work: true
+        create: true
       },
-      monthRange: { min: 5, max: 10 },
+      monthRange: { min: 1, max: 2 },
       showSidePanel: false,
       mapMarkers: this.buildMapMarkers(mapData),
       selectedMarker: {},
       showBasketPanel: false,
-      currentMarker: {},
       basketList: {},
       basketCount: 0
     };
@@ -59,10 +42,13 @@ class App extends Component {
         key: index,
         lat: geo.coordinates[0],
         lng: geo.coordinates[1],
-        icon: this.defaultMapIcon,
+        open: features[i].properties.open,
+			  close: features[i].properties.close,
+        icon: this.getMarkerIcon(),
         title: features[i].properties.title,
         info: features[i].properties.information,
-        image: features[i].properties.image
+        image: features[i].properties.image,
+        categories: features[i].properties.categories
       }
 
       markers[index] = marker;
@@ -71,23 +57,107 @@ class App extends Component {
     return markers;
   }
 
+  /*
+    Return default icon if marker was not specified
+    param select: Always return selected icon
+   */
+  getMarkerIcon(marker, select=false) {
+
+    let defaultIcon = {
+      path: 'M0,50 A50,50,0 1 1 100,50 A50,50,0 1 1 0,50 Z',
+      fillColor: '#ff8a65',
+      fillOpacity: 0.8,
+      scale: 0.18,
+      strokeColor: '#ff8a65'
+    }
+
+    let selectedIcon = {
+      path: 'M0,50 A50,50,0 1 1 100,50 A50,50,0 1 1 0,50 Z',
+      fillColor: '#62d2c3',
+      fillOpacity: 1,
+      scale: 0.18,
+      strokeColor: '#62d2c3'
+    }
+
+    let disabledIcon = {
+      path: 'M0,50 A50,50,0 1 1 100,50 A50,50,0 1 1 0,50 Z',
+      fillColor: '#ff8a65',
+      fillOpacity: 0.2,
+      scale: 0.18,
+      strokeColor: '#ff8a65'
+    }
+
+    if (!marker) {
+      return defaultIcon;
+    }
+
+    if (select) {
+      return selectedIcon;
+    }
+
+    if (marker.open <= this.state.monthRange.min && 
+        marker.close >= this.state.monthRange.max) {
+      // This hostel open during the user selected range
+      return defaultIcon;
+    } else {        
+      return disabledIcon;
+    }
+
+  }
+
   handleFilterChange(event, btnId) {
+
+    // Clone markers object
+    let allMarkers = this.buildMapMarkers(mapData);
+    let newMarkers = {};
+
     this.setState((prevState) => {
       let newValue = !prevState.mapFilters[btnId];
       let newMapFilters = Object.assign({}, prevState.mapFilters, {[btnId]: newValue});
-      return { mapFilters: newMapFilters }
+
+      for (let key in allMarkers) {
+        let m = allMarkers[key];
+        
+        for (let i=0; i<m.categories.length; i++) {
+          let categoryName = m.categories[i];
+
+          if (newMapFilters[categoryName]) {
+            let newMarker = JSON.parse(JSON.stringify(m));
+            console.log(newMarker);
+            
+            newMarkers[newMarker.key] = newMarker;
+          }
+        }
+      }
+
+      return { 
+        mapFilters: newMapFilters,
+        mapMarkers: newMarkers
+      }
     })
   }
 
   handleSliderChange(value) {
-    this.setState({monthRange: value});
+    // Clone markers object
+    let markers = JSON.parse(JSON.stringify(this.state.mapMarkers));
+
+    // Rebuild marker dictionary according to new filter
+    for (let key in markers) {
+      markers[key].icon = this.getMarkerIcon(markers[key]);
+    }
+    
+    this.setState({
+      mapMarkers: markers,
+      monthRange: value
+    });
   }
 
   handleMapClick(event) {
     this.setState((prevState) => {
       // Set active marker icon back to default
       if (Object.keys(prevState.selectedMarker).length !== 0) {
-        prevState.mapMarkers[prevState.selectedMarker.key].icon = this.defaultMapIcon;
+        let m = prevState.mapMarkers[prevState.selectedMarker.key];
+        m.icon = this.getMarkerIcon(m);
       }
       return { 
         showSidePanel: false,
@@ -98,28 +168,28 @@ class App extends Component {
 
   handleMarkerClick(marker, event) {
     this.setState((prevState) => {
-      // Set active marker icon back to default      
-      if (Object.keys(prevState.selectedMarker).length !== 0) {
-        prevState.mapMarkers[prevState.selectedMarker.key].icon = this.defaultMapIcon;
+      let markers = JSON.parse(JSON.stringify(prevState.mapMarkers));
+      
+      // Deselect previously selected icon      
+      if (Object.keys(prevState.selectedMarker).length !== 0) {        
+        let m = markers[prevState.selectedMarker.key];        
+        m.icon = this.getMarkerIcon(m);
       }
       // Change the icon for the clicked marker
-      let newMarkers = Object.assign({}, prevState.mapMarkers);
-      newMarkers[marker.key].icon = this.selectedMapIcon;
+      markers[marker.key].icon = this.getMarkerIcon(markers[marker.key], true);
 
       return { 
-        markers: newMarkers, 
-        selectedMarker: marker,
+        mapMarkers: markers,
         showSidePanel: true,
-        currentMarker: marker
+        selectedMarker: marker
       };
     })
   }
 
   handleAddToBasket() {
-    var newBasket = Object.assign({}, this.state.basketList);
-    newBasket[this.state.currentMarker.key] = this.state.currentMarker;
-    var count = Object.keys(newBasket).length;
-    console.log(count)
+    let newBasket = Object.assign({}, this.state.basketList);
+    newBasket[this.state.selectedMarker.key] = this.state.selectedMarker;
+    let count = Object.keys(newBasket).length;
     this.setState({
       basketList: newBasket,
       basketCount: count
@@ -139,9 +209,9 @@ class App extends Component {
   }
 
   handleRemoveBasketElementBtnClick(id) {
-    var newBasket = Object.assign({}, this.state.basketList);
+    let newBasket = Object.assign({}, this.state.basketList);
     delete newBasket[id];
-    var count = Object.keys(newBasket).length;
+    let count = Object.keys(newBasket).length;
     this.setState({
       basketList: newBasket,
       basketCount: count
@@ -157,7 +227,7 @@ class App extends Component {
           onSliderChange={this.handleSliderChange.bind(this)}
           showSidePanel={this.state.showSidePanel}
           onAddToBasket={this.handleAddToBasket.bind(this)}
-          currentMarker={this.state.currentMarker} />
+          selectedMarker={this.state.selectedMarker} />
         <MapPanel
           mapData={this.state.mapData}
           mapMarkers={this.state.mapMarkers}

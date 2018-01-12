@@ -4,7 +4,7 @@ import '../css/App.css';
 import stayIcon from '../assets/icons/stay.png'
 import joinIcon from '../assets/icons/join.png'
 import meetIcon from '../assets/icons/meet.png'
-import workIcon from '../assets/icons/work.png'
+import createIcon from '../assets/icons/create.png'
 
 
 class FilterButtons extends Component {
@@ -25,11 +25,11 @@ class FilterButtons extends Component {
         src: meetIcon,
         active: true
       },
-      work: {
-        name: 'Work',
-        id: 'work',
+      create: {
+        name: 'Create',
+        id: 'create',
         className: 'filterIcon active', 
-        src: workIcon,
+        src: createIcon,
         active: true
       },
       join: {
