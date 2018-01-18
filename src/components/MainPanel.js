@@ -15,7 +15,7 @@ class MainPanel extends Component {
     return (
       <div className="mainPanelContainer">
         <h1>I want to</h1>
-        <FilterButtons onFilterChange={this.props.onFilterChange}/>
+        <FilterButtons onFilterChange={this.props.onFilterChan  ge}/>
         <h1>From</h1>
         <MonthSlider
           onSliderChange={this.handleSliderChange.bind(this)}
