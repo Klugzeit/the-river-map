@@ -11,6 +11,11 @@ class MainPanel extends Component {
       this.props.onSliderChange(value);
     }
   }
+  handleSidePanelCloseBtnClick(event) {
+    if (this.props.onSidePanelBtnClick) {
+      this.props.onSidePanelBtnClick(event);
+    }
+  }
   render() {
     return (
       <div className="mainPanelContainer">
@@ -22,7 +27,8 @@ class MainPanel extends Component {
           defaultSliderRange={this.props.defaultSliderRange} />
         { this.props.showSidePanel ? <SidePanel
             marker={this.props.selectedMarker}
-            onAddToBasket={this.props.onAddToBasket.bind(this)}/> : "" }
+            onAddToBasket={this.props.onAddToBasket.bind(this)} 
+            onCloseBtnClick={this.handleSidePanelCloseBtnClick.bind(this)} /> : "" }
       </div>
     );
   }

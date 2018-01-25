@@ -29,7 +29,17 @@ h1 {
 }
 
 .sidePanelContainer {
+}
 
+.sidePanelCloseBtn {
+  visibility: hidden;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+}
+
+.sidePanelCloseBtn:hover {
+  cursor: pointer;
 }
 
 #sidePanelInfoContainer {
@@ -217,6 +227,7 @@ h1 {
 
 .filterButtonsContainer {
   margin: auto;
+  text-align:center;
   width: 350px;
 }
 
@@ -245,4 +256,55 @@ h1 {
   margin-left: 35px;
   margin-bottom: 35px;
   margin-right: 40px;
+}
+
+@media (max-width: 480px) {
+  .mainPanelContainer {
+    top: auto;
+    left: auto;
+    bottom: 0px;
+    width: 100vw;
+    padding: 0;
+  }
+  .basketButtonContainer {
+    right: 25px;
+  }
+  #sidePanelInfoContainer {
+    height: 100vh;
+    padding: 0 10px 0 10px;
+  }
+  .sidePanelCloseBtn {
+    visibility: visible;
+  }
+  .addToBasketButton {
+    position: absolute;
+    bottom: 0px;
+  }
+  .sidePanelContainer {
+    /* position: absolute; */
+    background-color: white;
+    height: 100vh;
+    top: 0;
+    left: 0;
+  }
+
+  .basketPanelContainer {
+    top: auto;
+    right: auto;
+    width: 100vw;
+    height: 100vh;
+  }
+  .basketBtn {
+  }
+
+  .mainPanelContainer h1 {
+    visibility: hidden;
+    position: absolute;
+  }
+  .filterButtonsContainer {
+    margin-top: 20px;
+  }
+  .basketButton {
+    font-size: 15px;
+  }
 }

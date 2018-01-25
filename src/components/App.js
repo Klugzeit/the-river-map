@@ -218,6 +218,12 @@ class App extends Component {
     });
   }
 
+  handleSidePanelBtnClick(event) {
+    this.setState({
+      showSidePanel: false
+    });
+  }
+
   render() {
     return (
       <div className="App">
@@ -227,7 +233,8 @@ class App extends Component {
           onSliderChange={this.handleSliderChange.bind(this)}
           showSidePanel={this.state.showSidePanel}
           onAddToBasket={this.handleAddToBasket.bind(this)}
-          selectedMarker={this.state.selectedMarker} />
+          selectedMarker={this.state.selectedMarker} 
+          onSidePanelBtnClick={this.handleSidePanelBtnClick.bind(this)} />
         <MapPanel
           mapData={this.state.mapData}
           mapMarkers={this.state.mapMarkers}
