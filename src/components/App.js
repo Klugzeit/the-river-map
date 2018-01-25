@@ -29,6 +29,16 @@ class App extends Component {
     };
   }
 
+  componentWillMount() {
+    let basketList = JSON.parse(localStorage.getItem('basketList'));
+    if (basketList) {
+      this.setState({
+        basketList: basketList,
+        basketCount: Object.keys(basketList).length
+      })
+    }
+  }
+
   buildMapMarkers(mapData) {
     let features = mapData.features;
     let markers = {};
@@ -190,6 +200,10 @@ class App extends Component {
     let newBasket = Object.assign({}, this.state.basketList);
     newBasket[this.state.selectedMarker.key] = this.state.selectedMarker;
     let count = Object.keys(newBasket).length;
+    
+    // Save basket list to local browser storage
+    localStorage.setItem('basketList', JSON.stringify(newBasket));
+
     this.setState({
       basketList: newBasket,
       basketCount: count
