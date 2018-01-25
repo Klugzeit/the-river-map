@@ -12,18 +12,18 @@ class MonthSlider extends Component {
     this.maxValue = 12;
 
     this.month = {
-      1: 'January',
-      2: 'February',
-      3: 'March',
-      4: 'April',
-      5: 'May',
-      6: 'June',
-      7: 'July',
-      8: 'August',
-      9: 'September',
-      10: 'October',
-      11: 'November',
-      12: 'December'
+      1: { name: 'January', short: 'Jan' } ,
+      2: { name: 'February', short: 'Feb' },
+      3: { name: 'March', short: 'Mar' },
+      4: { name: 'April', short: 'Apr' },
+      5: { name: 'May', short: 'May' },
+      6: { name : 'June', short: 'Jun' },
+      7: { name: 'July', short: 'Jul' },
+      8: { name: 'August', short: 'August' },
+      9: { name: 'September', short: 'Sep' },
+      10: { name: 'October', short: 'Oct' },
+      11: { name: 'November', short: 'Nov' },
+      12: { name: 'December', short: 'Dec' }
     }
 
     this.state = {
@@ -33,11 +33,11 @@ class MonthSlider extends Component {
 
   getLabel(value, type) {
     if (type === 'value') {
-      return this.month[value];
+      return this.month[value].short;
     } else if (type === 'min') {
-      return 'January';
+      return this.month[1].short;
     } else if (type === 'max') {
-      return 'December';
+      return this.month[12].short;
     }
   }
 
