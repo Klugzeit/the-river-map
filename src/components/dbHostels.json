@@ -373,7 +373,7 @@
 			"image": "imgs/mountain-ashram.png",
 			"place": "Northern Indian Himalayas",
 			"website": "Contact for more details",
-			"email": "adamsjodelius@hotmail.com<",
+			"email": "adamsjodelius@hotmail.com",
 			"season": "March 1st - June 30th",
 			"address": "Contact for more details",
 			"icons": "assets/icons/withoutStay-Work.png"
@@ -394,7 +394,7 @@
 			"image": "imgs/shekina-garden.png",
 			"place": "India",
 			"website": "http://shekina-community.squarespace.com/about",
-			"email": "shekinacommunity@gmail.com<",
+			"email": "shekinacommunity@gmail.com",
 			"season": "November - March",
 			"address": "Contact for more details",
 			"icons": "assets/icons/withoutStay-Work.png"
@@ -415,7 +415,7 @@
 			"image": "imgs/tent-of-grace.png",
 			"place": "Rishikesh, India",
 			"website": "http://www.oasistrails.org/en",
-			"email": "info@oasistrails.org<",
+			"email": "info@oasistrails.org",
 			"season": "Feb 1st - Apr 15th and Sep 15th - Dec 1st",
 			"address": "Kirmola, Laxman Jhula, Rishikesh, Uttarakhand 249302, India",
 			"icons": "assets/icons/withoutStay-Work.png"
@@ -436,8 +436,8 @@
 			"image": "imgs/shekina-garden.png",
 			"place": "Pai, Thailand",
 			"website": "http://shekina-community.squarespace.com/about",
-			"email": "chinua@gmail.com<",
-			"season": "Year Round<",
+			"email": "chinua@gmail.com",
+			"season": "Year Round",
 			"address": "Pai, Thailand",
 			"icons": "assets/icons/withoutStay-Work.png"
 		}
@@ -458,7 +458,7 @@
 			"place": "London, UK",
 			"website": "Contact for more details",
 			"email": "tim@skyeward.org.uk",
-			"season": "Year Round<",
+			"season": "Year Round",
 			"address": "Contact for more details",
 			"icons": "assets/icons/full.png"
 		}
@@ -479,7 +479,7 @@
 			"place": "Tasmania, Australia",
 			"website": "www.pilgrimhill.org/about.php",
 			"email": "thebaehrs@pilgrimhill.org",
-			"season": "Year Round<",
+			"season": "Year Round",
 			"address": "Contact for more details",
 			"icons": "assets/icons/full.png"
 		}
@@ -500,7 +500,7 @@
 			"place": "Sunshine Coast, Australia",
 			"website": "Contact for more details",
 			"email": "surfbiarritz@gmail.com",
-			"season": "Year Round<",
+			"season": "Year Round",
 			"address": "Contact for more details",
 			"icons": "assets/icons/withoutWork.png"
 		}
@@ -521,7 +521,7 @@
 			"place": "Perth, Australia",
 			"website": "Contact for more details",
 			"email": "tiffany.rak@gmail.com",
-			"season": "Year Round<",
+			"season": "Year Round",
 			"address": "Contact for more details",
 			"icons": "assets/icons/withoutWork.png"
 		}
