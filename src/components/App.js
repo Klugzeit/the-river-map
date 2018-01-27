@@ -232,6 +232,14 @@ class App extends Component {
     });
   }
 
+  handleBasketItemTitleClick(id) {
+    // Show info panel fort clicked basket item
+    this.setState({
+      selectedMarker: this.state.mapMarkers[id],
+      showSidePanel: true
+    });
+  }
+
   handleSidePanelBtnClick(event) {
     this.setState({
       showSidePanel: false
@@ -258,7 +266,8 @@ class App extends Component {
         { this.state.showBasketPanel ? <BasketPanel
           basketList={this.state.basketList}
           onCloseBasketPanel={this.closeBasketPanel.bind(this)}
-          onRemoveBasketElement={this.handleRemoveBasketElementBtnClick.bind(this)}/> : "" }
+          onRemoveBasketElement={this.handleRemoveBasketElementBtnClick.bind(this)} 
+          onBasketItemTitleClick={this.handleBasketItemTitleClick.bind(this)} /> : "" }
 
         <BasketButton
           onBasketBtnClick={this.handleBasketBtnClick.bind(this)}

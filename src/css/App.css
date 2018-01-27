@@ -147,37 +147,55 @@ h1 {
   box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
   z-index: 6;
   text-align: center;
+  max-height: 100%;
+  overflow: hidden;  
+}
+
+#basketTitleContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+#basketTitleContainer * {
 }
 
 #basketElementTitle h2 {
-  text-align: left;
   font-size: 16px;
   margin: 0px 0px 0px 0px;
 }
 
-#basketElementTitle {
-    width: 100%;
+#basketElementTitle:hover {
+  cursor: pointer;
 }
 
 .basketListContainer {
   padding: 0;
   list-style: none;
   list-style-image: none;
+  max-height: 100vh;
+  overflow: scroll;
 }
 
 .basketListElement {
   position: relative;
-  height: 50px;
+  height: 62px;
   padding: 5px;
   border-bottom: 1px solid rgba(0,0,0,.05);
 }
 
 .basketListElement:last-child {
   border-bottom: none;
+  margin-bottom: 65px;
 }
 
-.basketListElement * {
-  display: inline-block;
+.basketElementSeason {
+  color: gray;
+}
+
+#basketBtnContainer {
+  display: inline-flex;
 }
 
 #basketItemImg {
@@ -187,6 +205,10 @@ h1 {
   height: 50px;
   border-radius: 50%;
   overflow: hidden;
+}
+
+#basketItemImg:hover {
+  cursor: pointer;
 }
 
 #basketItemImg img {
@@ -199,6 +221,10 @@ h1 {
   text-align: left;
 }
 
+.basketElementButtons {
+  display: -webkit-inline-box;
+}
+
 .basketBtn {
   color: black;
   opacity: 0.6;
@@ -206,13 +232,20 @@ h1 {
 }
 
 .basketBtn:nth-child(2) {
-  margin-top: 3px;
   margin-left: 10px;
 }
 
 .basketBtn:hover {
   cursor: pointer;
   opacity: 1;
+}
+
+.basketElementContacts {
+  font-size: 15px;
+}
+
+.basketElementContacts * {
+  margin-bottom: 5px;
 }
 
 .mapContainer {
