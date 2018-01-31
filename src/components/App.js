@@ -20,7 +20,7 @@ class App extends Component {
         meet: true,
         create: true
       },
-      monthRange: { min: 1, max: 2 },
+      monthRange: { min: 1, max: 12 },
       showSidePanel: false,
       mapMarkers: this.buildMapMarkers(mapData),
       selectedMarker: {},

@@ -58,7 +58,7 @@ class BasketPanel extends Component {
     })
     return (
         <div className="basketPanelContainer">
-          <h1> Basket </h1>
+          <h1> Discover </h1>
           <FontAwesomeIcon
             className='basketBtn'
             id="closeBasketButton"
