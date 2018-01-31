@@ -6,6 +6,7 @@ import MapPanel from './MapPanel'
 import mapData from './db-final'
 import BasketPanel from './BasketPanel'
 import BasketButton from './BasketButton'
+import MainMenu from './MainMenu'
 
 class App extends Component {
 
@@ -268,6 +269,8 @@ class App extends Component {
           onCloseBasketPanel={this.closeBasketPanel.bind(this)}
           onRemoveBasketElement={this.handleRemoveBasketElementBtnClick.bind(this)} 
           onBasketItemTitleClick={this.handleBasketItemTitleClick.bind(this)} /> : "" }
+
+        <MainMenu />
 
         <BasketButton
           onBasketBtnClick={this.handleBasketBtnClick.bind(this)}
