@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import months from './months';
-import '../css/App.css'; 
+import '../css/App.css';
 
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import faTimes from '@fortawesome/fontawesome-free-solid/faTimes'
 import faPhone from '@fortawesome/fontawesome-free-solid/faPhone'
+import faTrash from '@fortawesome/fontawesome-free-solid/faTrashAlt'
 
 class BasketPanel extends Component {
   handleCloseBasketBtnClick(id) {
@@ -19,7 +20,7 @@ class BasketPanel extends Component {
 
   handleRemoveBtnClick(id) {
     if (this.props.onRemoveBasketElement) {
-      this.props.onRemoveBasketElement(id);      
+      this.props.onRemoveBasketElement(id);
     }
   }
 
@@ -46,23 +47,12 @@ class BasketPanel extends Component {
               <div className='basketElementSeason'>
                 {months[m.open].short}-{months[m.close].short}
               </div>
-            </div>
-
-            <div id='basketBtnContainer'>
-              <div className='basketBtn'>
-                <FontAwesomeIcon 
-                  className='basketBtn'
-                  id="contactBasketElementButton"
-                  onClick={this.handleContactBtnClick.bind(this, m.key)}
-                  icon={faPhone} />
-              </div>
               <div className='basketBtn'>
                 <FontAwesomeIcon
                   onClick={this.handleRemoveBtnClick.bind(this, m.key)}
-                  icon={faTimes} />
+                  icon={faTrash} />
               </div>
             </div>
-
           </div>
         </li>  )
     })

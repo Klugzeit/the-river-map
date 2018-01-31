@@ -93,7 +93,7 @@ h1 {
 }
 
 .basketButton {
-  color:white;
+  color: white;
   text-shadow: 3px 3px 16px #272634;
 }
 
@@ -148,7 +148,7 @@ h1 {
   z-index: 6;
   text-align: center;
   max-height: 100%;
-  overflow: hidden;  
+  overflow: hidden;
 }
 
 #basketTitleContainer {
@@ -159,11 +159,14 @@ h1 {
 }
 
 #basketTitleContainer * {
+  word-wrap: break-word;
+  max-width: 120px;
 }
 
 #basketElementTitle h2 {
   font-size: 16px;
   margin: 0px 0px 0px 0px;
+  width: 120px;
 }
 
 #basketElementTitle:hover {
@@ -187,11 +190,11 @@ h1 {
 
 .basketListElement:last-child {
   border-bottom: none;
-  margin-bottom: 65px;
 }
 
 .basketElementSeason {
   color: gray;
+  width: 120px;
 }
 
 #basketBtnContainer {
@@ -228,11 +231,8 @@ h1 {
 .basketBtn {
   color: black;
   opacity: 0.6;
+  width: 120px;
   text-align: right;
-}
-
-.basketBtn:nth-child(2) {
-  margin-left: 10px;
 }
 
 .basketBtn:hover {
