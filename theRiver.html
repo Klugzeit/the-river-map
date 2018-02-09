@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>theRIVER communities</title>
+	<link rel="stylesheet" href="theRiver.css"/>
+	<link rel="stylesheet" href="bootstrap.css">
+	<link rel="stylesheet" href="ootstrap.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+	 <script>
+			function openModal() {
+			  document.getElementById('myModal').style.display = "block";
+			}
+			
+			function closeModal() {
+			  document.getElementById('myModal').style.display = "none";
+			}
+			
+			var slideIndex = 1;
+			showSlides(slideIndex);
+			
+			function plusSlides(n) {
+			  showSlides(slideIndex += n);
+			}
+			
+			function currentSlide(n) {
+			  showSlides(slideIndex = n);
+			}
+			
+			function showSlides(n) {
+			  var i;
+			  var slides = document.getElementsByClassName("mySlides");
+			  var dots = document.getElementsByClassName("demo");
+			  var captionText = document.getElementById("caption");
+			  if (n > slides.length) {slideIndex = 1}
+			  if (n < 1) {slideIndex = slides.length}
+			  for (i = 0; i < slides.length; i++) {
+				  slides[i].style.display = "none";
+			  }
+			  for (i = 0; i < dots.length; i++) {
+				  dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";
+			  dots[slideIndex-1].className += " active";
+			  captionText.innerHTML = dots[slideIndex-1].alt;
+			}
+			</script>
+
+<script type="text/javascript">
+function toggleNav(){
+    navSize = document.getElementById("mySidenav").style.width;
+    if (navSize == "250px") {
+        closeNav();
+    } else {
+		openNav();
+	}
+}
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+	
+	
+	
+  </head>
+  <body>
+	  <div id="mySidenav" class="sidenav">
+  		<a href="#">Home</a>
+  		<a href="index.html">Map</a>
+	</div>
+	  
+	<div id="main"> 
+
+	<div id="navbar">
+		<span style="font-size:30px;cursor:pointer" onclick="toggleNav()">&#9776;</span>
+	</div>
+	   
+	<article>
+		
+	 <div class="carousel fade-carousel slide carousel-fade" data-ride="carousel" data-interval="4000" id="bs-carousel">
+  <!-- Overlay -->
+
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#bs-carousel" data-slide-to="1"></li>
+    <li data-target="#bs-carousel" data-slide-to="2"></li>
+	<li data-target="#bs-carousel" data-slide-to="3"></li>
+	<li data-target="#bs-carousel" data-slide-to="4"></li>
+  </ol>
+
+  
+  
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item slides active">
+      <div class="slide-1">
+          <div class="overlay"></div>
+      </div>
+      <div class="hero">
+        <hgroup>
+            <h1 style="font-family: Amatic SC; font-size: 300px;">theRIVER</h1>        
+            <h3>We are travelers exploring the teachings of Christ.</h3>
+        </hgroup>
+       
+      </div>
+    </div>
+    <div class="item slides">
+      <div class="slide-2">
+          <div class="overlay"></div>
+      </div>
+      <div class="hero">        
+        <hgroup>
+            <h1>Creating Space</h1>        
+            <h3>theRIVER communities create space to experience God; Everything from guesthouses, cafés, hostels, to meditation spaces.</h3>
+        </hgroup>       
+        
+      </div>
+    </div>
+    <div class="item slides">
+      <div class="slide-3">
+          <div class="overlay"></div>
+      </div>
+      <div class="hero">        
+        <hgroup>
+            <h1>We need each other</h1>        
+            <h3>No one takes this journey alone. theRiver connects, supports and inspires communities to grow, work together, and even start new communities.</h3>
+        </hgroup>
+       
+      </div>
+           </div>
+		   <div class="item slides">
+      <div class="slide-4">
+          <div class="overlay"></div>
+      </div>
+      <div class="hero">        
+        <hgroup>
+            <h1>Big Dream</h1>        
+            <h3>Our hope is that there would be many places on Earth where we can explore Jesus' teachings and find out what it means to grow together in understanding.</h3>
+        </hgroup>       
+      
+      </div>
+  </div>
+  <div class="item slides">
+      <div class="slide-5">
+          <div class="overlay"></div>
+      </div>
+      <div class="hero">        
+        <hgroup>
+            <h1>It starts with Jesus</h1>        
+            <h3>This deep heritage of faith is in our DNA. The way of life modeled by Jesus guides all of us. It is the sole reason we dream the way we dream, and do what we do.</h3>
+        </hgroup>       
+        
+      </div>
+  </div>
+          </div> 
+         </div>
+		</div>
+	</article>
+	<br>
+	<br>
+	<article>
+		<div id="maphome" class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<IMG SRC="imgs/rio.gif" WIDTH=100% HEIGHT=auto BORDER=0>
+				</div>
+			</div>
+			
+		</div>
+	</article>
+	
+	   <article>
+		   <div id="simbolos" class="container">
+			   <div class="row">
+
+				   <div id="symbols" id="meet" class="col-xs-6 col-sm-3"><img src="imgs/icon_meet.png"></a>
+						 <h4>You can meet ot
+							 her travelers here, explore spirtual practice & talk about spirituality</h4>
+					 </div>
+					 
+				   <div id="symbols" id="stay" class="col-xs-6 col-sm-3"><img src="imgs/icon_stay.png"></a>
+						<h4>You can sleep here, connect with other travelers & explore spirituality with them.</h4>  
+					 </div>
+					 
+				   <div id="symbols" id="create" class="col-xs-6 col-sm-3"><img src="imgs/icon_work.png"></a>
+						<h4>You can volunteer here. Come garden, work on the farm, or clean in exchange for a place to stay.</h4>
+					 </div>
+					 
+				   <div id="symbols" id="join" class="col-xs-6 col-sm-3"><img src="imgs/icon_join.png"></a>
+					  <h4>You can join this community in hosting meals, in guiding spirtual practices & in creating a beautiful space.</h4> 
+					 </div> 
+					 
+				 </div>
+		   </div>
+	   </article>
+
+	   <br>
+	   <br>
+
+	   
+	   <br>
+	   <br>
+	   
+	   <footer>
+		   <div id="foo">
+			   <div class="container">
+				   <div class="row">
+					   <div style="margin-top: 3%" id="foimage" class=" col-xs-12 col-sm-3">
+						   <ul>
+							   <a href="components/index.html">Map</a><br>
+							   <a href="#">Blog</a><br>
+							   <a href="#">Videos</a><br>
+						   </ul>
+					   </div>
+					   <div id="foelements" class=" col-xs-12 col-sm-5">
+						    <h3 style="font-family: Amatic SC;">theRIVER Communities</h3> 
+						   <h4> Our story as theRIVER is a growing one. 
+								 We are seeing people with the same vision for travelers praying and working together at a scale we have never seen before. 
+								 And its just gaining momentum. It's clear to us that this kind of movement is not the result of hard work by many people, or by a culmination of many years of effort. </h5>
+					   </div>
+					   <div id="foelements" class=" col-xs-12 col-sm-4">
+						   <h3>Sites</h3>
+							  <h5 style="text-align: justify;"><a href="#"> <i class="fa fa-facebook-official"></i> </a> <a href="#"> <i class="fa fa-instagram"></i> </a></h4>
+					   </div>
+				   </div>
+				   
+			   </div>   
+		   </div>
+	   </footer>
+	   
+	   
+	   
+	   
+	   
+	 </div>
+		<script src="js/bootstrap.min.js"></script>
+	  <script src="js/media.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="jquery.js"></script> 
+	  <script>
+			$('.owl-carousel').owlCarousel({
+				center: true,
+				stagePadding: 50,
+				loop:true,
+				nav:false,
+				autoplay:true,
+    			autoplayTimeout:1000,
+    			autoplayHoverPause:true,
+				responsive:{
+					0:{
+						items:1
+					},
+					600:{
+						items:1
+					},
+					1000:{
+						items:1
+					}
+				}
+			})
+		</script>
+  </body>
+  </html>
