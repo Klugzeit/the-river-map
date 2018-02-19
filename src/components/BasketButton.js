@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../css/App.css';
 
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-import faPlane from '@fortawesome/fontawesome-free-solid/faPlane'
+import faIcon from '@fortawesome/fontawesome-free-solid/faMapMarkerAlt'
 
 class BasketButton extends Component {
   handleBtnClick(event) {
@@ -12,7 +12,7 @@ class BasketButton extends Component {
     return (
       <div className='basketButtonContainer'>
         <div className='basketButton' onClick={this.handleBtnClick.bind(this)}>
-          <FontAwesomeIcon icon={faPlane} size='3x' transform={{ rotate: -45 }} />
+          <FontAwesomeIcon icon={faIcon} size='3x' transform={{ rotate: -10 }} />
         </div>
         <div className='basketCounter'>
           <span> {this.props.basketCount} </span>

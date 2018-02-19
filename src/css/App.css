@@ -1,8 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Amatic+SC);
 @import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
 
 body, html {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 h1 {
@@ -26,9 +28,6 @@ h1 {
 
 .mainPanelContainer h1 {
   text-align: center;
-}
-
-.sidePanelContainer {
 }
 
 .sidePanelCloseBtn {
@@ -66,6 +65,7 @@ h1 {
 }
 
 .addToBasketButton {
+  font-size: 25px;
   height: 30px;
   margin-top: 10px;
   width: 100%;
@@ -73,7 +73,8 @@ h1 {
   background-color: #f99070;
   color: white;
   outline: none;
-  padding-top: 12px;
+  padding-top: 6px;
+  padding-bottom: 4px;
 }
 
 .addToBasketButton:hover {
@@ -105,12 +106,12 @@ h1 {
 .basketCounter {
   position: absolute;
   top: 37px;
-  left: 38px;
+  left: 22px;
   width: 20px;
   height: 20px;
   text-align: center;
   color: white;
-  font-size: 14px;
+  font-size: 13px;
   background-color: #ff8d6a;
   border-radius: 50%;
   -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));
@@ -295,14 +296,15 @@ h1 {
   position: absolute;
   top: 28px;
   right: 104px;
+  list-style: none;
 }
 
 #mainMenuContainer a {
-  color: black;
+  color: white;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 20px;
   margin-right: 30px;
-  font-family: 'Amatic SC';
+  font-family: 'Raleway';
   font-weight: bold;
 }
 
@@ -310,28 +312,70 @@ h1 {
   color: #ff8d69;
 }
 
-@media (max-width: 480px) {
+@media only screen 
+and (min-device-width: 240px) 
+and (max-device-width: 640px) {
+
+  #mainMenuContainer {
+   visibility: hidden; 
+  }
+
   .mainPanelContainer {
+    opacity: 0.80;
     top: auto;
     left: auto;
     bottom: 0px;
-    width: 100vw;
+    width: 100%;
     padding: 0;
   }
+
+  .sliderBox {
+    padding-left: 4%;
+    width: 70%;  
+  }
+
+  .filterButtonsContainer {
+    margin-top: 20px;
+    margin-left: 9%;
+    width: 90%;
+  }
+
+  .filterButtonsContainer input {
+    width: 15%;
+    height: auto;
+  }
+
   .basketButtonContainer {
     right: 25px;
   }
+
   #sidePanelInfoContainer {
     height: 100vh;
     padding: 0 10px 0 10px;
+  
   }
+
   .sidePanelCloseBtn {
     visibility: visible;
+    font-size: 230%;
+    opacity: 1;
+    color: #EFA878;
+    text-shadow: 2px 2px 4px #000000
   }
+
+  
   .addToBasketButton {
-    position: absolute;
+    position: fixed;
+    right: 0px;
+    width: 15%;
     bottom: 0px;
+    opacity: 0.5;
   }
+
+  .addToBasketButton:hover {
+    width: 20%;
+  }
+
   .sidePanelContainer {
     /* position: absolute; */
     background-color: white;
@@ -346,17 +390,102 @@ h1 {
     width: 100vw;
     height: 100vh;
   }
-  .basketBtn {
+
+  .mainPanelContainer h1 {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .basketButton {
+    font-size: 16px;
+  }
+}
+
+@media only screen 
+and (min-device-width: 641px) 
+and (max-device-width: 1024px) {
+
+  #mainMenuContainer {
+   visibility: hidden; 
+  }
+
+  .mainPanelContainer {
+    opacity: 0.80;
+    top: auto;
+    bottom: 0px;
+    width: 60%;
+    padding: 0;
+  }
+
+  .sliderBox {
+    padding-left: 4%;
+    width: 75%;  
+  }
+
+  .filterButtonsContainer {
+    margin-top: 20px;
+    margin-left: 11%;
+    width: 80%;
+  }
+
+  .filterButtonsContainer input {
+    width: 15%;
+    height: auto;
+  }
+
+  .basketButtonContainer {
+    right: 25px;
+  }
+
+  #sidePanelInfoContainer {
+    height: 100vh;
+    padding: 0 10px 0 10px;
+  
+  }
+
+  .sidePanelCloseBtn {
+    visibility: visible;
+    right: 40%;
+    font-size: 230%;
+    opacity: 1;
+    color: #EFA878;
+  }
+
+  
+  .addToBasketButton {
+    position: fixed;
+    right: 40%;
+    width: 8%;
+    bottom: 0px;
+    opacity: 0.5;
+  }
+
+  .addToBasketButton:hover {
+    width: 20%;
+  }
+
+  .sidePanelContainer {
+    /* position: absolute; */
+    background-color: white;
+    height: 100vh;
+    top: 0;
+    left: 0;
+  }
+
+  .basketPanelContainer {
+    top: auto;
+    right: auto;
+    width: 100vw;
+    height: 100vh;
   }
 
   .mainPanelContainer h1 {
     visibility: hidden;
     position: absolute;
   }
-  .filterButtonsContainer {
-    margin-top: 20px;
-  }
+
   .basketButton {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
+

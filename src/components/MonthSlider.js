@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import InputRange from 'react-input-range';
 import months from './months';
-import 'react-input-range/lib/css/input-range/input-range.css';
+import '../css/input-range.css';
+/*import 'react-input-range/lib/css/input-range/input-range.css';*/
 
 
 class MonthSlider extends Component {

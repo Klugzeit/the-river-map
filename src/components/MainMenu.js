@@ -7,9 +7,9 @@ class MainMenu extends Component {
   render() {
     return (
       <div id="mainMenuContainer">
-        <a href='#'>The River</a>
-        <a href='#'>Blog</a>
-        <a href='#'>About</a>
+        <a href='theRiver.html'>theRIVER</a>
+        <a href='http://milamex.com/blogtheriver/'>Blog</a>
+        <a href='http://www.therivercommunities.com/#history-page'>About</a>
       </div>
     );
   }

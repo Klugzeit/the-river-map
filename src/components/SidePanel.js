@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import '../css/App.css';
 
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-import faPlus from '@fortawesome/fontawesome-free-solid/faPlus'
+import faPlus from '@fortawesome/fontawesome-free-solid/faPaperPlane'
 import faTimes from '@fortawesome/fontawesome-free-solid/faTimes'
+import faPlusCircle from '@fortawesome/fontawesome-free-solid/faPlusCircle'
 
 
 class SidePanel extends Component {
