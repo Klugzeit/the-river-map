@@ -8,6 +8,7 @@ import createIcon from '../assets/icons/create.png'
 
 
 class FilterButtons extends Component {
+  .0
   constructor(props) {
     super(props);
     this.state = {
@@ -40,6 +41,7 @@ class FilterButtons extends Component {
         active: true
       }
     }
+
   }
   handleBtnClick(event) {
     event.persist(); // Keep event around for setState
@@ -57,6 +59,7 @@ class FilterButtons extends Component {
       return { [event.target.id]: newBtn };
     })
   }
+
   render() {
 
     let buttons = [];
@@ -70,8 +73,10 @@ class FilterButtons extends Component {
           type="image"
           src={btn.src}
           alt={btn.name}
-          onClick={this.handleBtnClick.bind(this)} />
+          onClick={this.handleBtnClick.bind(this)} 
+          />
       )
+      
     }
 
     return (

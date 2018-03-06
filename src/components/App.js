@@ -8,6 +8,7 @@ import BasketPanel from './BasketPanel'
 import BasketButton from './BasketButton'
 import MainMenu from './MainMenu'
 
+
 class App extends Component {
 
   constructor(props) {
@@ -258,13 +259,14 @@ class App extends Component {
           onAddToBasket={this.handleAddToBasket.bind(this)}
           selectedMarker={this.state.selectedMarker} 
           onSidePanelBtnClick={this.handleSidePanelBtnClick.bind(this)} />
+          
         <MapPanel
           mapData={this.state.mapData}
           mapMarkers={this.state.mapMarkers}
           onMapClick={this.handleMapClick.bind(this)}
           onMarkerClick={this.handleMarkerClick.bind(this)} />
 
-        { this.state.showBasketPanel ? <BasketPanel
+          { this.state.showBasketPanel ? <BasketPanel
           basketList={this.state.basketList}
           onCloseBasketPanel={this.closeBasketPanel.bind(this)}
           onRemoveBasketElement={this.handleRemoveBasketElementBtnClick.bind(this)} 

@@ -1,17 +1,25 @@
 @import url(https://fonts.googleapis.com/css?family=Amatic+SC);
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 @import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
 
 
 body, html {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1 {
-  font-family: 'Amatic SC';
+  font-family: 'Ubuntu', sans-serif;
   font-size: 30px;
   margin-top: 10px;
   margin-bottom: 14px;
+}
+
+.titlePanel {
+  font-family: 'Ubuntu';
+  font-size: 14px;
+  color: rgb(99, 99, 99);
+
 }
 
 .mainPanelContainer {
@@ -265,6 +273,10 @@ h1 {
   width: 350px;
 }
 
+.filterIcon:hover {
+  opacity: 0.8;
+}
+
 .filterIcon {
   background-position: center;
   background-size: cover;
@@ -294,22 +306,21 @@ h1 {
 
 #mainMenuContainer {
   position: absolute;
-  top: 28px;
+  top: 50px;
   right: 104px;
   list-style: none;
 }
 
 #mainMenuContainer a {
-  color: white;
+  color: rgb(92, 92, 92);
   text-decoration: none;
   font-size: 20px;
   margin-right: 30px;
-  font-family: 'Raleway';
-  font-weight: bold;
+  font-family: 'Ubuntu'; 
 }
 
 #mainMenuContainer a:hover {
-  color: #ff8d69;
+  color: #FF8D6B;
 }
 
 @media only screen 
@@ -317,8 +328,13 @@ and (min-device-width: 240px)
 and (max-device-width: 640px) {
 
   #mainMenuContainer {
-   visibility: hidden; 
+   position: absolute;
+   width: 200px;
   }
+
+  #mainMenuContainer a {
+    font-size: 16px;
+   }
 
   .mainPanelContainer {
     opacity: 0.80;
@@ -406,8 +422,13 @@ and (min-device-width: 641px)
 and (max-device-width: 1024px) {
 
   #mainMenuContainer {
-   visibility: hidden; 
-  }
+    position: absolute;
+    width: 200px;
+   }
+ 
+   #mainMenuContainer a {
+     font-size: 18px;
+    }
 
   .mainPanelContainer {
     opacity: 0.80;
