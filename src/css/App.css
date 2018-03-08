@@ -271,11 +271,58 @@ h1 {
   margin: auto;
   text-align:center;
   width: 350px;
+  z-index: 90;
 }
 
 .filterIcon:hover {
   opacity: 0.8;
 }
+
+.filterButtonsContainer .help1 {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 300px;
+  height: 160px;
+  left: 0%;
+  top: 105%;
+  text-align: left;
+  font-size: 14px;
+  padding-top: 4%;
+  font-family: 'Ubuntu';
+  list-style-type: none;
+  color: rgb(99, 99, 99);
+}
+
+.filterButtonsContainer .help1 img {
+  width: 7%;
+}
+.filterButtonsContainer .help1 li {
+  padding-top: 3%;
+}
+
+/*.filterButtonsContainer .help2 {
+  display: none;
+  overflow: hidden;
+  position: absolute;
+  top: 9%;
+  width: 350px;
+  height: 20px;
+  text-align: left;
+  font-size: 12px;
+  font-family: 'Ubuntu';
+  padding-left: 5%;
+  list-style-type: none;
+}*/
+
+.filterButtonsContainer:hover .help1{ 
+  display: block;
+}
+
+.filterButtonsContainer:hover .help2{ 
+  display: block;
+}
+
 
 .filterIcon {
   background-position: center;

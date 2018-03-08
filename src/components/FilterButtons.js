@@ -8,7 +8,6 @@ import createIcon from '../assets/icons/create.png'
 
 
 class FilterButtons extends Component {
-  .0
   constructor(props) {
     super(props);
     this.state = {
@@ -17,32 +16,32 @@ class FilterButtons extends Component {
         id: 'stay',
         className: 'filterIcon active', 
         src: stayIcon,
-        active: true
+        active: true,
       },
       meet: {
         name: 'Meet',
         id: 'meet',
         className: 'filterIcon active', 
         src: meetIcon,
-        active: true
+        active: true,
       },
       create: {
         name: 'Create',
         id: 'create',
         className: 'filterIcon active', 
         src: createIcon,
-        active: true
+        active: true,
       },
       join: {
         name: 'Join',
         id: 'join',
         className: 'filterIcon active', 
         src: joinIcon,
-        active: true
+        active: true,
       }
     }
-
   }
+
   handleBtnClick(event) {
     event.persist(); // Keep event around for setState
     
@@ -73,7 +72,7 @@ class FilterButtons extends Component {
           type="image"
           src={btn.src}
           alt={btn.name}
-          onClick={this.handleBtnClick.bind(this)} 
+          onClick={this.handleBtnClick.bind(this)}
           />
       )
       
@@ -82,6 +81,12 @@ class FilterButtons extends Component {
     return (
       <div className="filterButtonsContainer">
         {buttons}
+        <ul className="help1">
+          <li> <img src={stayIcon}/> Stay: Contrary to popular belief</li>
+          <li> <img src={meetIcon}/> Meet: Contrary to popular belief</li> 
+          <li> <img src={createIcon}/> Create: Contrary to popular belief</li> 
+          <li>< img src={joinIcon}/> Join: Contrary to popular belief</li> 
+        </ul>
       </div>
     );
   }
