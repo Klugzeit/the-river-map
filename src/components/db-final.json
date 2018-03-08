@@ -325,23 +325,6 @@
 		}
 }, {
 		"type": "Feature",
-		"id": "20",
-		"geometry": {
-			"type": "Point",
-			"coordinates": [30.121709, 78.328110]
-		},
-		"properties": {
-			"open": 3,
-			"close": 6,
-      "categories": ["meet", "join"],
-			"title": "Tent of Grace",
-			"marker-size": "small",
-			"image": "imgs/tent-of-grace.png",
-			"information": "<p><strong>Meditation Space</strong></p><p><strong>Rishikesh, India</strong></p><p>Website: <strong><a href=http://www.oasistrails.org/en>www.oasistrails.org/en</a></strong></p><p>For volunteer opportunities: <strong>info@oasistrails.org</strong></p><p>Season: <strong>Feb 1st - Apr 15th and Sep 15th - Dec 1st</strong></p><p>Address: <strong>Kirmola, Laxman Jhula, Rishikesh, Uttarakhand 249302, India</strong></p><br>",
-			"icons": "assets/icons/withoutStay-Work.png"
-		}
-}, {
-		"type": "Feature",
 		"id": "21",
 		"geometry": {
 			"type": "Point",
@@ -391,39 +374,192 @@
 			"information": "<p><strong>Guesthouse</strong></p><p><strong>Tasmania, Australia</strong></p><p>Website: <strong><a href=www.pilgrimhill.org/about.php>http://www.pilgrimhill.org/about.php</a></strong><p> <p>For more information: <strong>thebaehrs@pilgrimhill.org</strong></p><br>",
 			"icons": "assets/icons/full.png"
 		}
-}, {
-		"type": "Feature",
-		"id": "24",
-		"geometry": {
-			"type": "Point",
-			"coordinates": [-26.646072, 153.061670]
-		},
-		"properties": {
-			"open": 1,
-			"close": 12,
-      "categories": ["stay", "meet", "join"],
-			"title": "Surfhouse Sunshine Coast",
-			"marker-size": "small",
-			"image": "imgs/surf-house-sunshine-coast.jpeg",
-			"information": "<p><strong>Surf Hostel</strong></p><p><strong>Sunshine Coast, Australia</strong></p><p>For more information: <strong>surfbiarritz@gmail.com</strong></p><br>",
-			"icons": "assets/icons/withoutWork.png"
-		}
-}, {
-		"type": "Feature",
-		"id": "25",
-		"geometry": {
-			"type": "Point",
-			"coordinates": [-31.951148, 115.861414]
-		},
-		"properties": {
-			"open": 1,
-			"close": 12,
-      "categories": ["stay", "meet", "join"],
-			"title": "Perth Hostel",
-			"marker-size": "small",
-			"image": "imgs/shekina-garden.png",
-			"information": "<p><strong>Hostel</strong></p><p><strong>Perth, Australia</strong></p><p>For more information: <strong>tiffany.rak@gmail.com</strong></p><br>",
-			"icons": "assets/icons/withoutWork.png"
-		}
+},  {
+	"type": "Feature",
+	"id": "26",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [42.886808, -7.960098]
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"categories": ["stay", "meet", "join", "create"],
+		"title": "Casa Familia",
+		"marker-size": "small",
+		"image": "imgs/shekina-garden.png",
+		"information": "<p><strong>Hostel</strong></p><p><strong>Melide, Spain</strong></p><p>For more information: <strong>casafamiliacamino@yahoo.com</strong></p><br>",
+		"icons": "assets/icons/withoutWork.png"
+	}
+},  {
+	"type": "Feature",
+	"id": "27",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [56.412365, -5.437977]
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"categories": ["stay", "meet", "join"],
+		"title": "YWAM Ignite",
+		"marker-size": "small",
+		"image": "imgs/shekina-garden.png",
+		"information": "<p><strong>Hostel</strong></p><p><strong>Oban, Scotland</strong></p><p>For more information: <strong>arno@ywamscotland.org</strong></p><br>",
+		"icons": "assets/icons/withoutWork.png"
+	}
+},  {
+	"type": "Feature",
+	"id": "28",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [47.499985, 19.057215]
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"categories": ["meet", "join"],
+		"title": "Rézkígyó Coffeehouse",
+		"marker-size": "small",
+		"image": "imgs/shekina-garden.png",
+		"information": "<p><strong>Hostel</strong></p><p><strong>Budapest, Hungary</strong></p><p>For more information: <strong>simon.maulbetsch@gmail.com</strong></p><br>",
+		"icons": "assets/icons/withoutWork.png"
+	}
+},  {
+	"type": "Feature",
+	"id": "29",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-26.649408, 153.099916]
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"categories": ["stay", "meet", "join", "create"],
+		"title": "The WaveHouse",
+		"marker-size": "small",
+		"image": "imgs/shekina-garden.png",
+		"information": "<p><strong>Hostel</strong></p><p><strong>Maroochydore, Australia</strong></p><p>For more information: <strong>scott.ahearn94@gmail.com</strong></p><br>",
+		"icons": "assets/icons/withoutWork.png"
+	}
+},  {
+	"type": "Feature",
+	"id": "30",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-35.027294, 117.883957]
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"categories": ["stay"],
+		"title": "Three T",
+		"marker-size": "small",
+		"image": "imgs/shekina-garden.png",
+		"information": "<p><strong>Hostel</strong></p><p><strong>Albany, Australia</strong></p><p>For more information: <strong>tiffany.rak@gmail.com</strong></p><br>",
+		"icons": "assets/icons/withoutWork.png"
+	}
+},  {
+	"type": "Feature",
+	"id": "31",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-28.387505, 153.558072]
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"categories": ["stay", "meet", "join", "create"],
+		"title": "RainForest Peace Centre",
+		"marker-size": "small",
+		"image": "imgs/shekina-garden.png",
+		"information": "<p><strong>Hostel</strong></p><p><strong>Pottsville, Australia</strong></p><p>For more information: <strong>rpcbyronbay@hotmail.com</strong></p><br>",
+		"icons": "assets/icons/withoutWork.png"
+	}
+},  {
+	"type": "Feature",
+	"id": "32",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-42.400723, 173.681368]
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"categories": ["stay", "meet", "join", "create"],
+		"title": "YWAM KAikoura",
+		"marker-size": "small",
+		"image": "imgs/shekina-garden.png",
+		"information": "<p><strong>Hostel</strong></p><p><strong>Kaikoura, New Zealand</strong></p><p>For more information: <strong>ywamkaikoura@gmail.com</strong></p><br>",
+		"icons": "assets/icons/withoutWork.png"
+	}
+},  {
+	"type": "Feature",
+	"id": "33",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-37.690384, 176.136935]
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"categories": ["stay", "meet", "join"],
+		"title": "The WHARF",
+		"marker-size": "small",
+		"image": "imgs/shekina-garden.png",
+		"information": "<p><strong>Hostel</strong></p><p><strong>Tauranga, New Zealand</strong></p><p>For more information: <strong>sarahallen@steiger.org</strong></p><br>",
+		"icons": "assets/icons/withoutWork.png"
+	}
+},  {
+	"type": "Feature",
+	"id": "34",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-43.898085, 171.259496]
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"categories": ["stay", "join", "create"],
+		"title": "Peel Forest farmstay",
+		"marker-size": "small",
+		"image": "imgs/shekina-garden.png",
+		"information": "<p><strong>Hostel</strong></p><p><strong>Peel Forest, New Zealand</strong></p><p>For more information: <strong>thedeans@peelforestfarmstay.com</strong></p><br>",
+		"icons": "assets/icons/withoutWork.png"
+	}
+},  {
+	"type": "Feature",
+	"id": "35",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [43.038989, -87.906498]
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"categories": ["stay", "meet", "join", "create"],
+		"title": "Nomads LanD",
+		"marker-size": "small",
+		"image": "imgs/shekina-garden.png",
+		"information": "<p><strong>Hostel</strong></p><p><strong>Attalla, Alabama, USA</strong></p><p>For more information: <strong>nomadsrest@gmail.com</strong></p><br>",
+		"icons": "assets/icons/withoutWork.png"
+	}
+},  {
+	"type": "Feature",
+	"id": "36",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [42.582885, -2.132733]
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"categories": ["stay", "join", "create"],
+		"title": "BArBarin Spiritual Community",
+		"marker-size": "small",
+		"image": "imgs/shekina-garden.png",
+		"information": "<p><strong>Hostel</strong></p><p><strong>Barbarin, Navarra, Spain</strong></p><p>For more information: <strong>juan@oasistrails.org</strong></p><br>",
+		"icons": "assets/icons/withoutWork.png"
+	}
 }]
 }
