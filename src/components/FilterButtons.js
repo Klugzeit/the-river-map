@@ -82,10 +82,10 @@ class FilterButtons extends Component {
       <div className="filterButtonsContainer">
         {buttons}
         <ul className="help1">
-          <li> <img src={stayIcon}/> Stay: Contrary to popular belief</li>
-          <li> <img src={meetIcon}/> Meet: Contrary to popular belief</li> 
-          <li> <img src={createIcon}/> Create: Contrary to popular belief</li> 
-          <li>< img src={joinIcon}/> Join: Contrary to popular belief</li> 
+          <li> <img src={stayIcon}/> Stay: You can sleep here, connect with other travelers, & explore spirituality with them</li>
+          <li> <img src={meetIcon}/> Meet: You can come spend the day here, meet other travelers, explore spirtual practices, & talk about spirituality</li> 
+          <li> <img src={createIcon}/> Create: You can volunteer here. Come garden, work on the farm, or clean in exchange for a place to stay</li> 
+          <li>< img src={joinIcon}/> Join: You can join this community in hosting meals, in guiding Christ- centered spirtual practices & in creating a beautiful space</li> 
         </ul>
       </div>
     );
