@@ -61,7 +61,8 @@ class App extends Component {
         info: features[i].properties.information,
         image: features[i].properties.image,
         categories: features[i].properties.categories,
-        icons: features[i].properties.icons 
+        icons: features[i].properties.icons,
+        more: features[i].properties.more 
       }
 
       markers[index] = marker;

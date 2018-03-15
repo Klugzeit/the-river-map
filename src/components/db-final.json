@@ -15,7 +15,8 @@
 			"marker-size": "small",
 			"image": "imgs/light-house.png",
 			"information": "<p><strong>Hostel</strong></p><p><strong> Edinburgh, Scotland, United Kingdom </strong></p><p>How to book a night? <strong><a href=https://www.lighthousehostel.co.uk>www.lighthousehostel.co.uk</a></strong></p><p> For volunteer opportunities: <strong>wcwong94@gmail.com</strong> </p><p>Season: <strong>year round</strong></p><p>Address: <strong>20 Gilmore Place, Edinburgh, EH3 9NQ</strong></p><br>",
-			"icons": "imgs/light_house_edinburg.png"
+			"icons": "imgs/light_house_edinburg.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"type": "Feature",
@@ -32,7 +33,8 @@
 			"marker-size": "small",
 			"image": "imgs/oasis-surf.png",
 			"information": "<p><strong>Surf Hostel</strong></p><p><strong>Lanzarote, Spain</strong></p><p>How to book it? <strong><a href=http://www.oasissurfhouse.com>www.oasissurfhouse.com</a></strong></p><p>For volunteer opportunities: <strong>oasissurfhouse@gmail.com</strong></p><p> Season: <strong>year round</strong></p><p>Address: <strong>Calle los Parranderos, 3, 35558 Soo, Las Palmas, Spain</strong></p><br>",
-			"icons": "imgs/withoutWork.png"
+			"icons": "imgs/oasis_surfhouse_spain.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"type": "Feature",
@@ -49,7 +51,8 @@
 			"marker-size": "small",
 			"image": "imgs/Albergue-hogar.png",
 			"information": "<p><strong>Hostel</strong></p><p><strong>Villamayor de Monjardin, Spain</strong></p><p>Website: <strong><a href=http://www.oasistrails.org/en>www.oasistrails.org/en</a></strong></p><p>How to book it? <strong>first come first served</strong></p><p>For volunteer opportunities: <strong>info@oasistrails.org</strong></p> <p>Season: <strong>April 1st - Oct 31st</strong></p><p>Address: <strong>Plaza 4 Villamayor de Monjardin (NA) 31242, Spain</strong></p><br>",
-			"icons": "imgs/withoutWork.png"
+			"icons": "imgs/albergue_monjardin_spain.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"type": "Feature",
@@ -66,7 +69,8 @@
 			"marker-size": "small",
 			"image": "imgs/surf-hostels-france.jpeg",
 			"information": "<p><strong>Surf Hostel</strong></p><p><strong>Bidart, France</strong><p><p>How to book it? <strong><a href=http://www.surfhostelbiarritz.com/surf-hostel-bidart/>www.surfhostelbiarritz.com/surf-hostel-bidart</a></strong> </p><p>For volunteer opportunities: <strong>surfhostelteam@gmail.com</strong><p><p>Season: <strong>April 1st - Sep 30th</strong></p><p>Address: <strong>101 Ave Chabadenia, Bidart 64210</strong><p><br>",
-			"icons": "imgs/withoutWork.png"
+			"icons": "imgs/surf_hostel_france.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"type": "Feature",
@@ -83,7 +87,8 @@
 			"marker-size": "small",
 			"image": "imgs/the-way-guesthouse.png",
 			"information": "<p><strong>Guesthouse</strong></p><p><strong>Chania - Crete, Greece</strong></p><p>How to book it? <strong><a href=http://www.thewayguesthouse.com/>www.thewayguesthouse.com</a></strong></p> <p>For volunteer opportunities: <strong>bekah.alex@gmail.com</strong></p> <p>Season: <strong>May – Oct</strong><p><p>Address: <strong>Chorafakia, Chania, Crete</strong></p><br>",
-			"icons": "imgs/withoutWork.png"
+			"icons": "imgs/the_way_greece.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"type": "Feature",
@@ -100,7 +105,8 @@
 			"marker-size": "small",
 			"image": "imgs/shelter-christian-hostels.png",
 			"information": "<p><strong>Hostel</strong><p><p></strong>Amsterdam, the Netherlands</strong></p><p>How to book a night? <strong><a href=http://www.shelterhostelamsterdam.com>www.shelterhostelamsterdam.com</a></strong></p><p>For volunteer opportunities: <strong>www.youthhostelministry.org</strong></p> <p>Season: <strong>year round</strong></p><p>Address:<strong>Shelter Jordan - Bloemstraat 179, Amsterdam, 1016LA</strong></p><br>",
-			"icons": "imgs/withoutWork.png"
+			"icons": "imgs/shelter_city_jordan_amsterdam.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"type": "Feature",
@@ -117,7 +123,8 @@
 			"marker-size": "small",
 			"image": "imgs/shelter-christian-hostels.png",
 			"information": "<strong>Hostel</strong><p><p></strong>Amsterdam, the Netherlands</strong></p><p>How to book a night? <strong><a href=http://www.shelterhostelamsterdam.com>www.shelterhostelamsterdam.com</a></strong></p><p>For volunteer opportunities: <strong>www.youthhostelministry.org</strong></p> <p>Season: <strong>year round</strong></p><p>Address:<strong>Shelter City - Barndesteeg 21, 1012 BV Amsterdam</strong></p><br>",
-			"icons": "imgs/withoutWork.png"
+			"icons": "imgs/shelter_city_jordan_amsterdam.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"type": "Feature",
@@ -134,7 +141,8 @@
 			"marker-size": "small",
 			"image": "imgs/shelter-eliat.png",
 			"information": "<p><strong>Hostel + place to hang out</strong></p><p><strong>Eilat, Israel</strong><p><p>How to book it? <strong><a href=http://www.shelterhostel.com>www.shelterhostel.com</a></strong><p><p>For volunteer opportunities: <strong>info@shelterhostel.com</strong><p> <p>Season: <strong>year round</strong><p><p>Address: <strong>The Eshel Street 149/1. P.O. Box 816 Eilat 88104, Israel</strong><p><br>",
-			"icons": "imgs/withoutWork.png"
+			"icons": "imgs/shelter_eliat.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"type": "Feature",
@@ -151,7 +159,8 @@
 			"marker-size": "small",
 			"image": "imgs/zion-cafe-hostel.png",
 			"information": "<p><strong>Hostel + Cafe</strong></p><p><strong>Chiang Mai, Thailand</strong></p><p>How to book it? <strong><a href=http://www.zioncafeandhostel.com/#!about-zion/cu4n>www.zioncafeandhostel.com/#!about-zion/cu4n</a></strong></p><p>For volunteer opportunities: <strong>info@lighthouseinaction.org</strong></p><p>Season: <strong>year round</strong></p><p>Address: <strong>169/4-5 Sridonchai Rd. Changklan, Muang, Chiangmai, Thailand 50100</strong></p><br>",
-			"icons": "imgs/withoutWork.png"
+			"icons": "imgs/zion_cafe_thailand.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"type": "Feature",
@@ -168,7 +177,8 @@
 			"marker-size": "small",
 			"image": "imgs/warm-heart.png",
 			"information": "<p><strong>Guesthouse + Cafe</strong></p><p><strong>Mexico City, Mexico</strong></p><p>How to book it? <strong><a href=http://www.warmheartmexico.com>www.warmheartmexico.com</a></strong></p><p>For volunteer opportunities: <strong>cynthia.ramirezmartinez@gmail.com</strong></p><p>Season: <strong>year round</strong></p><p>Address: <strong>Calz. Mariano Matamoros 29, Del Carmen, 04100 Ciudad de México</strong><p><br>",
-			"icons": "imgs/withoutWork.png"
+			"icons": "imgs/warmheart_guesthouse_mexico.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"type": "Feature",
@@ -185,7 +195,8 @@
 			"marker-size": "small",
 			"image": "imgs/shelter-on-lake.png",
 			"information": "<p><strong>Guesthouse</strong></p><p></strong>Bariloche, Argentina</strong></p><p>Website: <strong><a href=http://www.shelteronthelake.com>www.shelteronthelake.com</a></strong></p><p>How to book it? <strong>first come first served</strong></p><p>For volunteer opportunities: <strong>shelteronthelake@gmail.com</strong></p> <p>Address: <strong>Alma Fuerte 3012 Bariloche, Argentina</strong></p><br>",
-			"icons": "imgs/withoutWork.png"
+			"icons": "imgs/shelter_lake_argentina.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"type": "Feature",
@@ -202,7 +213,8 @@
 			"marker-size": "small",
 			"image": "imgs/surf-house-narrawallee.png",
 			"information": "<p><strong>Surf Hostel BnB</strong></p><p><strong>Narrawallee, Australia</strong></p><p>How to book it? <strong><a href=http://www.surfhousenarrawallee.com>www.surfhousenarrawallee.com</a></strong></p><p>For volunteer opportunities: <strong>surfhousenarrawallee@gmail.com</strong></p> <p>Season: <strong>year round</strong></p><p>Address: <strong>108 Matron Porter Drive, Narrawallee. NSW. 2539</strong><p><br>",
-			"icons": "imgs/withoutWork.png"
+			"icons": "imgs/surfhouse_narrawallee_australia.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"type": "Feature",
@@ -219,7 +231,8 @@
 			"marker-size": "small",
 			"image": "imgs/selah-farm.png",
 			"information": "<p><strong>Farmstay/ Retreat Centre</strong></p><p><strong>Mullumbimby, Australia</strong></p><p>How to book it? <strong>artymamma@gmail.com</strong></p><p>For volunteer opportunities: <strong>artymamma@gmail.com</strong></p> <p>Season: <strong>year round</strong></p><p>Address: <strong>113 Left Bank Road, Mullumbimby NSW 2482 Australia</strong></p><br>",
-			"icons": "imgs/withoutWork.png"
+			"icons": "imgs/selah_farm_australia.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"type": "Feature",
@@ -236,7 +249,8 @@
 			"marker-size": "small",
 			"image": "imgs/pilgrim-house.png",
 			"information": "<p><strong>Welcoming centre (only for pilgrims)</strong></p><p><strong>Santiago de Compostela, Spain</strong></p><p>Website: <strong><a href=http://www.pilgrimhousesantiago.com>www.pilgrimhousesantiago.com</a></strong></p><p>For volunteer opportunities: <strong>pilgrimhousesantiago@gmail.com</strong></p> <p>Season: <strong>April - October</strong></p><p>Address: <strong>Rua Nova 19 Santiago de Compostela Spain</strong></p><br>",
-			"icons": "imgs/withoutWork.png"
+			"icons": "imgs/pilgrim_house_spain.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"type": "Feature",
@@ -253,7 +267,8 @@
 			"marker-size": "small",
 			"image": "imgs/pilgrims-oasis.jpeg",
 			"information": "<p><strong>Cafe + Meditation Space</strong></p><p><strong>Viana, Spain</strong></p><p>Website: <strong><a href=http://www.oasistrails.org/en>www.oasistrails.org/en</a></strong></p><p>For volunteer opportunities: <strong>info@oasistrails.org</strong</p> <p>Season: <strong>April 1st - Sep 30th</strong></p><p>Address: <strong>Calle Navarro Villoslada 8 Viana (NA) 31230, Spain</strong></p><br>",
-			"icons": "imgs/withoutWork.png"
+			"icons": "imgs/pilgrims_oasis_spain.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"type": "Feature",
@@ -270,7 +285,8 @@
 			"marker-size": "small",
 			"image": "imgs/dylans-coffeehouse.png",
 			"information": "<p><strong>Cafe</strong></p><p><strong>Arambol and Manali, India</strong></p><p>Website: <strong><a href=http://www.dylanscoffee.com>www.dylanscoffee.com</a></strong></p><p>For volunteer opportunities: <strong>dylanscoffee@gmail.com</strong></p><p>Season: <strong>December - March (Arambol) May - October (Manali)</strong></p><p>Address: </strong>Arambol, North Goa, Goa, 403524, India; Distt. Kullu ( Himachal Pradesh ) India (Manali)</strong></p><br>",
-			"icons": "imgs/withoutWork.png"
+			"icons": "imgs/dylans_coffeehouse_india.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"type": "Feature",
@@ -287,7 +303,8 @@
 			"marker-size": "small",
 			"image": "imgs/tree-ashram.png",
 			"information": "<p><strong>Ashram</strong></p><p><strong>North India (contact for more details)</strong></p><p>For volunteer opportunities: <strong>ueichholz@hotmail.com Season: September - April</strong></p><p>Address: <strong>(contact for more details)</strong></p><br>",
-			"icons": "imgs/withoutWork.png"
+			"icons": "imgs/tree_ashram.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"type": "Feature",
@@ -304,7 +321,8 @@
 			"marker-size": "small",
 			"image": "imgs/mountain-ashram.png",
 			"information": "<p><strong>Ashram</strong></p><p><strong>Northern Indian Himalayas (contact for more details)</strong></p><p>For volunteer opportunities: <strong>adamsjodelius@hotmail.com</strong></p> <p><strong>Season: March 1st - June 30th</strong></p><p>Address: <strong>(contact for more details)</strong></p><br>",
-			"icons": "imgs/withoutWork.png"
+			"icons": "imgs/mountain_ashram.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"type": "Feature",
@@ -321,7 +339,8 @@
 			"marker-size": "small",
 			"image": "imgs/shekina-garden.png",
 			"information": "<p><strong>Ashram</strong></p><p><strong>India (contact for more details)</strong></p><p>Website: <strong><a href=http://shekina-community.squarespace.com/about>shekina-community.squarespace.com/about</a></strong></p> <p>For volunteer opportunities: <strong>shekinacommunity@gmail.com</strong></p> <p>Season: <strong>November - March</strong></p><p>Address: <strong>(contact for more details)</strong></p><br>",
-			"icons": "imgs/withoutWork.png"
+			"icons": "imgs/shekina_goa_india.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"type": "Feature",
@@ -338,7 +357,8 @@
 			"marker-size": "small",
 			"image": "imgs/shekina-garden.png",
 			"information": "<p><strong>Ashram</strong><p><strong>Pai, Thailand</strong></p><p>Website: <strong><a href=http://shekina-community.squarespace.com/about>shekina-community.squarespace.com/about</a></strong></p> <p>For volunteer opportunities: <strong>chinua@gmail.com</strong></p><p>Season: <strong>year round</strong></p><p>Address: <strong>Pai, Thailand</strong></p><br>",
-			"icons": "imgs/withoutWork.png"
+			"icons": "imgs/shekina_garden.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"type": "Feature",
@@ -355,7 +375,8 @@
 			"marker-size": "small",
 			"image": "imgs/vive-cafe-hostel.jpeg",
 			"information": "<p><strong>Hostel + Cafe</strong></p> <p><strong>London, UK</strong></p><p>For more information: <strong>tim@skyeward.org.uk</strong></p><br>",
-			"icons": "imgs/withoutWork.png"
+			"icons": "imgs/vive_hostel_london.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"type": "Feature",
@@ -372,7 +393,8 @@
 			"marker-size": "small",
 			"image": "imgs/shekina-garden.png",
 			"information": "<p><strong>Guesthouse</strong></p><p><strong>Tasmania, Australia</strong></p><p>Website: <strong><a href=www.pilgrimhill.org/about.php>http://www.pilgrimhill.org/about.php</a></strong><p> <p>For more information: <strong>thebaehrs@pilgrimhill.org</strong></p><br>",
-			"icons": "imgs/withoutWork.png"
+			"icons": "imgs/pilgrim_hill_australia.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 },  {
 	"type": "Feature",
@@ -389,7 +411,8 @@
 		"marker-size": "small",
 		"image": "imgs/shekina-garden.png",
 		"information": "<p><strong>Hostel</strong></p><p><strong>Melide, Spain</strong></p><p>For more information: <strong>casafamiliacamino@yahoo.com</strong></p><br>",
-		"icons": "imgs/withoutWork.png"
+		"icons": "imgs/casa_familia_spain.png",
+		"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 	}
 },  {
 	"type": "Feature",
@@ -406,7 +429,8 @@
 		"marker-size": "small",
 		"image": "imgs/shekina-garden.png",
 		"information": "<p><strong>Hostel</strong></p><p><strong>Oban, Scotland</strong></p><p>For more information: <strong>arno@ywamscotland.org</strong></p><br>",
-		"icons": "imgs/withoutWork.png"
+		"icons": "imgs/wyam_ignite_scotland.png",
+		"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 	}
 },  {
 	"type": "Feature",
@@ -423,7 +447,8 @@
 		"marker-size": "small",
 		"image": "imgs/shekina-garden.png",
 		"information": "<p><strong>Hostel</strong></p><p><strong>Budapest, Hungary</strong></p><p>For more information: <strong>simon.maulbetsch@gmail.com</strong></p><br>",
-		"icons": "imgs/withoutWork.png"
+		"icons": "imgs/rezkigyo_coffehouse_budapest.png",
+		"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 	}
 },  {
 	"type": "Feature",
@@ -440,7 +465,8 @@
 		"marker-size": "small",
 		"image": "imgs/shekina-garden.png",
 		"information": "<p><strong>Hostel</strong></p><p><strong>Maroochydore, Australia</strong></p><p>For more information: <strong>scott.ahearn94@gmail.com</strong></p><br>",
-		"icons": "imgs/withoutWork.png"
+		"icons": "imgs/the_wavehouse_australia.png",
+		"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 	}
 },  {
 	"type": "Feature",
@@ -457,7 +483,8 @@
 		"marker-size": "small",
 		"image": "imgs/shekina-garden.png",
 		"information": "<p><strong>Hostel</strong></p><p><strong>Albany, Australia</strong></p><p>For more information: <strong>tiffany.rak@gmail.com</strong></p><br>",
-		"icons": "imgs/withoutWork.png"
+		"icons": "imgs/three_taustralia.png",
+		"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 	}
 },  {
 	"type": "Feature",
@@ -470,11 +497,12 @@
 		"open": 1,
 		"close": 12,
 		"categories": ["stay", "meet", "join", "create"],
-		"title": "RainForest Peace Centre",
+		"title": "Rainforest Peace Centre",
 		"marker-size": "small",
 		"image": "imgs/shekina-garden.png",
 		"information": "<p><strong>Hostel</strong></p><p><strong>Pottsville, Australia</strong></p><p>For more information: <strong>rpcbyronbay@hotmail.com</strong></p><br>",
-		"icons": "assets/icons/withoutWork.png"
+		"icons": "assets/rainforest_peace_australia.png.png",
+		"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 	}
 },  {
 	"type": "Feature",
@@ -487,11 +515,12 @@
 		"open": 1,
 		"close": 12,
 		"categories": ["stay", "meet", "join", "create"],
-		"title": "YWAM KAikoura",
+		"title": "YWAM Kaikoura",
 		"marker-size": "small",
 		"image": "imgs/shekina-garden.png",
 		"information": "<p><strong>Hostel</strong></p><p><strong>Kaikoura, New Zealand</strong></p><p>For more information: <strong>ywamkaikoura@gmail.com</strong></p><br>",
-		"icons": "imgs/withoutWork.png"
+		"icons": "imgs/ywam_kaikoura_newzealand.png",
+		"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 	}
 },  {
 	"type": "Feature",
@@ -508,7 +537,8 @@
 		"marker-size": "small",
 		"image": "imgs/shekina-garden.png",
 		"information": "<p><strong>Hostel</strong></p><p><strong>Tauranga, New Zealand</strong></p><p>For more information: <strong>sarahallen@steiger.org</strong></p><br>",
-		"icons": "imgs/withoutWork.png"
+		"icons": "imgs/the_wharf_nwezealand.png",
+		"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 	}
 },  {
 	"type": "Feature",
@@ -525,7 +555,8 @@
 		"marker-size": "small",
 		"image": "imgs/shekina-garden.png",
 		"information": "<p><strong>Hostel</strong></p><p><strong>Peel Forest, New Zealand</strong></p><p>For more information: <strong>thedeans@peelforestfarmstay.com</strong></p><br>",
-		"icons": "imgs/withoutWork.png"
+		"icons": "imgs/peel_forest_farmstay_newzeland.png",
+		"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 	}
 },  {
 	"type": "Feature",
@@ -538,11 +569,12 @@
 		"open": 1,
 		"close": 12,
 		"categories": ["stay", "meet", "join", "create"],
-		"title": "Nomads LanD",
+		"title": "Nomads Land",
 		"marker-size": "small",
 		"image": "imgs/shekina-garden.png",
 		"information": "<p><strong>Hostel</strong></p><p><strong>Attalla, Alabama, USA</strong></p><p>For more information: <strong>nomadsrest@gmail.com</strong></p><br>",
-		"icons": "imgs/withoutWork.png"
+		"icons": "imgs/nomads_land_usa.png",
+		"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 	}
 },  {
 	"type": "Feature",
@@ -555,11 +587,12 @@
 		"open": 1,
 		"close": 12,
 		"categories": ["stay", "join", "create"],
-		"title": "BArBarin Spiritual Community",
+		"title": "Barbarin Spiritual Community",
 		"marker-size": "small",
 		"image": "imgs/shekina-garden.png",
 		"information": "<p><strong>Hostel</strong></p><p><strong>Barbarin, Navarra, Spain</strong></p><p>For more information: <strong>juan@oasistrails.org</strong></p><br>",
-		"icons": "imgs/withoutWork.png"
+		"icons": "imgs/barbarin_community_spain.png",
+		"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 	}
 }]
 }
