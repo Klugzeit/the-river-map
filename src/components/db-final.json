@@ -15,7 +15,7 @@
 			"marker-size": "small",
 			"image": "imgs/light-house.png",
 			"information": "<p><strong>Hostel</strong></p><p><strong> Edinburgh, Scotland, United Kingdom </strong></p><p>How to book a night? <strong><a href=https://www.lighthousehostel.co.uk>www.lighthousehostel.co.uk</a></strong></p><p> For volunteer opportunities: <strong>wcwong94@gmail.com</strong> </p><p>Season: <strong>year round</strong></p><p>Address: <strong>20 Gilmore Place, Edinburgh, EH3 9NQ</strong></p><br>",
-			"icons": "imgs/withoutWork.png"
+			"icons": "imgs/light_house_edinburg.png"
 		}
 }, {
 		"type": "Feature",
@@ -260,7 +260,7 @@
 		"id": "16",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [32.252793, 77.178370]
+			"coordinates": [15.389089, 73.817352]
 		},
 		"properties": {
 			"open": 5,
@@ -311,7 +311,7 @@
 		"id": "19",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [25.985675, 82.073062]
+			"coordinates": [15.324670, 74.297731]
 		},
 		"properties": {
 			"open": 1,
@@ -362,7 +362,7 @@
 		"id": "22",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [-25.214881, 133.747760]
+			"coordinates": [-41.693921, 146.017882]
 		},
 		"properties": {
 			"open": 1,
@@ -532,7 +532,7 @@
 	"id": "32",
 	"geometry": {
 		"type": "Point",
-		"coordinates": [43.038989, -87.906498]
+		"coordinates": [33.038989, -87.906498]
 	},
 	"properties": {
 		"open": 1,
