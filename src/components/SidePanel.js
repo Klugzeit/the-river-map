@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../css/App.css';
 
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-import faPlus from '@fortawesome/fontawesome-free-solid/faPaperPlane'
+import faPlus from '@fortawesome/fontawesome-free-solid/faPlusCircle'
 import faTimes from '@fortawesome/fontawesome-free-solid/faTimes'
 import faPlusCircle from '@fortawesome/fontawesome-free-solid/faPlusCircle'
 
@@ -24,12 +24,12 @@ class SidePanel extends Component {
             <FontAwesomeIcon icon={faTimes} onClick={this.handleSidePanelCloseClick.bind(this)} />
           </div>
           <h1> {this.props.marker.title} </h1>
-          <img src={this.props.marker.image} alt="img" />
           <h2> About us </h2>
           <img src={this.props.marker.icons}/>
           <div dangerouslySetInnerHTML={{__html: this.props.marker.info}}></div>
-          <h2> Contact </h2>
+          <img src={this.props.marker.image} alt="img" />
         </div>
+        <a className="buttonMore" href={this.props.marker.more}>µSite</a>
         <div className="addToBasketButton" onClick={this.handleBtnClick.bind(this)}>
           <FontAwesomeIcon icon={faPlus} />
         </div>
