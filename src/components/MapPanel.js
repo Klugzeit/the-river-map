@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import '../css/App.css';
 import mapStyle from './MapStyle.json'
+import clusterStyle from './clusterStyles.json'
 import googleMapApiKey from './GoogleApiKey'
 
 import { compose, withProps } from 'recompose'
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from 'react-google-maps'
 
 const googleMapUrl = "https://maps.googleapis.com/maps/api/js";
+const { MarkerClusterer } = require("react-google-maps/lib/components/addons/MarkerClusterer");
 const MyMapComponent = compose(
   withProps({
     googleMapURL: `${googleMapUrl}?key=${googleMapApiKey}&v=3.exp&libraries=geometry,drawing,places`,
@@ -27,7 +29,16 @@ const MyMapComponent = compose(
       zoomControl: false,
       fullscreenControl: false
     }}
-    onClick={props.onMapClick.bind(this)} >
+    onClick={props.onMapClick.bind(this)} 
+    >
+    {/*Cluster to implement*/}
+    {/*<MarkerClusterer
+      onClick={props.onMarkerClustererClick}
+      averageCenter
+      enableRetinaIcons
+      gridSize={60}
+      defaultStyles={clusterStyle}
+    >*/}
     { Object.keys(props.markers).map(key => {
         let m = props.markers[key];
         return <Marker 
@@ -36,6 +47,8 @@ const MyMapComponent = compose(
           icon={m.icon}
           key={m.key} />
       }) }
+    {/*</MarkerClusterer>*/}
+    
   </GoogleMap>
 )
 

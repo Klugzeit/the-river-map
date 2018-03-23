@@ -11,7 +11,7 @@
 			"open": 1,
 			"close": 12,
             "categories": ["stay", "create", "join"],
-			"name": "Light House Hostel",
+			"title": "Light House Hostel",
 			"marker-size": "small",
 			"image": "imgs/light-house.png",
 			"place": "Edinburgh, Scotland, United Kingdom", 
@@ -19,7 +19,8 @@
 			"email": "wcwong94@gmail.com",
 			"season": "Year Round",
 			"address": "20 Gilmore Place, Edinburgh, EH3 9NQ",
-			"icons": "assets/icons/withoutMeet.png"
+			"icons": "imgs/light_house_edinburg.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"id": "2",
@@ -32,28 +33,29 @@
 			"open": 3,
 			"close": 10,
             "categories": ["stay", "create", "join"],
-			"name": "Oasis Surf House",
+			"title": "Oasis Surf House",
 			"marker-size": "small",
 			"image": "imgs/oasis-surf.png",
 			"place": "Lanzarote, Spain",
 			"website": "http://www.oasissurfhouse.com",
-			"email": "oasissurfhouse@gmail.com",
+			"email": "info@OasisSurfHouse.com",
 			"season": "Year Round",
 			"address": "Calle los Parranderos, 3, 35558 Soo, Las Palmas, Spain",
-			"icons": "assets/icons/withoutMeet.png"
+			"icons": "imgs/oasis_surfhouse_spain.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"id": "3",
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [42.629566, -2.104052]
+			"coordinates": [42.729566, -2.104052]
 		},
 		"properties": {
 			"open": 6,
 			"close": 12,
             "categories": ["stay", "join"],
-			"name": "Albergue Hogar Monjardin",
+			"title": "Albergue Hogar Monjardin",
 			"marker-size": "small",
 			"image": "imgs/Albergue-hogar.png",
 			"place": "Villamayor de Monjardin, Spain",
@@ -61,7 +63,8 @@
 			"email": "info@oasistrails.org",
 			"season": "April 1st - Oct 31st",
 			"address": "Plaza 4 Villamayor de Monjardin (NA) 31242, Spain",
-			"icons": "assets/icons/withoutMeet-Work.png"
+			"icons": "imgs/albergue_monjardin_spain.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"id": "4",
@@ -74,7 +77,7 @@
 			"open": 1,
 			"close": 5,
             "categories": ["stay", "create", "join"],
-			"name": "Surf Hostel Bidart",
+			"title": "Surf Hostel Bidart",
 			"marker-size": "small",
 			"image": "imgs/surf-hostels-france.jpeg",
 			"place": "Bidart, France",
@@ -82,7 +85,8 @@
 			"email": "surfhostelteam@gmail.com",
 			"season": "April 1st - Sep 30th",
 			"address": "101 Ave Chabadenia, Bidart 64210",
-			"icons": "assets/icons/withoutMeet.png"
+			"icons": "imgs/surf_hostel_france.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"id": "5",
@@ -95,7 +99,7 @@
 			"open": 2,
 			"close": 8,
             "categories": ["stay", "create", "join"],
-			"name": "The Way Guesthouse",
+			"title": "The Way Guesthouse",
 			"marker-size": "small",
 			"image": "imgs/the-way-guesthouse.png",
 			"place": "Chania - Crete, Greece",
@@ -103,28 +107,30 @@
 			"email": "bekah.alex@gmail.com",
 			"season": "May – Oct",
 			"address": "Chorafakia, Chania, Crete",
-			"icons": "assets/icons/withoutMeet.png"
+			"icons": "imgs/the_way_greece.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"id": "6",
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [52.373167, 4.877252]
+			"coordinates": [52.372447, 4.899213]
 		},
 		"properties": {
 			"open": 3,
 			"close": 10,
             "categories": ["stay", "create", "join"],
-			"title": "Shelter Jordan",
+			"title": "Shelter Hostel Amsterdam",
 			"marker-size": "small",
 			"image": "imgs/shelter-christian-hostels.png",
 			"place": "Amsterdam, the Netherlands",
 			"website": "http://www.shelterhostelamsterdam.com",
 			"email": "",
 			"season": "Year Round",
-			"address": "Bloemstraat 179, Amsterdam, 1016LA",
-			"icons": "assets/icons/withoutMeet.png"
+			"address": "Contact for more information",
+			"icons": "imgs/shelter_city_jordan_amsterdam.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"id": "7",
@@ -137,15 +143,16 @@
 			"open": 1,
 			"close": 4,
             "categories": ["stay", "create", "join"],
-			"title": "Shelter City",
+			"title": "Shelter Hostel Amsterdam",
 			"marker-size": "small",
 			"image": "imgs/shelter-christian-hostels.png",
 			"place": "Amsterdam, the Netherlands",
 			"website": "http://www.shelterhostelamsterdam.com",
-			"email": "",
+			"email": "shelter@email.com",
 			"season": "Year Round",
-			"address": "Barndesteeg 21, 1012 BV Amsterdam",
-			"icons": "assets/icons/withoutMeet.png"
+			"address": "Contact for more information",
+			"icons": "imgs/shelter_city_jordan_amsterdam.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"id": "8",
@@ -166,7 +173,8 @@
 			"email": "info@shelterhostel.com",
 			"season": "Year Round",
 			"address": "The Eshel Street 149/1. P.O. Box 816 Eilat 88104, Israel",
-			"icons": "assets/icons/withoutWork.png"
+			"icons": "imgs/shelter_eliat.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"id": "9",
@@ -187,7 +195,8 @@
 			"email": "info@lighthouseinaction.org",
 			"season": "Year Round",
 			"address": "169/4-5 Sridonchai Rd. Changklan, Muang, Chiangmai, Thailand 50100",
-			"icons": "assets/icons/withoutWork.png"
+			"icons": "imgs/zion_cafe_thailand.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"id": "10",
@@ -208,7 +217,8 @@
 			"email": "cynthia.ramirezmartinez@gmail.com",
 			"season": "Year Round",
 			"address": "Calz. Mariano Matamoros 29, Del Carmen, 04100 Ciudad de México",
-			"icons": "assets/icons/withoutWork.png"
+			"icons": "imgs/warmheart_guesthouse_mexico.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"id": "11",
@@ -229,7 +239,8 @@
 			"email": "shelteronthelake@gmail.com",
 			"season": "Year Round",
 			"address": "Alma Fuerte 3012 Bariloche, Argentina",
-			"icons": "assets/icons/withoutMeet-Work.png"
+			"icons": "imgs/shelter_lake_argentina.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"id": "12",
@@ -250,7 +261,8 @@
 			"email": "surfhousenarrawallee@gmail.com",
 			"season": "Year Round",
 			"address": "108 Matron Porter Drive, Narrawallee. NSW. 2539",
-			"icons": "assets/icons/withoutMeet-Work-Join.png"
+			"icons": "imgs/surfhouse_narrawallee_australia.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"id": "13",
@@ -271,7 +283,8 @@
 			"email": "artymamma@gmail.com",
 			"season": "Year Round",
 			"address": "113 Left Bank Road, Mullumbimby NSW 2482 Australia",
-			"icons": "assets/icons/full.png"
+			"icons": "imgs/selah_farm_australia.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"id": "14",
@@ -292,7 +305,8 @@
 			"email": "pilgrimhousesantiago@gmail.com",
 			"season": "April - October",
 			"address": "Rua Nova 19 Santiago de Compostela Spain",
-			"icons": "assets/icons/withoutStay-Work.png"
+			"icons": "imgs/pilgrim_house_spain.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"id": "15",
@@ -313,7 +327,8 @@
 			"email": "info@oasistrails.org",
 			"season": "April 1st - Sep 30th",
 			"address": "Calle Navarro Villoslada 8 Viana (NA) 31230, Spain",
-			"icons": "assets/icons/withoutStay-Work.png"
+			"icons": "imgs/pilgrims_oasis_spain.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"id": "16",
@@ -334,7 +349,8 @@
 			"email": "dylanscoffee@gmail.com",
 			"season": "December - March (Arambol) May - October (Manali)",
 			"address": "Arambol, North Goa, Goa, 403524, India; Distt. Kullu (Himachal Pradesh) India (Manali)",
-			"icons": "assets/icons/withoutStay-Work.png"
+			"icons": "imgs/dylans_coffeehouse_india.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"id": "17",
@@ -355,10 +371,11 @@
 			"email": "ueichholz@hotmail.com",
 			"season": "September - April",
 			"address": "Contact for more details",
-			"icons": "assets/icons/withoutStay-Work.png"
+			"icons": "imgs/tree_ashram.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
-		"id": "17",
+		"id": "18",
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
@@ -376,10 +393,11 @@
 			"email": "adamsjodelius@hotmail.com",
 			"season": "March 1st - June 30th",
 			"address": "Contact for more details",
-			"icons": "assets/icons/withoutStay-Work.png"
+			"icons": "imgs/mountain_ashram.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
-		"id": "18",
+		"id": "19",
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
@@ -397,30 +415,10 @@
 			"email": "shekinacommunity@gmail.com",
 			"season": "November - March",
 			"address": "Contact for more details",
-			"icons": "assets/icons/withoutStay-Work.png"
+			"icons": "imgs/shekina_goa_india.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
-}, {
-		"id": "19",
-		"type": "Feature",
-		"geometry": {
-			"type": "Point",
-			"coordinates": [30.121709, 78.328110]
-		},
-		"properties": {
-			"open": 3,
-			"close": 6,
-            "categories": ["meet", "join"],
-			"title": "Tent of Grace",
-			"marker-size": "small",
-			"image": "imgs/tent-of-grace.png",
-			"place": "Rishikesh, India",
-			"website": "http://www.oasistrails.org/en",
-			"email": "info@oasistrails.org",
-			"season": "Feb 1st - Apr 15th and Sep 15th - Dec 1st",
-			"address": "Kirmola, Laxman Jhula, Rishikesh, Uttarakhand 249302, India",
-			"icons": "assets/icons/withoutStay-Work.png"
-		}
-}, {
+},  {
 		"id": "20",
 		"type": "Feature",
 		"geometry": {
@@ -439,7 +437,8 @@
 			"email": "chinua@gmail.com",
 			"season": "Year Round",
 			"address": "Pai, Thailand",
-			"icons": "assets/icons/withoutStay-Work.png"
+			"icons": "imgs/shekina_garden.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"id": "21",
@@ -460,7 +459,8 @@
 			"email": "tim@skyeward.org.uk",
 			"season": "Year Round",
 			"address": "Contact for more details",
-			"icons": "assets/icons/full.png"
+			"icons": "imgs/vive_hostel_london.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"id": "22",
@@ -481,49 +481,251 @@
 			"email": "thebaehrs@pilgrimhill.org",
 			"season": "Year Round",
 			"address": "Contact for more details",
-			"icons": "assets/icons/full.png"
+			"icons": "imgs/pilgrim_hill_australia.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"id": "23",
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [-26.646072, 153.061670]
+			"coordinates": [42.886808, -7.960098]
 		},
 		"properties": {
 			"open": 1,
 			"close": 12,
-            "categories": ["stay", "meet", "join"],
-			"title": "Surfhouse Sunshine Coast",
+            "categories": ["stay", "meet", "join", "create"],
+			"title": "Casa Familia",
 			"marker-size": "small",
-			"image": "imgs/surf-house-sunshine-coast.jpeg",
-			"place": "Sunshine Coast, Australia",
+			"image": "imgs/shekina-garden.png",
+			"place": "Melide, Spain",
 			"website": "Contact for more details",
-			"email": "surfbiarritz@gmail.com",
+			"email": "casafamiliacamino@yahoo.com",
 			"season": "Year Round",
 			"address": "Contact for more details",
-			"icons": "assets/icons/withoutWork.png"
+			"icons": "imgs/casa_familia_spain.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
 		"id": "24",
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [-31.951148, 115.861414]
+			"coordinates": [56.412365, -5.437977]
 		},
 		"properties": {
 			"open": 1,
 			"close": 12,
             "categories": ["stay", "meet", "join"],
-			"title": "Perth Hostel",
+			"title": "YWAM Ignite",
 			"marker-size": "small",
 			"image": "imgs/shekina-garden.png",
-			"place": "Perth, Australia",
+			"place": "Oban, Scotland",
 			"website": "Contact for more details",
-			"email": "tiffany.rak@gmail.com",
+			"email": "arno@ywamscotland.org",
 			"season": "Year Round",
 			"address": "Contact for more details",
-			"icons": "assets/icons/withoutWork.png"
+			"icons": "imgs/wyam_ignite_scotland.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
+}, { 
+		"id": "25",
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [47.499985, 19.057215]
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"categories": ["meet", "join"],
+		"title": "Rézkígyó Coffeehouse",
+		"marker-size": "small",
+		"image": "imgs/shekina-garden.png",
+		"place": "Budapest, Hungary",
+		"website": "Contact for more details",
+		"email": "steviejohnson@axelero.hu",
+		"season": "Year Round",
+		"address": "Contact for more details",
+		"icons": "imgs/rezkigyo_coffehouse_budapest.png",
+		"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
+	}
+
+}, { 
+		"id": "26",
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-26.649408, 153.099916]
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"categories": ["stay", "meet", "join", "create"],
+		"title": "The WaveHouse",
+		"marker-size": "small",
+		"image": "imgs/shekina-garden.png",
+		"place": "Maroochydore, Australia",
+		"website": "Contact for more details",
+		"email": "scott.ahearn94@gmail.com",
+		"season": "Year Round",
+		"address": "Contact for more details",
+		"icons": "imgs/the_wavehouse_australia.png",
+		"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
+	}
+}, { 
+		"id": "27",
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-35.027294, 117.883957]
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"categories": ["stay"],
+		"title": "Three T",
+		"marker-size": "small",
+		"image": "imgs/shekina-garden.png",
+		"place": "Albany, Australia",
+		"website": "Contact for more details",
+		"email": "tiffany.rak@gmail.com",
+		"season": "Year Round",
+		"address": "Contact for more details",
+		"icons": "imgs/three_taustralia.png",
+		"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
+	} 
+}, { 
+		"id": "28",
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": []
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"categories": ["stay", "meet", "join", "create"],
+		"title": "Rainforest Peace Centre",
+		"marker-size": "small",
+		"image": "imgs/shekina-garden.png",
+		"place": "Pottsville, Australia",
+		"website": "Contact for more details",
+		"email": "rpcbyronbay@hotmail.com",
+		"season": "Year Round",
+		"address": "Contact for more details",
+		"icons": "assets/rainforest_peace_australia.png.png",
+		"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
+	}
+}, { 
+		"id": "29",
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-42.400723, 173.681368]
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"categories": ["stay", "meet", "join", "create"],
+		"title": "YWAM Kaikoura",
+		"marker-size": "small",
+		"image": "imgs/shekina-garden.png",
+		"place": "Kaikoura, New Zealand",
+		"website": "Contact for more details",
+		"email": "ywamkaikoura@gmail.com",
+		"season": "Year Round",
+		"address": "Contact for more details",
+		"icons": "imgs/ywam_kaikoura_newzealand.png",
+		"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
+	}
+}, { 
+		"id": "30",
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-37.690384, 176.136935]
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"categories": ["stay"],
+		"title": "The WHARF",
+		"marker-size": "small",
+		"image": "imgs/shekina-garden.png",
+		"place": "Tauranga, New Zealand",
+		"website": "Contact for more details",
+		"email": "sarahallen@steiger.org",
+		"season": "Year Round",
+		"address": "Contact for more details",
+		"icons": "imgs/the_wharf_nwezealand.png",
+		"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
+	}
+}, { 
+		"id": "31",
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-43.898085, 171.259496]
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"categories": ["stay", "join", "create"],
+		"title": "Peel Forest farmstay",
+		"marker-size": "small",
+		"image": "imgs/shekina-garden.png",
+		"place": "Peel Forest, New Zealand",
+		"website": "Contact for more details",
+		"email": "thedeans@peelforestfarmstay.com",
+		"season": "Year Round",
+		"address": "Contact for more details",
+		"icons": "imgs/peel_forest_farmstay_newzeland.png",
+		"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
+	}
+}, { 
+		"id": "32",
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [33.038989, -87.906498]
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"categories": ["stay", "meet", "join", "create"],
+		"title": "Nomads Land",
+		"marker-size": "small",
+		"image": "imgs/shekina-garden.png",
+		"place": "Attalla, Alabama, USA",
+		"website": "Contact for more details",
+		"email": "nomadsrest@gmail.com",
+		"season": "Year Round",
+		"address": "Contact for more details",
+		"icons": "imgs/nomads_land_usa.png",
+		"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
+	}
+}, { 
+		"id": "33",
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [42.582885, -2.132733]
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"categories": ["stay", "join", "create"],
+		"title": "Barbarin Spiritual Community",
+		"marker-size": "small",
+		"image": "imgs/shekina-garden.png",
+		"place": "Barbarin, Navarra, Spain",
+		"website": "Contact for more details",
+		"email": "juan@oasistrails.org",
+		"season": "Year Round",
+		"address": "Contact for more details",
+		"icons": "imgs/barbarin_community_spain.png",
+		"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
+	}
 }]
 }

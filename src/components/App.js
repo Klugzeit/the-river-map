@@ -3,7 +3,7 @@ import '../css/App.css';
 
 import MainPanel from './MainPanel'
 import MapPanel from './MapPanel'
-import mapData from './db-final'
+import mapData from './dbHostels'
 import BasketPanel from './BasketPanel'
 import BasketButton from './BasketButton'
 import MainMenu from './MainMenu'
@@ -58,11 +58,16 @@ class App extends Component {
 			  close: features[i].properties.close,
         icon: this.getMarkerIcon(),
         title: features[i].properties.title,
-        info: features[i].properties.information,
+        /*info: features[i].properties.information,*/
+        place: features[i].properties.place,
+        website: features[i].properties.website,
+        email: features[i].properties.email,
+        season: features[i].properties.season,
+        address: features[i].properties.address,
         image: features[i].properties.image,
         categories: features[i].properties.categories,
         icons: features[i].properties.icons,
-        more: features[i].properties.more 
+        more: features[i].properties.more
       }
 
       markers[index] = marker;

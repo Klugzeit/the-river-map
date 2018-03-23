@@ -4,7 +4,7 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu);
 
 
-body, html {
+body, html, p {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -52,7 +52,7 @@ h1 {
 #sidePanelInfoContainer {
   padding: 40px;
   height: 400px;
-  overflow: auto;
+  overflow: scroll;
 }
 
 .sidePanelContainer h1 {
@@ -345,7 +345,7 @@ h1 {
   height: 65px;
   width: 65px;
   display: inline-block;
-  opacity: 1;
+  opacity: 0.2;
   margin: 0 22px 0 0;
 }
 
@@ -354,7 +354,7 @@ h1 {
 }
 
 .filterIcon.disabled {
-  opacity: 0.3;
+  opacity: 1;
 }
 
 .sliderBox {
@@ -427,8 +427,8 @@ and (max-device-width: 640px) {
   }
 
   #sidePanelInfoContainer {
-    height: 100vh;
-    padding: 0 10px 0 10px;
+    height: 75%;
+    
   
   }
 
@@ -520,8 +520,7 @@ and (max-device-width: 1024px) {
   }
 
   #sidePanelInfoContainer {
-    height: 100vh;
-    padding: 0 10px 0 10px;
+    height: 80%;
   
   }
 

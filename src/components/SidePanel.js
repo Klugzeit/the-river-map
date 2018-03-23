@@ -26,7 +26,13 @@ class SidePanel extends Component {
           <h1> {this.props.marker.title} </h1>
           <h2> About us </h2>
           <img src={this.props.marker.icons}/>
-          <div dangerouslySetInnerHTML={{__html: this.props.marker.info}}></div>
+          <p>{this.props.marker.place}</p>
+          <p>{this.props.marker.address}</p>
+          <p>Season: {this.props.marker.season}</p>
+          <p>How to book it? {this.props.marker.email}</p>
+          <p>For volunteer oppportunities: {this.props.marker.email}</p>
+          <a href={this.props.marker.website}/>
+          {/*<div dangerouslySetInnerHTML={{__html: this.props.marker.info}}></div>*/}
           <img src={this.props.marker.image} alt="img" />
         </div>
         <a className="buttonMore" href={this.props.marker.more}>microSite</a>
