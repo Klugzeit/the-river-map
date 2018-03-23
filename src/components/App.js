@@ -55,7 +55,8 @@ class App extends Component {
         lat: geo.coordinates[0],
         lng: geo.coordinates[1],
         open: features[i].properties.open,
-			  close: features[i].properties.close,
+        close: features[i].properties.close,
+        type: features[i].properties.type,
         icon: this.getMarkerIcon(),
         title: features[i].properties.title,
         /*info: features[i].properties.information,*/

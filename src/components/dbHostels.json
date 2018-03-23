@@ -10,6 +10,7 @@
 		"properties": {
 			"open": 1,
 			"close": 12,
+			"type":"Hostel",
             "categories": ["stay", "create", "join"],
 			"title": "Light House Hostel",
 			"marker-size": "small",
@@ -32,6 +33,7 @@
 		"properties": {
 			"open": 3,
 			"close": 10,
+			"type":"Hostel",
             "categories": ["stay", "create", "join"],
 			"title": "Oasis Surf House",
 			"marker-size": "small",
@@ -54,6 +56,7 @@
 		"properties": {
 			"open": 6,
 			"close": 12,
+			"type":"Hostel",
             "categories": ["stay", "join"],
 			"title": "Albergue Hogar Monjardin",
 			"marker-size": "small",
@@ -76,6 +79,7 @@
 		"properties": {
 			"open": 1,
 			"close": 5,
+			"type":"Hostel",
             "categories": ["stay", "create", "join"],
 			"title": "Surf Hostel Bidart",
 			"marker-size": "small",
@@ -98,6 +102,7 @@
 		"properties": {
 			"open": 2,
 			"close": 8,
+			"type":"Hostel",
             "categories": ["stay", "create", "join"],
 			"title": "The Way Guesthouse",
 			"marker-size": "small",
@@ -120,6 +125,7 @@
 		"properties": {
 			"open": 3,
 			"close": 10,
+			"type":"Hostel",
             "categories": ["stay", "create", "join"],
 			"title": "Shelter Hostel Amsterdam",
 			"marker-size": "small",
@@ -142,6 +148,7 @@
 		"properties": {
 			"open": 1,
 			"close": 4,
+			"type":"Hostel",
             "categories": ["stay", "create", "join"],
 			"title": "Shelter Hostel Amsterdam",
 			"marker-size": "small",
@@ -164,6 +171,7 @@
 		"properties": {
 			"open": 8,
 			"close": 12,
+			"type":"Hostel",
             "categories": ["stay", "meet", "join"],
 			"title": "Shelter Eilat",
 			"marker-size": "small",
@@ -186,6 +194,7 @@
 		"properties": {
 			"open": 1,
 			"close": 12,
+			"type":"Hostel",
             "categories": ["stay", "meet", "join"],
 			"title": "Zion Hostel & Cafe",
 			"marker-size": "small",
@@ -208,6 +217,7 @@
 		"properties": {
 			"open": 1,
 			"close": 12,
+			"type":"Hostel",
             "categories": ["stay", "meet", "join"],
 			"title": "Warm Heart Guesthouse",
 			"marker-size": "small",
@@ -230,6 +240,7 @@
 		"properties": {
 			"open": 1,
 			"close": 12,
+			"type":"Hostel",
             "categories": ["stay", "join"],
 			"title": "Shelter on the Lake",
 			"marker-size": "small",
@@ -252,6 +263,7 @@
 		"properties": {
 			"open": 1,
 			"close": 12,
+			"type":"Hostel",
             "categories": ["stay"],
 			"title": "Surf House Narrawallee",
 			"marker-size": "small",
@@ -274,6 +286,7 @@
 		"properties": {
 			"open": 1,
 			"close": 12,
+			"type":"Hostel",
             "categories": ["stay", "meet", "join", "create"],
 			"title": "Selah Farm",
 			"marker-size": "small",
@@ -296,6 +309,7 @@
 		"properties": {
 			"open": 1,
 			"close": 3,
+			"type":"Hostel",
             "categories": ["meet", "join"],
 			"title": "Pilgrim House",
 			"marker-size": "small",
@@ -318,6 +332,7 @@
 		"properties": {
 			"open": 3,
 			"close": 5,
+			"type":"Hostel",
             "categories": ["meet", "join"],
 			"title": "Pilgrim’s Oasis",
 			"marker-size": "small",
@@ -340,6 +355,7 @@
 		"properties": {
 			"open": 5,
 			"close": 12,
+			"type":"Hostel",
             "categories": ["meet", "join"],
 			"title": "Dylan’s Coffeehouse",
 			"marker-size": "small",
@@ -362,6 +378,7 @@
 		"properties": {
 			"open": 1,
 			"close": 12,
+			"type":"Hostel",
             "categories": ["meet", "join"],
 			"title": "Tree Ashram",
 			"marker-size": "small",
@@ -384,6 +401,7 @@
 		"properties": {
 			"open": 1,
 			"close": 12,
+			"type":"Hostel",
             "categories": ["meet", "join"],
 			"title": "Mountain Ashram",
 			"marker-size": "small",
@@ -406,6 +424,7 @@
 		"properties": {
 			"open": 1,
 			"close": 12,
+			"type":"Hostel",
             "categories": ["meet", "join"],
 			"title": "Shekina Goa",
 			"marker-size": "small",
@@ -428,6 +447,7 @@
 		"properties": {
 			"open": 1,
 			"close": 12,
+			"type":"Hostel",
             "categories": ["meet", "join"],
 			"title": "Shekina Garden",
 			"marker-size": "small",
@@ -450,6 +470,7 @@
 		"properties": {
 			"open": 1,
 			"close": 12,
+			"type":"Hostel",
             "categories": ["stay", "meet", "join", "create"],
 			"title": "VIVE Hostel & Café",
 			"marker-size": "small",
@@ -472,6 +493,7 @@
 		"properties": {
 			"open": 1,
 			"close": 12,
+			"type":"Hostel",
             "categories": ["stay", "meet", "join", "create"],
 			"title": "Pilgrim Hill",
 			"marker-size": "small",
@@ -494,6 +516,7 @@
 		"properties": {
 			"open": 1,
 			"close": 12,
+			"type":"Hostel",
             "categories": ["stay", "meet", "join", "create"],
 			"title": "Casa Familia",
 			"marker-size": "small",
@@ -516,6 +539,7 @@
 		"properties": {
 			"open": 1,
 			"close": 12,
+			"type":"Hostel",
             "categories": ["stay", "meet", "join"],
 			"title": "YWAM Ignite",
 			"marker-size": "small",
@@ -538,6 +562,7 @@
 	"properties": {
 		"open": 1,
 		"close": 12,
+		"type":"Hostel",
 		"categories": ["meet", "join"],
 		"title": "Rézkígyó Coffeehouse",
 		"marker-size": "small",
@@ -561,6 +586,7 @@
 	"properties": {
 		"open": 1,
 		"close": 12,
+		"type":"Hostel",
 		"categories": ["stay", "meet", "join", "create"],
 		"title": "The WaveHouse",
 		"marker-size": "small",
@@ -583,6 +609,7 @@
 	"properties": {
 		"open": 1,
 		"close": 12,
+		"type":"Hostel",
 		"categories": ["stay"],
 		"title": "Three T",
 		"marker-size": "small",
@@ -605,6 +632,7 @@
 	"properties": {
 		"open": 1,
 		"close": 12,
+		"type":"Hostel",
 		"categories": ["stay", "meet", "join", "create"],
 		"title": "Rainforest Peace Centre",
 		"marker-size": "small",
@@ -627,6 +655,7 @@
 	"properties": {
 		"open": 1,
 		"close": 12,
+		"type":"Hostel",
 		"categories": ["stay", "meet", "join", "create"],
 		"title": "YWAM Kaikoura",
 		"marker-size": "small",
@@ -649,6 +678,7 @@
 	"properties": {
 		"open": 1,
 		"close": 12,
+		"type":"Hostel",
 		"categories": ["stay"],
 		"title": "The WHARF",
 		"marker-size": "small",
@@ -671,6 +701,7 @@
 	"properties": {
 		"open": 1,
 		"close": 12,
+		"type":"Hostel",
 		"categories": ["stay", "join", "create"],
 		"title": "Peel Forest farmstay",
 		"marker-size": "small",
@@ -693,6 +724,7 @@
 	"properties": {
 		"open": 1,
 		"close": 12,
+		"type":"Hostel",
 		"categories": ["stay", "meet", "join", "create"],
 		"title": "Nomads Land",
 		"marker-size": "small",
@@ -715,6 +747,7 @@
 	"properties": {
 		"open": 1,
 		"close": 12,
+		"type":"Hostel",
 		"categories": ["stay", "join", "create"],
 		"title": "Barbarin Spiritual Community",
 		"marker-size": "small",

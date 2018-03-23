@@ -26,6 +26,7 @@ class SidePanel extends Component {
           <h1> {this.props.marker.title} </h1>
           <h2> About us </h2>
           <img src={this.props.marker.icons}/>
+          <p>Type:{this.props.marker.type}</p>
           <p>{this.props.marker.place}</p>
           <p>{this.props.marker.address}</p>
           <p>Season: {this.props.marker.season}</p>
