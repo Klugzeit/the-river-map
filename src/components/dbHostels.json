@@ -217,7 +217,7 @@
 		"properties": {
 			"open": 1,
 			"close": 12,
-			"type":"Hostel",
+			"type":"GuestHouse",
             "categories": ["stay", "meet", "join"],
 			"title": "Warm Heart Guesthouse",
 			"marker-size": "small",
@@ -355,7 +355,7 @@
 		"properties": {
 			"open": 5,
 			"close": 12,
-			"type":"Hostel",
+			"type":"cafe",
             "categories": ["meet", "join"],
 			"title": "Dylan’s Coffeehouse",
 			"marker-size": "small",
