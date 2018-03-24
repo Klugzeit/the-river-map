@@ -355,7 +355,7 @@
 		"properties": {
 			"open": 5,
 			"close": 12,
-			"type":"cafe",
+			"type":"Coffeehouse",
             "categories": ["meet", "join"],
 			"title": "Dylan’s Coffeehouse",
 			"marker-size": "small",
@@ -516,7 +516,7 @@
 		"properties": {
 			"open": 1,
 			"close": 12,
-			"type":"Hostel",
+			"type":"Guesthouses",
             "categories": ["stay", "meet", "join", "create"],
 			"title": "Casa Familia",
 			"marker-size": "small",
@@ -562,7 +562,7 @@
 	"properties": {
 		"open": 1,
 		"close": 12,
-		"type":"Hostel",
+		"type":"Coffeehouse",
 		"categories": ["meet", "join"],
 		"title": "Rézkígyó Coffeehouse",
 		"marker-size": "small",
@@ -678,7 +678,7 @@
 	"properties": {
 		"open": 1,
 		"close": 12,
-		"type":"Hostel",
+		"type":"Guesthouses",
 		"categories": ["stay"],
 		"title": "The WHARF",
 		"marker-size": "small",
@@ -701,7 +701,7 @@
 	"properties": {
 		"open": 1,
 		"close": 12,
-		"type":"Hostel",
+		"type":"Farmstay",
 		"categories": ["stay", "join", "create"],
 		"title": "Peel Forest farmstay",
 		"marker-size": "small",
