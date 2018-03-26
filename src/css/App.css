@@ -345,7 +345,7 @@ h1 {
   height: 65px;
   width: 65px;
   display: inline-block;
-  opacity: 0.2;
+  opacity: 1;
   margin: 0 22px 0 0;
 }
 
@@ -354,7 +354,7 @@ h1 {
 }
 
 .filterIcon.disabled {
-  opacity: 1;
+  opacity: 0.3;
 }
 
 .sliderBox {
