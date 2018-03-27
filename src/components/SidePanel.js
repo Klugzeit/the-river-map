@@ -38,7 +38,7 @@ class SidePanel extends Component {
         </div>
         <a className="buttonMore" href={this.props.marker.more}>more</a>
         <div className="addToBasketButton" onClick={this.handleBtnClick.bind(this)}>
-          <h1>add</h1>
+          <h3>add</h3>
         </div>
       </div>
     );
