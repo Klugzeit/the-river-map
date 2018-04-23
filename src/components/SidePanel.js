@@ -36,9 +36,9 @@ class SidePanel extends Component {
           {/*<div dangerouslySetInnerHTML={{__html: this.props.marker.info}}></div>*/}
           <img src={this.props.marker.image} alt="img" />
         </div>
-        <a className="buttonMore" href={this.props.marker.more}>more</a>
+        <a className="buttonMore" href={this.props.marker.more}>More Information</a>
         <div className="addToBasketButton" onClick={this.handleBtnClick.bind(this)}>
-          <h1>add</h1>
+          <h1>Add to Favourites</h1>
         </div>
       </div>
     );

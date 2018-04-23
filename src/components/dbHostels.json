@@ -327,7 +327,7 @@
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [42.514983, -2.372389]
+			"coordinates": [42.516983, -2.372389]
 		},
 		"properties": {
 			"open": 3,
@@ -419,7 +419,7 @@
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [15.324670, 74.297731]
+			"coordinates": [15.324670, 75.297731]
 		},
 		"properties": {
 			"open": 1,
@@ -742,7 +742,7 @@
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [42.582885, -2.132733]
+			"coordinates": [42.482885, -2.132733]
 	},
 	"properties": {
 		"open": 1,
