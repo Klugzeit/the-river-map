@@ -31,8 +31,8 @@
 			"coordinates": [29.100585, -13.623662]
 		},
 		"properties": {
-			"open": 3,
-			"close": 10,
+			"open": 1,
+			"close": 12,
 			"type":"Hostel",
             "categories": ["stay", "create", "join"],
 			"title": "Oasis Surf House",
@@ -54,8 +54,8 @@
 			"coordinates": [42.629566, -2.104052]
 		},
 		"properties": {
-			"open": 6,
-			"close": 12,
+			"open": 4,
+			"close": 10,
 			"type":"Hostel",
             "categories": ["stay", "join"],
 			"title": "Albergue Hogar Monjardin",
@@ -77,8 +77,8 @@
 			"coordinates": [43.439096, -1.587711]
 		},
 		"properties": {
-			"open": 1,
-			"close": 5,
+			"open": 3,
+			"close": 10,
 			"type":"Hostel",
             "categories": ["stay", "create", "join"],
 			"title": "Surf Hostel Bidart",
@@ -100,8 +100,8 @@
 			"coordinates": [35.562153, 24.092863]
 		},
 		"properties": {
-			"open": 2,
-			"close": 8,
+			"open": 5,
+			"close": 10,
 			"type":"Hostel",
             "categories": ["stay", "create", "join"],
 			"title": "The Way Guesthouse",
@@ -123,8 +123,8 @@
 			"coordinates": [52.373167, 4.877252]
 		},
 		"properties": {
-			"open": 3,
-			"close": 10,
+			"open": 1,
+			"close": 12,
 			"type":"Hostel",
             "categories": ["stay", "create", "join"],
 			"title": "Shelter Hostel Amsterdam",
@@ -147,7 +147,7 @@
 		},
 		"properties": {
 			"open": 1,
-			"close": 4,
+			"close": 12,
 			"type":"Hostel",
             "categories": ["stay", "create", "join"],
 			"title": "Shelter Hostel Amsterdam",
@@ -169,7 +169,7 @@
 			"coordinates": [29.556362, 34.947243]
 		},
 		"properties": {
-			"open": 8,
+			"open": 1,
 			"close": 12,
 			"type":"Hostel",
             "categories": ["stay", "meet", "join"],
@@ -307,8 +307,8 @@
 			"coordinates": [42.878943, -8.543485]
 		},
 		"properties": {
-			"open": 1,
-			"close": 3,
+			"open": 4,
+			"close": 10,
 			"type":"Hostel",
             "categories": ["meet", "join"],
 			"title": "Pilgrim House",
@@ -331,7 +331,7 @@
 		},
 		"properties": {
 			"open": 3,
-			"close": 5,
+			"close": 10,
 			"type":"Hostel",
             "categories": ["meet", "join"],
 			"title": "Pilgrim’s Oasis",
@@ -376,8 +376,8 @@
 			"coordinates": [22.882982, 79.658816]
 		},
 		"properties": {
-			"open": 1,
-			"close": 12,
+			"open": 1, 
+			"close": 4, 
 			"type":"Hostel",
             "categories": ["meet", "join"],
 			"title": "Tree Ashram",
@@ -399,8 +399,8 @@
 			"coordinates": [28.761603, 83.834422]
 		},
 		"properties": {
-			"open": 1,
-			"close": 12,
+			"open": 3,
+			"close": 6,
 			"type":"Hostel",
             "categories": ["meet", "join"],
 			"title": "Mountain Ashram",
@@ -423,7 +423,7 @@
 		},
 		"properties": {
 			"open": 1,
-			"close": 12,
+			"close": 3,
 			"type":"Hostel",
             "categories": ["meet", "join"],
 			"title": "Shekina Goa",

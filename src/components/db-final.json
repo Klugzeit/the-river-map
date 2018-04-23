@@ -9,7 +9,7 @@
 		},
 		"properties": {
 			"open": 1,
-			"close": 12,
+			"close": 6,
       "categories": ["stay", "create", "join"],
 			"title": "Light House Hostel",
 			"marker-size": "small",
@@ -98,8 +98,8 @@
 			"coordinates": [52.373167, 4.877252]
 		},
 		"properties": {
-			"open": 3,
-			"close": 10,
+			"open": 1,
+			"close": 12,
       "categories": ["stay", "create", "join"],
 			"title": "Shelter Jordan",
 			"marker-size": "small",
@@ -134,7 +134,7 @@
 			"coordinates": [29.556362, 34.947243]
 		},
 		"properties": {
-			"open": 8,
+			"open": 1,
 			"close": 12,
       "categories": ["stay", "meet", "join"],
 			"title": "Shelter Eilat",

@@ -87,16 +87,21 @@ h1 {
 }
 
 .addToBasketButton {
+  font-size: 5px;
   float: right;
   height: 30px;
   margin-top: 10px;
-  margin-right: 200px;
+  margin-right: 2%;
   width: 12%;
   text-align:center;
   color: #FF8D6B;
   outline: none;
   padding-top: 6px;
   padding-bottom: 4px;
+}
+
+.addToBasketButton h3 {
+  font-size: 20px;
 }
 
 .addToBasketButton:hover {
