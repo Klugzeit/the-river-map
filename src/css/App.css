@@ -80,7 +80,7 @@ h1 {
   padding-left: 2%;
   padding-bottom: 4px;
   outline: none;
-  color: #272634;;
+  color: #263034;;
   font-family: Ubuntu;
   font-size: 16px;
   text-decoration: none;
@@ -94,16 +94,19 @@ h1 {
   margin-right: 50%;
   width: 12%;
   text-align:center;
-  color: #FF8D6B;
+  color: rgb(107, 201, 255);
   outline: none;
   padding-top: 6px;
   padding-bottom: 4px;
 }
 
 .addToBasketButton h3 {
-  font-size: 20px;
+  font-size: 10px;
 }
 
+.addToBasketButton h1 {
+  font-size: 16px;
+}
 .addToBasketButton:hover {
   cursor: pointer;
   opacity: 0.8;
