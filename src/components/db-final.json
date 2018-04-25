@@ -41,7 +41,7 @@
 		"id": "3",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [42.629566, -2.104052]
+			"coordinates": [43.062523, -2.351244]
 		},
 		"properties": {
 			"open": 6,
@@ -149,7 +149,7 @@
 		"id": "9",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [18.781256, 98.998979]
+			"coordinates": [17.909722, 99.719197]
 		},
 		"properties": {
 			"open": 1,
@@ -257,7 +257,7 @@
 		"id": "15",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [42.514983, -2.372389]
+			"coordinates": [42.472433, -2.855787]
 		},
 		"properties": {
 			"open": 3,
@@ -311,7 +311,7 @@
 		"id": "18",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [28.761603, 83.834422]
+			"coordinates": [30.045770, 76.877588]
 		},
 		"properties": {
 			"open": 1,
