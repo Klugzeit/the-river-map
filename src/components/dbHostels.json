@@ -5,6 +5,29 @@
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
+			"coordinates": [43.259342, -2.559365]
+		},
+		"properties": {
+			"open": 4,
+			"close": 10,
+			"type":"Hostel",
+            "categories": ["stay", "join"],
+			"title": "Albergue Hogar Monjardin",
+			"marker-size": "small",
+			"image": "imgs/Albergue-hogar.png",
+			"place": "Villamayor de Monjardin, Spain",
+			"website": "http://www.oasistrails.org/en",
+			"email": "info@oasistrails.org",
+			"season": "April 1st - Oct 31st",
+			"address": "Plaza 4 Villamayor de Monjardin (NA) 31242, Spain",
+			"icons": "imgs/albergue_monjardin_spain.png",
+			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
+		}
+},	{
+		"id": "2",
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
 			"coordinates": [55.941837, -3.204503]
 		},
 		"properties": {
@@ -24,7 +47,7 @@
 			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
-		"id": "2",
+		"id": "3",
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
@@ -46,30 +69,9 @@
 			"icons": "imgs/oasis_surfhouse_spain.png",
 			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
-}, {
-		"id": "3",
-		"type": "Feature",
-		"geometry": {
-			"type": "Point",
-			"coordinates": [43.259342, -2.559365]
-		},
-		"properties": {
-			"open": 4,
-			"close": 10,
-			"type":"Hostel",
-            "categories": ["stay", "join"],
-			"title": "Albergue Hogar Monjardin",
-			"marker-size": "small",
-			"image": "imgs/Albergue-hogar.png",
-			"place": "Villamayor de Monjardin, Spain",
-			"website": "http://www.oasistrails.org/en",
-			"email": "info@oasistrails.org",
-			"season": "April 1st - Oct 31st",
-			"address": "Plaza 4 Villamayor de Monjardin (NA) 31242, Spain",
-			"icons": "imgs/albergue_monjardin_spain.png",
-			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
-		}
-}, {
+}, 
+
+	{
 		"id": "4",
 		"type": "Feature",
 		"geometry": {
@@ -369,75 +371,6 @@
 			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
-		"id": "17",
-		"type": "Feature",
-		"geometry": {
-			"type": "Point",
-			"coordinates": [22.882982, 79.658816]
-		},
-		"properties": {
-			"open": 1, 
-			"close": 4, 
-			"type":"Hostel",
-            "categories": ["meet", "join"],
-			"title": "Tree Ashram",
-			"marker-size": "small",
-			"image": "imgs/tree-ashram.png",
-			"place": "North India",
-			"website": "Contact for more details",
-			"email": "ueichholz@hotmail.com",
-			"season": "September - April",
-			"address": "Contact for more details",
-			"icons": "imgs/tree_ashram.png",
-			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
-		}
-}, {
-		"id": "18",
-		"type": "Feature",
-		"geometry": {
-			"type": "Point",
-			"coordinates": [30.045770, 76.877588]
-		},
-		"properties": {
-			"open": 3,
-			"close": 6,
-			"type":"Hostel",
-            "categories": ["meet", "join"],
-			"title": "Mountain Ashram",
-			"marker-size": "small",
-			"image": "imgs/mountain-ashram.png",
-			"place": "Northern Indian Himalayas",
-			"website": "Contact for more details",
-			"email": "adamsjodelius@hotmail.com",
-			"season": "March 1st - June 30th",
-			"address": "Contact for more details",
-			"icons": "imgs/mountain_ashram.png",
-			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
-		}
-}, {
-		"id": "19",
-		"type": "Feature",
-		"geometry": {
-			"type": "Point",
-			"coordinates": [15.324670, 75.297731]
-		},
-		"properties": {
-			"open": 1,
-			"close": 3,
-			"type":"Hostel",
-            "categories": ["meet", "join"],
-			"title": "Shekina Goa",
-			"marker-size": "small",
-			"image": "imgs/shekina-garden.png",
-			"place": "India",
-			"website": "http://shekina-community.squarespace.com/about",
-			"email": "shekinacommunity@gmail.com",
-			"season": "November - March",
-			"address": "Contact for more details",
-			"icons": "imgs/shekina_goa_india.png",
-			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
-		}
-},  {
 		"id": "20",
 		"type": "Feature",
 		"geometry": {
