@@ -191,22 +191,22 @@
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [18.283206, 99.024819]
+			"coordinates": [19.361460, 98.444767]
 		},
 		"properties": {
 			"open": 1,
 			"close": 12,
 			"type":"Hostel",
-            "categories": ["stay", "meet", "join"],
-			"title": "Zion Hostel & Cafe",
+            "categories": ["meet", "join"],
+			"title": "Shekina Garden",
 			"marker-size": "small",
-			"image": "imgs/zion-cafe-hostel.png",
-			"place": "Chiang Mai, Thailand",
-			"website": "http://www.zioncafeandhostel.com/#!about-zion/cu4n",
-			"email": "info@lighthouseinaction.org",
+			"image": "imgs/shekina-garden.png",
+			"place": "Pai, Thailand",
+			"website": "http://shekina-community.squarespace.com/about",
+			"email": "chinua@gmail.com",
 			"season": "Year Round",
-			"address": "169/4-5 Sridonchai Rd. Changklan, Muang, Chiangmai, Thailand 50100",
-			"icons": "imgs/zion_cafe_thailand.png",
+			"address": "Pai, Thailand",
+			"icons": "imgs/shekina_garden.png",
 			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
@@ -306,7 +306,7 @@
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [42.878943, -8.543485]
+			"coordinates": [42.878836, -8.543274]
 		},
 		"properties": {
 			"open": 4,
@@ -329,22 +329,22 @@
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [41.392844, -3.327816]
+			"coordinates": [42.560446, -2.145480]
 		},
 		"properties": {
-			"open": 3,
-			"close": 10,
+			"open": 1,
+			"close": 12,
 			"type":"Hostel",
-            "categories": ["meet", "join"],
-			"title": "Pilgrim’s Oasis",
+            "categories": ["stay", "join", "create"],
+			"title": "Barbarin Spiritual Community",
 			"marker-size": "small",
-			"image": "imgs/pilgrims-oasis.jpeg",
-			"place": "Viana, Spain",
-			"website": "http://www.oasistrails.org/en",
-			"email": "info@oasistrails.org",
-			"season": "April 1st - Sep 30th",
-			"address": "Calle Navarro Villoslada 8 Viana (NA) 31230, Spain",
-			"icons": "imgs/pilgrims_oasis_spain.png",
+			"image": "imgs/shekina-garden.png",
+			"place": "Barbarin, Navarra, Spain",
+			"website": "Contact for more details",
+			"email": "juan@oasistrails.org",
+			"season": "Year Round",
+			"address": "Contact for more details",
+			"icons": "imgs/barbarin_community_spain.png",
 			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
@@ -375,22 +375,22 @@
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [20.721613, 98.092230]
+			"coordinates": [18.781460, 98.999025]
 		},
 		"properties": {
 			"open": 1,
 			"close": 12,
 			"type":"Hostel",
-            "categories": ["meet", "join"],
-			"title": "Shekina Garden",
+            "categories": ["stay", "meet", "join"],
+			"title": "Zion Hostel & Cafe",
 			"marker-size": "small",
-			"image": "imgs/shekina-garden.png",
-			"place": "Pai, Thailand",
-			"website": "http://shekina-community.squarespace.com/about",
-			"email": "chinua@gmail.com",
+			"image": "imgs/zion-cafe-hostel.png",
+			"place": "Chiang Mai, Thailand",
+			"website": "http://www.zioncafeandhostel.com/#!about-zion/cu4n",
+			"email": "info@lighthouseinaction.org",
 			"season": "Year Round",
-			"address": "Pai, Thailand",
-			"icons": "imgs/shekina_garden.png",
+			"address": "169/4-5 Sridonchai Rd. Changklan, Muang, Chiangmai, Thailand 50100",
+			"icons": "imgs/zion_cafe_thailand.png",
 			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
@@ -444,7 +444,7 @@
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [41.958981, -6.591985]
+			"coordinates": [42.886813, -7.960100]
 		},
 		"properties": {
 			"open": 1,
@@ -675,22 +675,22 @@
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [41.402015, -1.310633]
+			"coordinates": [42.514983, -2.372389]
 	},
 	"properties": {
-		"open": 1,
-		"close": 12,
+		"open": 3,
+		"close": 10,
 		"type":"Hostel",
-		"categories": ["stay", "join", "create"],
-		"title": "Barbarin Spiritual Community",
+		"categories": ["meet", "join"],
+		"title": "Pilgrim’s Oasis",
 		"marker-size": "small",
-		"image": "imgs/shekina-garden.png",
-		"place": "Barbarin, Navarra, Spain",
-		"website": "Contact for more details",
-		"email": "juan@oasistrails.org",
-		"season": "Year Round",
-		"address": "Contact for more details",
-		"icons": "imgs/barbarin_community_spain.png",
+		"image": "imgs/pilgrims-oasis.jpeg",
+		"place": "Viana, Spain",
+		"website": "http://www.oasistrails.org/en",
+		"email": "info@oasistrails.org",
+		"season": "April 1st - Sep 30th",
+		"address": "Calle Navarro Villoslada 8 Viana (NA) 31230, Spain",
+		"icons": "imgs/pilgrims_oasis_spain.png",
 		"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 	}
 }]
