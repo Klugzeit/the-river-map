@@ -83,14 +83,14 @@
 			"close": 10,
 			"type":"Hostel",
             "categories": ["stay", "create", "join"],
-			"title": "Surf Hostel Bidart",
+			"title": "Surf Hostel Biarritz",
 			"marker-size": "small",
 			"image": "imgs/surf-hostels-france.jpeg",
 			"place": "Bidart, France",
 			"website": "http://www.surfhostelbiarritz.com/surf-hostel-bidart/",
 			"email": "surfhostelteam@gmail.com",
 			"season": "April 1st - Sep 30th",
-			"address": "101 Ave Chabadenia, Bidart 64210",
+			"address": "27 Avenue de Migron, 64200 Biarritz, France",
 			"icons": "imgs/surf_hostel_france.png",
 			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
@@ -233,29 +233,6 @@
 			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
-		"id": "11",
-		"type": "Feature",
-		"geometry": {
-			"type": "Point",
-			"coordinates": [-41.131509, -71.271847]
-		},
-		"properties": {
-			"open": 1,
-			"close": 12,
-			"type":"Hostel",
-            "categories": ["stay", "join"],
-			"title": "Shelter on the Lake",
-			"marker-size": "small",
-			"image": "imgs/shelter-on-lake.png",
-			"place": "Bariloche, Argentina",
-			"website": "http://www.shelteronthelake.com",
-			"email": "shelteronthelake@gmail.com",
-			"season": "Year Round",
-			"address": "Alma Fuerte 3012 Bariloche, Argentina",
-			"icons": "imgs/shelter_lake_argentina.png",
-			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
-		}
-}, {
 		"id": "12",
 		"type": "Feature",
 		"geometry": {
@@ -368,29 +345,6 @@
 			"season": "December - March (Arambol) May - October (Manali)",
 			"address": "Arambol, North Goa, Goa, 403524, India; Distt. Kullu (Himachal Pradesh) India (Manali)",
 			"icons": "imgs/dylans_coffeehouse_india.png",
-			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
-		}
-}, {
-		"id": "20",
-		"type": "Feature",
-		"geometry": {
-			"type": "Point",
-			"coordinates": [18.781460, 98.999025]
-		},
-		"properties": {
-			"open": 1,
-			"close": 12,
-			"type":"Hostel",
-            "categories": ["stay", "meet", "join"],
-			"title": "Zion Hostel & Cafe",
-			"marker-size": "small",
-			"image": "imgs/zion-cafe-hostel.png",
-			"place": "Chiang Mai, Thailand",
-			"website": "http://www.zioncafeandhostel.com/#!about-zion/cu4n",
-			"email": "info@lighthouseinaction.org",
-			"season": "Year Round",
-			"address": "169/4-5 Sridonchai Rd. Changklan, Muang, Chiangmai, Thailand 50100",
-			"icons": "imgs/zion_cafe_thailand.png",
 			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
 }, {
@@ -533,29 +487,6 @@
 		"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 	}
 }, { 
-		"id": "27",
-		"type": "Feature",
-		"geometry": {
-			"type": "Point",
-			"coordinates": [-35.027294, 117.883957]
-	},
-	"properties": {
-		"open": 1,
-		"close": 12,
-		"type":"Hostel",
-		"categories": ["stay"],
-		"title": "Three T",
-		"marker-size": "small",
-		"image": "imgs/shekina-garden.png",
-		"place": "Albany, Australia",
-		"website": "Contact for more details",
-		"email": "tiffany.rak@gmail.com",
-		"season": "Year Round",
-		"address": "Contact for more details",
-		"icons": "imgs/three_taustralia.png",
-		"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
-	} 
-}, { 
 		"id": "28",
 		"type": "Feature",
 		"geometry": {
@@ -624,30 +555,7 @@
 		"icons": "imgs/the_wharf_nwezealand.png",
 		"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 	}
-}, { 
-		"id": "31",
-		"type": "Feature",
-		"geometry": {
-			"type": "Point",
-			"coordinates": [-43.898085, 171.259496]
-	},
-	"properties": {
-		"open": 1,
-		"close": 12,
-		"type":"Farmstay",
-		"categories": ["stay", "join", "create"],
-		"title": "Peel Forest farmstay",
-		"marker-size": "small",
-		"image": "imgs/shekina-garden.png",
-		"place": "Peel Forest, New Zealand",
-		"website": "Contact for more details",
-		"email": "thedeans@peelforestfarmstay.com",
-		"season": "Year Round",
-		"address": "Contact for more details",
-		"icons": "imgs/peel_forest_farmstay_newzeland.png",
-		"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
-	}
-}, { 
+},  { 
 		"id": "32",
 		"type": "Feature",
 		"geometry": {
