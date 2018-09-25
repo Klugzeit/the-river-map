@@ -1,7 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [{
-		"id": "10",
+		"id": "1",
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
@@ -23,5 +23,51 @@
 			"icons": "imgs/warmheart_guesthouse_mexico.png",
 			"more": "http://milamex.com/blogtheriver/warm-heart-mexico"
 		}
+}, {
+	"id": "2",
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [42.629484, -2.104001]
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"type":"Hostel + Retreat Retreat Centre",
+		"categories": ["stay", "create", "join"],
+		"title": "Oasis Trails Community",
+		"marker-size": "small",
+		"image": "imgs/OasisSpain/0001.jpg",
+		"place": "Navarra, Spain",
+		"website": "",
+		"email": "info@oasistrails.org",
+		"season": "Year Round",
+		"address": "Calle Plaza 4, 31242, Villamayor de Monjardín, Navarra, Spain",
+		"icons": "imgs/OasisSpain/oasis_spain.png",
+		"more": "info@oasistrails.org"
+	}
+}, {
+	"id": "3",
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [52.372346, 4.899131]
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"type":"Hostel",
+		"categories": ["stay", "create", "join"],
+		"title": "Shelter Hostels Amsterdam",
+		"marker-size": "small",
+		"image": "imgs/ShelterAmsterdam/shelterpic.jpg",
+		"place": "Amsterdam, Netherlands",
+		"website": "www.shelterhostelamsterdam.com",
+		"email": "www.shelterhostelamsterdam.com",
+		"season": "Year Round",
+		"address": "Barndesteeg 112, 1012BV Amsterdam, the Netherlands",
+		"icons": "imgs/ShelterAmsterdam/shelter.png",
+		"more": "www.youthhostelministry.org"
+	}
 }	]
 }
