@@ -16,7 +16,7 @@
 			"marker-size": "small",
 			"image": "imgs/warm-heart.png",
 			"place": "Mexico City, Mexico",
-			"website": "http://www.zioncafeandhostel.com/#!about-zion/cu4n",
+			"website": "http://www.warmheartmexico.com/",
 			"email": "cynthia.ramirezmartinez@gmail.com",
 			"season": "Year Round",
 			"address": "Calz. Mariano Matamoros 29, Del Carmen, 04100 Ciudad de México",
@@ -44,7 +44,7 @@
 		"season": "Year Round",
 		"address": "Calle Plaza 4, 31242, Villamayor de Monjardín, Navarra, Spain",
 		"icons": "imgs/OasisSpain/oasis_spain.png",
-		"more": "info@oasistrails.org"
+		"more": "http://www.therivermaps.info/oasis-trails-community/"
 	}
 }, {
 	"id": "3",
@@ -67,7 +67,7 @@
 		"season": "Year Round",
 		"address": "Barndesteeg 112, 1012BV Amsterdam, the Netherlands",
 		"icons": "imgs/ShelterAmsterdam/shelter.png",
-		"more": "www.youthhostelministry.org"
+		"more": "http://www.therivermaps.info/shelter-hostels-amsterdam/"
 	}
 }	]
 }
