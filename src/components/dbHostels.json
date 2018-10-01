@@ -14,13 +14,14 @@
             "categories": ["stay", "meet", "join"],
 			"title": "Warm Heart Guesthouse",
 			"marker-size": "small",
-			"image": "imgs/warm-heart.png",
+			"image": "assets/img/WarmHeart-01.jpg",
 			"place": "Mexico City, Mexico",
-			"website": "http://www.warmheartmexico.com/",
-			"email": "cynthia.ramirezmartinez@gmail.com",
+			"website": "www.warmheartmexico.com",
+			"booking": "halevhacham@gmail.com",
+			"volunteer": "halevhacham@gmail.com",
 			"season": "Year Round",
 			"address": "Calz. Mariano Matamoros 29, Del Carmen, 04100 Ciudad de México",
-			"icons": "imgs/warmheart_guesthouse_mexico.png",
+			"icons": "assets/icons/smj.png",
 			"more": "http://www.therivermaps.info/warm-heart-mexico"
 		}
 }, {
@@ -37,13 +38,14 @@
 		"categories": ["stay", "create", "join"],
 		"title": "Oasis Trails Community",
 		"marker-size": "small",
-		"image": "imgs/OasisSpain/0001.jpg",
+		"image": "assets/img/OasisTrials-01.jpg",
 		"place": "Navarra, Spain",
-		"website": "",
-		"email": "info@oasistrails.org",
+		"website": "www.oasistrails.org",
+		"booking": "info@oasistrails.org",
+		"volunteer": "info@oasistrails.org",
 		"season": "Year Round",
 		"address": "Calle Plaza 4, 31242, Villamayor de Monjardín, Navarra, Spain",
-		"icons": "imgs/OasisSpain/oasis_spain.png",
+		"icons": "assets/icons/scj.png",
 		"more": "http://www.therivermaps.info/oasis-trails-community/"
 	}
 }, {
@@ -60,14 +62,132 @@
 		"categories": ["stay", "create", "join"],
 		"title": "Shelter Hostels Amsterdam",
 		"marker-size": "small",
-		"image": "imgs/ShelterAmsterdam/shelterpic.jpg",
+		"image": "assets/img/ShelterAmsterdam-01.jpg",
 		"place": "Amsterdam, Netherlands",
 		"website": "www.shelterhostelamsterdam.com",
-		"email": "www.shelterhostelamsterdam.com",
+		"booking": "www.shelterhostelamsterdam.com",
+		"volunteer": "www.youthhostelministry.org",
 		"season": "Year Round",
 		"address": "Barndesteeg 112, 1012BV Amsterdam, the Netherlands",
-		"icons": "imgs/ShelterAmsterdam/shelter.png",
+		"icons": "assets/icons/scj.png",
 		"more": "http://www.therivermaps.info/shelter-hostels-amsterdam/"
+	}
+}, {
+	"id": "4",
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [55.941586, -3.206225]
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"type":"Hostel",
+		"categories": ["stay", "create", "join"],
+		"title": "Light House Hostel",
+		"marker-size": "small",
+		"image": "assets/img/LightHouse-01.jpg",
+		"place": "Edinburgh, Scotland",
+		"website": "http://www.lighthousehostel.co.uk",
+		"booking": "http://www.lighthousehostel.co.uk",
+		"volunteer": "wcwong94@gmail.com",
+		"season": "Year Round",
+		"address": "20 Gilmore Place, Edinburgh, EH3 9NQ, United Kingdom",
+		"icons": "assets/icons/scj.png",
+		"more": "http://www.therivermaps.info/light-house-hostel/"
+	}
+}, {
+	"id": "5",
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-42.969367, 147.061032]
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"type":"Hostel",
+		"categories": ["stay", "meet", "create", "join"],
+		"title": "Pilgrim Hill",
+		"marker-size": "small",
+		"image": "assets/img/PilgrimHill-01.jpg",
+		"place": "Huon Valley, Tasmania, Australia",
+		"website": "http://pilgrimhill.org",
+		"booking": "visit@pilgrimhill.org",
+		"volunteer": "thebaehrs@pilgrimhill.org",
+		"season": "August - June. (Contact us for Jun - Sep availability)",
+		"address": "200 Crouchs Hill Rd, Lucaston TAS 7109, Australia",
+		"icons": "assets/icons/all.png",
+		"more": "http://www.therivermaps.info/pilgrim-hill/"
+	}
+}, {
+	"id": "6",
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [19.361490, 98.444852]
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"type":"Hostel",
+		"categories": ["meet", "join"],
+		"title": "Shekina Garden",
+		"marker-size": "small",
+		"image": "assets/img/ShekinaGarden-01.jpg",
+		"place": "Pai, Thailand",
+		"website": "www.shekinacommunity.com",
+		"booking": "shekinacommunity@gmail.com",
+		"volunteer": "winniepryde@gmail.com",
+		"season": "Year Round",
+		"address": "Unnamed Road Tambon Mae Hi, Pai District, Mae Hong Son 58130, Thailand",
+		"icons": "assets/icons/mj.png",
+		"more": "http://www.therivermaps.info/shekina-garden/"
+	}
+}, {
+	"id": "7",
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [29.556370, 34.947567]
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"type":"Hostel",
+		"categories": ["stay", "meet", "join"],
+		"title": "Shelter Eilat",
+		"marker-size": "small",
+		"image": "assets/img/ShelterEilat-01.jpg",
+		"place": "Eilat, Israel",
+		"website": "www.shelterhostel.com",
+		"booking": "www.shelterhostel.com",
+		"volunteer": "info@shelterhostel.com",
+		"season": "Year Round",
+		"address": "149/1 Eshel Street, Eilat, Israel",
+		"icons": "assets/icons/smj.png",
+		"more": "http://www.therivermaps.info/shelter-hostels-amsterdam/"
+	}
+}, {
+	"id": "8",
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [18.743890, 77.604604]
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"categories": ["stay"],
+		"title": "India",
+		"marker-size": "small",
+		"place": "Not Available / Private",
+		"website": "Not Available / Private",
+		"booking": "therivercommmunites@gmail.com",
+		"volunteer": "therivercommmunites@gmail.com",
+		"season": "Year Round",
+		"address": "Not Available / Private",
+		"more": "http://www.therivermaps.info/"
 	}
 }	]
 }

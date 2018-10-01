@@ -30,9 +30,9 @@ class SidePanel extends Component {
           <p>{this.props.marker.place}</p>
           <p>{this.props.marker.address}</p>
           <p>Season: {this.props.marker.season}</p>
-          <p>How to book it? {this.props.marker.email}</p>
-          <p>For volunteer oppportunities: {this.props.marker.email}</p>
-          <a href={this.props.marker.website}/>
+          <p>How to Book it? {this.props.marker.booking}</p>
+          <p>Volunteer Oppportunities: {this.props.marker.volunteer}</p>
+          <p>Website:<a href={this.props.marker.website}>{this.props.marker.website}</a></p>
           {/*<div dangerouslySetInnerHTML={{__html: this.props.marker.info}}></div>*/}
           <img src={this.props.marker.image} alt="img" />
         </div>

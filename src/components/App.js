@@ -62,13 +62,14 @@ class App extends Component {
         /*info: features[i].properties.information,*/
         place: features[i].properties.place,
         website: features[i].properties.website,
-        email: features[i].properties.email,
+        booking: features[i].properties.booking,
         season: features[i].properties.season,
         address: features[i].properties.address,
         image: features[i].properties.image,
         categories: features[i].properties.categories,
         icons: features[i].properties.icons,
-        more: features[i].properties.more
+        more: features[i].properties.more,
+        volunteer: features[i].properties.volunteer
       }
 
       markers[index] = marker;

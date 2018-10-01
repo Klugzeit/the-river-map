@@ -51,7 +51,7 @@ h1 {
 
 #sidePanelInfoContainer {
   padding: 40px;
-  height: 400px;
+  height: 280px;
   overflow: scroll;
 }
 
@@ -61,7 +61,7 @@ h1 {
 }
 
 .sidePanelContainer h2 {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .sidePanelContainer img {
@@ -70,7 +70,7 @@ h1 {
 }
 
 .sidePanelContainer p {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .buttonMore {
