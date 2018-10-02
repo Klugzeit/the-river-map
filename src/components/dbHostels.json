@@ -10,7 +10,7 @@
 		"properties": {
 			"open": 1,
 			"close": 12,
-			"type":"GuestHouse",
+			"type":"Guest House",
             "categories": ["stay", "meet", "join"],
 			"title": "Warm Heart Guesthouse",
 			"marker-size": "small",
@@ -181,13 +181,12 @@
 		"categories": ["stay"],
 		"title": "India",
 		"marker-size": "small",
-		"place": "Not Available / Private",
-		"website": "Not Available / Private",
-		"booking": "therivercommmunites@gmail.com",
-		"volunteer": "therivercommmunites@gmail.com",
-		"season": "Year Round",
-		"address": "Not Available / Private",
-		"more": "http://www.therivermaps.info/"
+		"place": "Due to necessary privacy, if you would like to know more about any of the communities contact us directly: therivercommmunites@gmail.com",
+		"booking": "-/-",
+		"volunteer": "-/-",
+		"season": "-/-",
+		"more": "-/-",
+		"image": "assets/riocito.gif"
 	}
 }	]
 }
