@@ -188,5 +188,29 @@
 		"more": "-/-",
 		"image": "assets/riocito.gif"
 	}
-}	]
+},  {
+	"id": "9",
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [34.015613, -86.146779]
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"type":"Rustic Retreat, Hostel, Campground",
+		"categories": ["stay", "meet", "join", "create"],
+		"title": "Nomad’s Land",
+		"marker-size": "small",
+		"image": "assets/img/NomadsLand-01.jpg",
+		"place": "Attalla, AL, US",
+		"website": "",
+		"booking": "booking.Nomadsrest@gmail.com",
+		"volunteer": "nomadsrest@gmail.com",
+		"season": "April to mid-June & September to mid-November",
+		"address": "441 Kimbril Circle, Attalla, AL 35954 United States",
+		"icons": "assets/icons/all.png",
+		"more": "http://www.therivermaps.info/shelter-eilat/"
+	}
+} 	]
 }
