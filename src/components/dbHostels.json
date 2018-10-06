@@ -104,7 +104,7 @@
 		"coordinates": [-42.969367, 147.061032]
 	},
 	"properties": {
-		"open": 1,
+		"open": 6,
 		"close": 12,
 		"type":"Hostel",
 		"categories": ["stay", "meet", "create", "join"],
@@ -115,7 +115,7 @@
 		"website": "http://pilgrimhill.org",
 		"booking": "visit@pilgrimhill.org",
 		"volunteer": "thebaehrs@pilgrimhill.org",
-		"season": "August - June. (Contact us for Jun - Sep availability)",
+		"season": "August - June (Contact us for Jun - Sep availability)",
 		"address": "200 Crouchs Hill Rd, Lucaston TAS 7109, Australia",
 		"icons": "assets/icons/all.png",
 		"more": "http://www.therivermaps.info/pilgrim-hill/"
@@ -196,8 +196,8 @@
 		"coordinates": [34.015613, -86.146779]
 	},
 	"properties": {
-		"open": 1,
-		"close": 12,
+		"open": 4,
+		"close": 11,
 		"type":"Rustic Retreat, Hostel, Campground",
 		"categories": ["stay", "meet", "join", "create"],
 		"title": "Nomad’s Land",
@@ -210,7 +210,7 @@
 		"season": "April to mid-June & September to mid-November",
 		"address": "441 Kimbril Circle, Attalla, AL 35954 United States",
 		"icons": "assets/icons/all.png",
-		"more": "http://www.therivermaps.info/shelter-eilat/"
+		"more": "http://www.therivermaps.info/nomads-land/"
 	}
 } 	]
 }
