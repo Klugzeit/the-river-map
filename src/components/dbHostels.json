@@ -130,7 +130,7 @@
 	"properties": {
 		"open": 1,
 		"close": 12,
-		"type":"Hostel",
+		"type":"Ashram",
 		"categories": ["meet", "join"],
 		"title": "Shekina Garden",
 		"marker-size": "small",
