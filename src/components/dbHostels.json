@@ -22,7 +22,7 @@
 			"season": "Year Round",
 			"address": "Calz. Mariano Matamoros 29, Del Carmen, 04100 Ciudad de México",
 			"icons": "assets/icons/smj.png",
-			"more": "http://www.therivermaps.info/warm-heart-mexico"
+			"more": "http://www.therivercommunities.com/warm-heart-mexico"
 		}
 }, {
 	"id": "2",
@@ -46,7 +46,7 @@
 		"season": "Year Round",
 		"address": "Calle Plaza 4, 31242, Villamayor de Monjardín, Navarra, Spain",
 		"icons": "assets/icons/scj.png",
-		"more": "http://www.therivermaps.info/oasis-trails-community/"
+		"more": "http://www.therivercommunities.com/oasis-trails-community/"
 	}
 }, {
 	"id": "3",
@@ -70,7 +70,7 @@
 		"season": "Year Round",
 		"address": "Barndesteeg 112, 1012BV Amsterdam, the Netherlands",
 		"icons": "assets/icons/scj.png",
-		"more": "http://www.therivermaps.info/shelter-hostels-amsterdam/"
+		"more": "http://www.therivercommunities.com/shelter-hostels-amsterdam/"
 	}
 }, {
 	"id": "4",
@@ -94,7 +94,7 @@
 		"season": "Year Round",
 		"address": "20 Gilmore Place, Edinburgh, EH3 9NQ, United Kingdom",
 		"icons": "assets/icons/scj.png",
-		"more": "http://www.therivermaps.info/light-house-hostel/"
+		"more": "http://www.therivercommunities.com/light-house-hostel/"
 	}
 }, {
 	"id": "5",
@@ -118,7 +118,7 @@
 		"season": "August - June (Contact us for Jun - Sep availability)",
 		"address": "200 Crouchs Hill Rd, Lucaston TAS 7109, Australia",
 		"icons": "assets/icons/all.png",
-		"more": "http://www.therivermaps.info/pilgrim-hill/"
+		"more": "http://www.therivercommunities.com/pilgrim-hill/"
 	}
 }, {
 	"id": "6",
@@ -142,7 +142,7 @@
 		"season": "Year Round",
 		"address": "Unnamed Road Tambon Mae Hi, Pai District, Mae Hong Son 58130, Thailand",
 		"icons": "assets/icons/mj.png",
-		"more": "http://www.therivermaps.info/shekina-garden/"
+		"more": "http://www.therivercommunities.com/shekina-garden/"
 	}
 }, {
 	"id": "7",
@@ -166,7 +166,7 @@
 		"season": "Year Round",
 		"address": "149/1 Eshel Street, Eilat, Israel",
 		"icons": "assets/icons/smj.png",
-		"more": "http://www.therivermaps.info/shelter-eilat/"
+		"more": "http://www.therivercommunities.com/shelter-eilat/"
 	}
 }, {
 	"id": "8",
@@ -187,7 +187,7 @@
 		"season": "-/-",
 		"more": "-/-",
 		"image": "assets/riocito.gif",
-		"more": "http://www.therivermaps.info/india/"
+		"more": "http://www.therivercommunities.com/india/"
 	}
 },  {
 	"id": "9",
@@ -211,7 +211,7 @@
 		"season": "April to mid-June & September to mid-November",
 		"address": "441 Kimbril Circle, Attalla, AL 35954 United States",
 		"icons": "assets/icons/all.png",
-		"more": "http://www.therivermaps.info/nomads-land/"
+		"more": "http://www.therivercommunities.com/nomads-land/"
 	}
 } 	]
 }
