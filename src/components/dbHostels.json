@@ -34,7 +34,7 @@
 	"properties": {
 		"open": 1,
 		"close": 12,
-		"type":"Hostel + Retreat Retreat Centre",
+		"type":"Hostel + Retreat Centre",
 		"categories": ["stay", "create", "join"],
 		"title": "Oasis Trails Community",
 		"marker-size": "small",
