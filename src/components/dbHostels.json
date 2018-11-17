@@ -178,7 +178,7 @@
 	"properties": {
 		"open": 1,
 		"close": 12,
-		"categories": ["stay", "meet", "join"],
+		"categories": ["meet", "join"],
 		"title": "India",
 		"marker-size": "small",
 		"place": "Due to necessary privacy, if you would like to know more about any of the communities contact us directly: therivercommmunites@gmail.com",
