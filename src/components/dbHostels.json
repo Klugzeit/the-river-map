@@ -173,7 +173,7 @@
 	"type": "Feature",
 	"geometry": {
 		"type": "Point",
-                "color": "black",
+                "color": "#080000",
 		"coordinates": [18.743890, 77.604604]
 	},
 	"properties": {
