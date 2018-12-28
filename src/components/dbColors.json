@@ -1,0 +1,15 @@
+{
+  "type": "ColorCollection",
+  "colors": [
+    {
+      "name": "orange",
+      "default": "#ff8a65",
+      "selected": "#62d2c3"
+    },
+    {
+      "name": "blue",
+      "default": "#0033ff",
+      "selected": "#0033ff"
+    }
+  ]
+}
