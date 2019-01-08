@@ -4,6 +4,7 @@ import '../css/App.css';
 import MainPanel from './MainPanel'
 import MapPanel from './MapPanel'
 import mapData from './dbHostels'
+import colorData from './dbColors'
 import BasketPanel from './BasketPanel'
 import BasketButton from './BasketButton'
 import MainMenu from './MainMenu'
@@ -50,6 +51,7 @@ class App extends Component {
       let geo = features[i].geometry
       let index = i;
       
+      // initialize marker without icon
       let marker = {
         key: index,
         lat: geo.coordinates[0],
@@ -57,7 +59,8 @@ class App extends Component {
         open: features[i].properties.open,
         close: features[i].properties.close,
         type: features[i].properties.type,
-        icon: this.getMarkerIcon(),
+        icon: null,
+        color: features[i].properties['marker-color'],
         title: features[i].properties.title,
         /*info: features[i].properties.information,*/
         place: features[i].properties.place,
@@ -72,6 +75,9 @@ class App extends Component {
         volunteer: features[i].properties.volunteer
       }
 
+      // build icon with marker object
+      marker.icon = this.getMarkerIcon(marker)
+
       markers[index] = marker;
     }
 
@@ -79,36 +85,45 @@ class App extends Component {
   }
 
   /*
-    Return default icon if marker was not specified
+    Return default icon on first render
+    param marker: required, holds color information
     param select: Always return selected icon
    */
   getMarkerIcon(marker, select=false) {
+    const defaultColor = {
+      default: "#ff8a65",
+      selected: "#62d2c3"
+    }
+
+    let color = colorData
+      .colors.find(({ name }) => name === marker.color) || defaultColor
 
     let defaultIcon = {
       path: 'M0,50 A50,50,0 1 1 100,50 A50,50,0 1 1 0,50 Z',
-      fillColor: '#ff8a65',
+      fillColor: color.default,
       fillOpacity: 0.8,
       scale: 0.18,
-      strokeColor: '#ff8a65'
+      strokeColor: color.default
     }
 
     let selectedIcon = {
       path: 'M0,50 A50,50,0 1 1 100,50 A50,50,0 1 1 0,50 Z',
-      fillColor: '#62d2c3',
+      fillColor: color.selected,
       fillOpacity: 1,
       scale: 0.18,
-      strokeColor: '#62d2c3'
+      strokeColor: color.selected
     }
 
     let disabledIcon = {
       path: 'M0,50 A50,50,0 1 1 100,50 A50,50,0 1 1 0,50 Z',
-      fillColor: '#ff8a65',
+      fillColor: color.default,
       fillOpacity: 0.2,
       scale: 0.18,
-      strokeColor: '#ff8a65'
+      strokeColor: color.default
     }
 
-    if (!marker) {
+    // return defaultIcon on first render
+    if (!marker || !this.state) {
       return defaultIcon;
     }
 
