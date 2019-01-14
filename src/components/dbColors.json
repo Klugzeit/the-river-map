@@ -3,13 +3,16 @@
   "colors": [
     {
       "name": "orange",
-      "default": "#ff8a65",
-      "selected": "#62d2c3"
+      "default": "#ff9b7e",
+      "selected": "#ff9b7e"
     },
     {
       "name": "blue",
-      "default": "#0033ff",
-      "selected": "#0033ff"
-    }
-  ]
-}
+      "default": "#13b6c1",
+      "selected": "#13b6c1"
+    },
+    {
+      "name":"green",
+      "default":"#25c00c",
+      "selected":"#25c00c"
+     }
