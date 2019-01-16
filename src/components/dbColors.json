@@ -13,8 +13,8 @@
     },
     {
       "name":"gray",
-      "default":"#d2d5d5",
-      "selected":"#d2d5d5"
+      "default":"#9e9e9e",
+      "selected":"#9e9e9e"
      }
 ]
 }
