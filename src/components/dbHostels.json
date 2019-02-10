@@ -223,9 +223,7 @@
 		"icons": "assets/icons/all.png",
 		"more": "http://www.therivercommunities.com/nomads-land/"
 	}
-} ,
-
- {
+} ,  {
 	"id": "10",
 	"type": "Feature",
 	"geometry": {
@@ -243,12 +241,10 @@
 		"image": "-/-",
 		"place": "Byron Bay, Australia",
 		"website": "-/-",
-		
 		"volunteer": "delhove@gmail.com",
 		"season": "Year Round",
 		"address": "113 Left Bank Rd, Mullumbimby, 2482, Byron Bay, NSW, Australia",
 		"icons": "assets/icons/all.png",
-		
 	}
 }
 
