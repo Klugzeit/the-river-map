@@ -223,5 +223,35 @@
 		"icons": "assets/icons/all.png",
 		"more": "http://www.therivercommunities.com/nomads-land/"
 	}
-} 	]
+} 
+
+ {
+	"id": "10",
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-28.561114, 153.482647]
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"type": "Homestay, Camping, Farm",
+		"categories": ["stay", "meet", "join", "create"],
+		"title": "Selah Guesthouse",
+		"marker-size": "small",
+		"marker-color": "gray",
+		"image": "-/-",
+		"place": "Byron Bay, Australia",
+		"website": "-/-",
+		"booking": "-/-",
+		"volunteer": "delhove@gmail.com",
+		"season": "Year Round",
+		"address": "113 Left Bank Rd, Mullumbimby, 2482, Byron Bay, NSW, Australia",
+		"icons": "assets/icons/all.png",
+		"more": "-/-"
+	}
+}
+
+
+	]
 }
