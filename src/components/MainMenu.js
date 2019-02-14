@@ -8,7 +8,7 @@ class MainMenu extends Component {
     return (
       <div id="mainMenuContainer">
         <a href='http://www.therivercommunities.com/'>theRIVER</a>
-        <a href='http://www.therivercommunities.com/blog'>BLOG</a>
+        <a href='http://www.therivercommunities.com/category/blog/'>BLOG</a>
         <a href='http://www.therivercommunities.com/media'>MEDIA</a>
       </div>
     );
