@@ -72,6 +72,7 @@ class App extends Component {
         categories: features[i].properties.categories,
         icons: features[i].properties.icons,
         more: features[i].properties.more,
+        description: features[i].properties.description,
         volunteer: features[i].properties.volunteer
       }
 
