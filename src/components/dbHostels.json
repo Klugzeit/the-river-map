@@ -247,7 +247,32 @@
 		"address": "113 Left Bank Rd, Mullumbimby, 2482, Byron Bay, NSW, Australia",
 		"icons": "assets/icons/all.png"
 	}
-} 
+} ,{
+	"id": "11",
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-35.314309, 150.469629]
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"type": "Surfhouse",
+		"categories": ["stay", "meet", "join"],
+		"title": "SurfHouse Narrawallee",
+		"marker-size": "small",
+		"marker-color": "orange",
+		"image": "assets/img/SurfHouse-01.jpg",
+		"place": "Narrawallee, Australia",
+		"website": "-/-",
+		"volunteer": "surfhousenarrawallee@gmail.com",
+		"booking": "surfhousenarrawallee@gmail.com",
+		"season": "Year Round",
+		"address": "108 Matron Porter Drive, Narrawallee, NSW 2152 Australia",
+		"icons": "assets/icons/smj.png",
+		"more": "http://www.therivercommunities.com/surfhousenarrawallee/"
+	}
+}
 
 
 
