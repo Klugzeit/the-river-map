@@ -23,7 +23,6 @@
 			"season": "Year Round",
 			"address": "Calz. Mariano Matamoros 29, Del Carmen, 04100 Ciudad de México",
 			"icons": "assets/icons/smj.png",
-			"description": "-/-",
 			"more": "http://www.therivercommunities.com/warm-heart-mexico"
 		}
 }, {
@@ -49,7 +48,6 @@
 		"season": "Year Round",
 		"address": "Calle Plaza 4, 31242, Villamayor de Monjardín, Navarra, Spain",
 		"icons": "assets/icons/scj.png",
-		"description": "-/-",
 		"more": "http://www.therivercommunities.com/oasis-trails-community/"
 	}
 }, {
@@ -75,7 +73,6 @@
 		"season": "Year Round",
 		"address": "Barndesteeg 112, 1012BV Amsterdam, the Netherlands",
 		"icons": "assets/icons/scj.png",
-		"description": "-/-",
 		"more": "http://www.therivercommunities.com/shelter-hostels-amsterdam/"
 	}
 }, {
@@ -101,7 +98,6 @@
 		"season": "Year Round",
 		"address": "20 Gilmore Place, Edinburgh, EH3 9NQ, United Kingdom",
 		"icons": "assets/icons/scj.png",
-		"description": "-/-",
 		"more": "http://www.therivercommunities.com/light-house-hostel/"
 	}
 }, {
@@ -127,7 +123,6 @@
 		"season": "August - June (Contact us for Jun - Sep availability)",
 		"address": "200 Crouchs Hill Rd, Lucaston TAS 7109, Australia",
 		"icons": "assets/icons/all.png",
-		"description": "-/-",
 		"more": "http://www.therivercommunities.com/pilgrim-hill/"
 	}
 }, {
@@ -153,7 +148,6 @@
 		"season": "Year Round",
 		"address": "Unnamed Road Tambon Mae Hi, Pai District, Mae Hong Son 58130, Thailand",
 		"icons": "assets/icons/mj.png",
-		"description": "-/-",
 		"more": "http://www.therivercommunities.com/shekina-garden/"
 	}
 }, {
@@ -179,7 +173,6 @@
 		"season": "Year Round",
 		"address": "149/1 Eshel Street, Eilat, Israel",
 		"icons": "assets/icons/smj.png",
-		"description": "-/-",
 		"more": "http://www.therivercommunities.com/shelter-eilat/"
 	}
 }, {
@@ -203,7 +196,6 @@
 		"season": "-/-",
 		"more": "-/-",
 		"image": "assets/riocito.gif",
-		"description": "-/-",
 		"more": "http://www.therivercommunities.com/india/"
 	}
 },  {
@@ -229,7 +221,6 @@
 		"season": "April to mid-June & September to mid-November",
 		"address": "441 Kimbril Circle, Attalla, AL 35954 United States",
 		"icons": "assets/icons/all.png",
-		"description": "-/-",
 		"more": "http://www.therivercommunities.com/nomads-land/"
 	}
 } ,  {
@@ -281,7 +272,6 @@
 		"season": "Year Round",
 		"address": "108 Matron Porter Drive, Narrawallee, NSW 2152 Australia",
 		"icons": "assets/icons/smj.png",
-		"description": "-/-",
 		"more": "http://www.therivercommunities.com/surfhousenarrawallee/"
 	}
 }
