@@ -274,6 +274,31 @@
 		"icons": "assets/icons/smj.png",
 		"more": "http://www.therivercommunities.com/surfhousenarrawallee/"
 	}
+},{
+	"id": "12",
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-37.821079, 144.945202]
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"type": "Communal Gathering Space",
+		"categories": ["create", "meet", "join"],
+		"title": "The Third Space",
+		"marker-size": "small",
+		"marker-color": "gray",
+		"image": "-/-",
+		"place": "Melbourne, Australia",
+		"website": "-/-",
+		"volunteer": "g10.thethirdspace@gmail.com",
+		"booking": "g10.thethirdspace.org.au",
+		"season": "Year Round",
+		"address": "Suite G10, 22 Import Lane, Docklands, Melbourne",
+		"icons": "assets/icons/mcj.png",
+		"description": "The Third Space community is made up of both Christ-followers and others from diverse backgrounds. We have a vision for bringing people together, whether they are travelers, residents or workers. Our weekly rhythms include meditation practices, lunches, “Chai + chat” and just hanging out! We enjoy collaborating with other like-minded groups such as Christian Backpackers and HikingFaith. Celebrating cultural festivals and hosting events such as soirees (especially around food) are part of life in our community. Our weekly meditation practices include “Mindful Meditation” (a 15 minute practice incorporating deep breathing and relaxation) and “Meditation Circle” (a 25 meditation practice in the Judeo-Christian tradition). We embrace all who visit just once and welcome all who chose to stay and belong."
+	}
 }
 
 
