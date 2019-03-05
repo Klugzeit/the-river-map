@@ -8,6 +8,7 @@ import colorData from './dbColors'
 import BasketPanel from './BasketPanel'
 import BasketButton from './BasketButton'
 import MainMenu from './MainMenu'
+import ColorMenu from './ColorMenu'
 
 
 class App extends Component {
@@ -298,6 +299,7 @@ class App extends Component {
           onBasketItemTitleClick={this.handleBasketItemTitleClick.bind(this)} /> : "" }
 
         <MainMenu />
+	<ColorMenu />
 
         <BasketButton
           onBasketBtnClick={this.handleBasketBtnClick.bind(this)}
