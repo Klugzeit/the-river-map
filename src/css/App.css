@@ -396,7 +396,7 @@ h1 {
 
 #colorMenuContainer {
   position: absolute;
-  top: 700px;
+  top: 80%;
   right: 100px;
   list-style: none;
   background-color: white;
