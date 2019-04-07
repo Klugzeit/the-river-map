@@ -289,7 +289,7 @@
 		"title": "The Third Space",
 		"marker-size": "small",
 		"marker-color": "gray",
-		"image": "-/-",
+		"image": "assets/img/The-third-space_Door-sign-2.png",
 		"place": "Melbourne, Australia",
 		"website": "-/-",
 		"volunteer": "g10.thethirdspace@gmail.com",
@@ -298,6 +298,31 @@
 		"address": "Suite G10, 22 Import Lane, Docklands, Melbourne",
 		"icons": "assets/icons/mcj.png",
 		"description": "The Third Space community is made up of both Christ-followers and others from diverse backgrounds. We have a vision for bringing people together, whether they are travelers, residents or workers. Our weekly rhythms include meditation practices, lunches, “Chai + chat” and just hanging out! We enjoy collaborating with other like-minded groups such as Christian Backpackers and HikingFaith. Celebrating cultural festivals and hosting events such as soirees (especially around food) are part of life in our community. Our weekly meditation practices include “Mindful Meditation” (a 15 minute practice incorporating deep breathing and relaxation) and “Meditation Circle” (a 25 meditation practice in the Judeo-Christian tradition). We embrace all who visit just once and welcome all who chose to stay and belong."
+	}
+},{
+	"id": "13",
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-37.683593, 176.169342]
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"type": "Community House",
+		"categories": ["stay","create", "meet", "join"],
+		"title": "The Wharf Community House",
+		"marker-size": "small",
+		"marker-color": "gray",		
+		"image": "-/-",
+		"place": "Tauranga, New Zealand",
+		"website": "-/-",
+		"volunteer": "alanakrieg@steiger.com",
+		"booking": "24wharfst@gmail.com",
+		"season": "Year Round",
+		"address": "24 Wharf Street, Tauranga, 3110, New Zealand",
+		"icons": "assets/icons/all.png",
+		"description": "We believe that you cannot do life alone. So we started a Community House - The Wharf. Three to Four full time residents and a never-ending stream of guests make The Wharf a place for anyone to come and feel at home! The Wharf is also the site of house concerts, Open Mic Nights and other gatherings in Tauranga. Community Meal At The Wharf we think that eating together is a great way to build community! Each week we open up the community house for anyone and everyone to come and join us for a community meal so that we can all share food together and build new friendships. Our weekly Community Meals are open to everyone every Thursday at 6:30pm! Community Living One of the most important parts of living in a community house is making sure that we are interacting with and caring for each other, while maintaining an outward focus. We eat meals toghether at least 3 times a week and have weekly meetings. Backpackers At The Wharf Community house we have an extra bedroom complete with 2 sets of bunk beds. We host Couchsurfers and Backpackers from all over the world in this room. We love to meet new people and have them stay at our place!"
 	}
 }
 
