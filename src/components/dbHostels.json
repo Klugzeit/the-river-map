@@ -324,9 +324,31 @@
 		"icons": "assets/icons/all.png",
 		"description": "We believe that you cannot do life alone. So we started a Community House - The Wharf. Three to Four full time residents and a never-ending stream of guests make The Wharf a place for anyone to come and feel at home! The Wharf is also the site of house concerts, Open Mic Nights and other gatherings in Tauranga. Community Meal At The Wharf we think that eating together is a great way to build community! Each week we open up the community house for anyone and everyone to come and join us for a community meal so that we can all share food together and build new friendships. Our weekly Community Meals are open to everyone every Thursday at 6:30pm! Community Living One of the most important parts of living in a community house is making sure that we are interacting with and caring for each other, while maintaining an outward focus. We eat meals toghether at least 3 times a week and have weekly meetings. Backpackers At The Wharf Community house we have an extra bedroom complete with 2 sets of bunk beds. We host Couchsurfers and Backpackers from all over the world in this room. We love to meet new people and have them stay at our place!"
 	}
-}
-
-
+},{
+	"id": "14",
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [47.500166, 19.057290]
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"type": "Cafe & Creative Space",
+		"categories": ["create", "meet", "join"],
+		"title": "Rézkígyó Coffehouse",
+		"marker-size": "small",
+		"marker-color": "gray",		
+		"image": "assets/img/budapest.jpg",
+		"place": "Budapest, Hungary",
+		"website": "-/-",
+		"volunteer": "coffeehouse@ywambudapest.org",
+		"booking": "www.facebook.com/Rez.Cafe/",
+		"season": "Year Round",
+		"address": "Paulay Ede u. 15, 1061, Budapest, Hungary",
+		"icons": "assets/icons/mcj.png",
+		"description": "We operate a beautiful and spacious coffee house in the café and arts district of downtown Budapest. Our goal is to create a hospitable and peaceful atmosphere where our guests can relax, be themselves,  and experience  the love and beauty of God.  In addition to great coffee, we offer community through good conversation, worship and meditation, and live music events on Friday nights.  We hope to see some increase and growth in our weekly activities, especially in the area of arts, where travelers may find community through different kinds of creative expression and interaction."
+	}}
 
 	]
 }
