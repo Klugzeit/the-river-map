@@ -23,7 +23,7 @@
 			"season": "Year Round",
 			"address": "Calz. Mariano Matamoros 29, Del Carmen, 04100 Ciudad de México",
 			"icons": "assets/icons/smj.png",
-			"more": "http://www.therivercommunities.com/warm-heart-mexico"
+			"more": "https://www.therivercommunities.com/warm-heart-mexico"
 		}
 }, {
 	"id": "2",
@@ -48,7 +48,7 @@
 		"season": "Year Round",
 		"address": "Calle Plaza 4, 31242, Villamayor de Monjardín, Navarra, Spain",
 		"icons": "assets/icons/scj.png",
-		"more": "http://www.therivercommunities.com/oasis-trails-community/"
+		"more": "https://www.therivercommunities.com/oasis-trails-community/"
 	}
 }, {
 	"id": "3",
@@ -73,7 +73,7 @@
 		"season": "Year Round",
 		"address": "Barndesteeg 112, 1012BV Amsterdam, the Netherlands",
 		"icons": "assets/icons/scj.png",
-		"more": "http://www.therivercommunities.com/shelter-hostels-amsterdam/"
+		"more": "https://www.therivercommunities.com/shelter-hostels-amsterdam/"
 	}
 }, {
 	"id": "4",
@@ -98,7 +98,7 @@
 		"season": "Year Round",
 		"address": "20 Gilmore Place, Edinburgh, EH3 9NQ, United Kingdom",
 		"icons": "assets/icons/scj.png",
-		"more": "http://www.therivercommunities.com/light-house-hostel/"
+		"more": "https://www.therivercommunities.com/light-house-hostel/"
 	}
 }, {
 	"id": "5",
@@ -123,7 +123,7 @@
 		"season": "August - June (Contact us for Jun - Sep availability)",
 		"address": "200 Crouchs Hill Rd, Lucaston TAS 7109, Australia",
 		"icons": "assets/icons/all.png",
-		"more": "http://www.therivercommunities.com/pilgrim-hill/"
+		"more": "https://www.therivercommunities.com/pilgrim-hill/"
 	}
 }, {
 	"id": "6",
@@ -148,7 +148,7 @@
 		"season": "Year Round",
 		"address": "Unnamed Road Tambon Mae Hi, Pai District, Mae Hong Son 58130, Thailand",
 		"icons": "assets/icons/mj.png",
-		"more": "http://www.therivercommunities.com/shekina-garden/"
+		"more": "https://www.therivercommunities.com/shekina-garden/"
 	}
 }, {
 	"id": "7",
@@ -173,7 +173,7 @@
 		"season": "Year Round",
 		"address": "149/1 Eshel Street, Eilat, Israel",
 		"icons": "assets/icons/smj.png",
-		"more": "http://www.therivercommunities.com/shelter-eilat/"
+		"more": "https://www.therivercommunities.com/shelter-eilat/"
 	}
 }, {
 	"id": "8",
@@ -196,7 +196,7 @@
 		"season": "-/-",
 		"more": "-/-",
 		"image": "assets/riocito.gif",
-		"more": "http://www.therivercommunities.com/india/"
+		"more": "https://www.therivercommunities.com/india/"
 	}
 },  {
 	"id": "9",
@@ -221,7 +221,7 @@
 		"season": "April to mid-June & September to mid-November",
 		"address": "441 Kimbril Circle, Attalla, AL 35954 United States",
 		"icons": "assets/icons/all.png",
-		"more": "http://www.therivercommunities.com/nomads-land/"
+		"more": "https://www.therivercommunities.com/nomads-land/"
 	}
 } ,  {
 	"id": "10",
@@ -272,7 +272,7 @@
 		"season": "Year Round",
 		"address": "108 Matron Porter Drive, Narrawallee, NSW 2152 Australia",
 		"icons": "assets/icons/smj.png",
-		"more": "http://www.therivercommunities.com/surfhousenarrawallee/"
+		"more": "https://www.therivercommunities.com/surfhousenarrawallee/"
 	}
 },{
 	"id": "12",
@@ -348,7 +348,39 @@
 		"address": "Paulay Ede u. 15, 1061, Budapest, Hungary",
 		"icons": "assets/icons/mcj.png",
 		"description": "We operate a beautiful and spacious coffee house in the café and arts district of downtown Budapest. Our goal is to create a hospitable and peaceful atmosphere where our guests can relax, be themselves,  and experience  the love and beauty of God.  In addition to great coffee, we offer community through good conversation, worship and meditation, and live music events on Friday nights.  We hope to see some increase and growth in our weekly activities, especially in the area of arts, where travelers may find community through different kinds of creative expression and interaction."
-	}}
+	}},{
+	"id": "15",
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [-37.819078, 144.940486]
+	},
+	"properties": {
+		"open": 1,
+		"close": 12,
+		"type": "Communal Gathering Space",
+		"categories": ["create", "meet", "join"],
+		"title": "Christian Backpackers Meetup Melbourne",
+		"marker-size": "small",
+		"marker-color": "blue",		
+		"image": "assets/img/IMG_6816.jpeg",
+		"place": "Melbourne, Australia",
+		"website": "-/-",
+		"volunteer": "christianbackpackers@outlook",
+		"booking": "https://www.facebook.com/christianbackpackers.melb/",
+		"season": "Year Round",
+		
+		"icons": "assets/icons/m.png",
+		"more": "https://www.therivercommunities.com/christian-backpackers-meetup-melbourne/",
+		"description": "We are a network for Christian travellers to meet fellow travellers and locals and where you can explore faith if interested. We also encourage Christians to consider how their faith connects with their travel. We do this by organising social events each month - the location depends on the type of event (eg beach picnic, open air concert, shared meal) . We collaborate closely with The Third Space also located in Melbourne."
+	}
+
+
+
+
+
+
+}
 
 	]
 }
