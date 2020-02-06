@@ -20,8 +20,8 @@ const MyMapComponent = compose(
   withGoogleMap
 )((props) =>
   <GoogleMap
-    defaultZoom={2}
-    defaultCenter={{ lat: 20, lng: 0 }}
+    defaultZoom={3}
+    defaultCenter={{ lat: 40, lng: 0 }}
     defaultOptions={{
       styles: mapStyle,
       streetViewControl: false,

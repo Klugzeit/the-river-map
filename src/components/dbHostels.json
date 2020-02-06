@@ -288,7 +288,7 @@
 		"categories": ["create", "meet", "join"],
 		"title": "The Third Space",
 		"marker-size": "small",
-		"marker-color": "gray",
+		"marker-color": "blue",
 		"image": "assets/img/The-third-space_Door-sign-2.png",
 		"place": "Melbourne, Australia",
 		"website": "-/-",
@@ -353,12 +353,12 @@
 	"type": "Feature",
 	"geometry": {
 		"type": "Point",
-		"coordinates": [-37.819078, 144.940486]
+		"coordinates": [-38.254648, 141.705066]
 	},
 	"properties": {
 		"open": 1,
 		"close": 12,
-		"type": "Communal Gathering Space",
+		"type": "event-based group",
 		"categories": ["create", "meet", "join"],
 		"title": "Christian Backpackers Meetup Melbourne",
 		"marker-size": "small",
