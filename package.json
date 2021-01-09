@@ -1,6 +1,6 @@
 {
-  "name": "vmaps",
-  "version": "0.1.0",
+  "name": "theriverMap",
+  "version": "1.0.0",
   "private": true,
   "homepage": "http://map.therivermaps.info/",
   "dependencies": {
@@ -23,5 +23,10 @@
     "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "The River Flowing",
+  "main": "index.js",
+  "repository": "git@github.com:Klugzeit/the-river-map.git",
+  "author": "Eliab Bautista <eliab@klugzeit.com>",
+  "license": "MIT"
 }
